@@ -1,0 +1,11 @@
+Total trainable parameters: 1188586
+Estimated total FLOPs: 31598592
+✅ Saved new best model at epoch 1 with val acc: 0.0955
+[1/10] Train Loss: 2.3028, Acc: 0.1034 | Val Loss: 2.3041, Acc: 0.0955 | LR: 0.000500
+[2/10] Train Loss: 2.3027, Acc: 0.1025 | Val Loss: 2.3040, Acc: 0.0955 | LR: 0.000500
+[3/10] Train Loss: 2.3027, Acc: 0.1062 | Val Loss: 2.3040, Acc: 0.0925 | LR: 0.000500
+Epoch 00004: reducing learning rate of group 0 to 2.5000e-04.
+[4/10] Train Loss: 2.3026, Acc: 0.1035 | Val Loss: 2.3039, Acc: 0.0925 | LR: 0.000250
+[5/10] Train Loss: 2.3026, Acc: 0.0999 | Val Loss: 2.3039, Acc: 0.0870 | LR: 0.000250
+[6/10] Train Loss: 2.3025, Acc: 0.1031 | Val Loss: 2.3038, Acc: 0.0860 | LR: 0.000250
+[7/10] Train Loss: 2.3025, Acc: 0.1030 | Val Loss: 2.3038, Acc: 0.0860 | LR: 0.000250

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/speech/akshaya/dwd/A2/partA/train.py", line 156, in <module>
+    main(args)
+  File "/speech/akshaya/dwd/A2/partA/train.py", line 62, in main
+    train_loader, val_loader, test_loader = get_data_loaders(args.data_dir, args.batch_size)
+  File "/speech/akshaya/dwd/A2/partA/data_loader.py", line 22, in get_data_loaders
+    full_train_dataset = datasets.ImageFolder(os.path.join(data_dir, 'train'), transform=transform)
+  File "/speech/akshaya/anaconda3/envs/new_dl/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 310, in __init__
+    super().__init__(
+  File "/speech/akshaya/anaconda3/envs/new_dl/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 145, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+  File "/speech/akshaya/anaconda3/envs/new_dl/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 219, in find_classes
+    return find_classes(directory)
+  File "/speech/akshaya/anaconda3/envs/new_dl/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+FileNotFoundError: [Errno 2] No such file or directory: 'data/train'

@@ -1,0 +1,21 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 128
+dense_neurons:
+  value: 512
+dropout:
+  value: 0.7
+lr:
+  value: 0.00023056611511343192
+num_filters:
+  value:
+  - 64
+  - 64
+  - 128
+  - 128
+  - 256
+optimizer:
+  value: sgd
