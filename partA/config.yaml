@@ -1,5 +1,3 @@
-### ✅ `config.yaml`
-
 method: bayes
 metric:
   name: val_acc
@@ -10,12 +8,33 @@ parameters:
   batch_size:
     values: [32, 64]
   dropout:
-    values: [0.3, 0.5, 0.6]
+    values: [0.3, 0.2, 0.1]
+  # activation:
+  #   values: ["relu", "tanh"]
   activation:
-    values: ["relu", "tanh"]
+    values: ["relu", "tanh", "leaky_relu", "gelu", "silu", "mish"]
+
   optimizer:
     values: ["adam", "sgd"]
   num_filters:
     values:
       - [32, 64, 128, 128, 256]
       - [16, 32, 64, 64, 128]
+  filter_sizes:
+    values:
+      - [3, 3, 3, 3, 3]
+      - [5, 5, 5, 5, 5]
+      - [7, 5, 5, 3, 3]
+      - [3, 3, 5, 5, 7]
+  dense_neurons:
+    values: [256, 512]
+  batch_norm:
+    values: [true, false]
+  weight_decay:
+    values: [0.0, 0.0001, 0.0005]
+  scheduler_patience:
+    values: [2, 3]
+  use_scheduler:
+    values: [true, false]
+  early_stopping_patience:
+    values: [3, 5]

@@ -11,6 +11,9 @@
 pip install wandb
 pip install numpy
 pip intall torch torchvision
+pip install matplotlib
+pip install seaborn
+pip install scikit-learn
 ```
 ## **Usage**
 
@@ -26,6 +29,11 @@ To train the network
 ```bash
 python train.py --data_dir data/inaturalist_12K 
 ```
+To train and log on wandb
+```bash
+python wandb_sweep.py
+```
+
 ## **Results & Logging**
 - Training loss and accuracy are recorded.
 - Validation loss and accuracy are recorded/

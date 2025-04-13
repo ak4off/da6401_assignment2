@@ -1,5 +1,3 @@
-### ✅ `utils.py`
-
 import torch
 
 def count_parameters(model):

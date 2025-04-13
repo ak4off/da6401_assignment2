@@ -1,7 +1,5 @@
-# model_cnn.py
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 
 class CNN(nn.Module):
     def __init__(self, 
@@ -10,7 +8,7 @@ class CNN(nn.Module):
                  filter_sizes=[3, 3, 3, 3, 3],
                  activation='relu',
                  dense_neurons=512,
-                 dropout_rate=0.5,
+                 dropout_rate=0.2,
                  batch_norm=True,
                  input_size=128):
         super(CNN, self).__init__()
@@ -18,23 +16,23 @@ class CNN(nn.Module):
         self.batch_norm = batch_norm
 
         layers = []
-        in_channels = 3  # for RGB images
+        in_channels = 3
         current_size = input_size
 
         for i in range(5):
-            layers.append(nn.Conv2d(in_channels, num_filters[i], kernel_size=filter_sizes[i], padding=1))
+            padding = filter_sizes[i] // 2
+            layers.append(nn.Conv2d(in_channels, num_filters[i], kernel_size=filter_sizes[i], padding=padding))
+
+            # layers.append(nn.Conv2d(in_channels, num_filters[i], kernel_size=filter_sizes[i], padding=1))
             if self.batch_norm:
                 layers.append(nn.BatchNorm2d(num_filters[i]))
             layers.append(self.activation_fn)
             layers.append(nn.MaxPool2d(kernel_size=2, stride=2))
-
             in_channels = num_filters[i]
-            current_size = current_size // 2  # halved each time due to maxpool
+            current_size = current_size // 2
 
         self.conv = nn.Sequential(*layers)
-
         self.flattened_size = num_filters[-1] * current_size * current_size
-
         self.fc1 = nn.Linear(self.flattened_size, dense_neurons)
         self.dropout = nn.Dropout(dropout_rate)
         self.fc_out = nn.Linear(dense_neurons, num_classes)
@@ -49,14 +47,30 @@ class CNN(nn.Module):
         return x
 
     def _get_activation(self, activation):
+
+        # if activation == "sigmoid":
+        #     return nn.Sigmoid()
+        # elif activation == "leaky_relu":
+        #     return nn.LeakyReLU(0.01)
+        # else:
+        #     raise ValueError("Unsupported activation function")
+        activation = activation.lower()
         if activation == "relu":
             return nn.ReLU()
-        elif activation == "sigmoid":
-            return nn.Sigmoid()
         elif activation == "tanh":
             return nn.Tanh()
+        elif activation == "sigmoid":
+            return nn.Sigmoid()
+        elif activation == "leaky_relu":
+            return nn.LeakyReLU()
+        elif activation == "gelu":
+            return nn.GELU()
+        elif activation == "silu":
+            return nn.SiLU()
+        elif activation == "mish":
+            return nn.Mish()
         else:
-            raise ValueError("Unsupported activation function")
+            raise ValueError(f"Unsupported activation function: {activation}")
 
     def compute_parameters(self):
         return sum(p.numel() for p in self.parameters() if p.requires_grad)
@@ -76,7 +90,6 @@ class CNN(nn.Module):
                 h, w = out_h, out_w
                 in_channels = out_channels
 
-        # Dense layer FLOPs
         flops += 2 * self.flattened_size * self.fc1.out_features
         flops += 2 * self.fc1.out_features * self.fc_out.out_features
         return flops
