@@ -86,7 +86,8 @@ def main(args):
     criterion = nn.CrossEntropyLoss()
 
     if args.use_wandb:
-        wandb.watch(model)
+        wandb.watch(model, log="all", log_freq=100)
+        # wandb.watch(model)
 
     total_trainable_params = model.compute_parameters()
     estimated_total_flops = model.compute_flops()
@@ -143,7 +144,10 @@ def main(args):
 
     elapsed_time = time.time() - start_time
     # print(f"\nTotal training time: {int(elapsed_time // 60)} min {int(elapsed_time % 60)} sec")
-
+    if args.use_wandb:
+        wandb.log({
+            "total_training_time": elapsed_time,
+        })
     # Evaluate normally
     test_loss, test_acc = evaluate(model, test_loader, criterion, device)
     # print(f"Test Accuracy: {test_acc:.4f}")

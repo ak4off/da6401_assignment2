@@ -17,13 +17,14 @@ A Repository for Assignment2 - CNNs: train from scratch and finetune a pre-train
 pip install wandb
 pip install numpy
 pip intall torch torchvision
+
 ```
 
 
 ## **Dataset**
 - The dataset used is inaturalist_12k
 - The data should be downloaded and present in the machine 
-- create a symbolic link (ln -s <path-to-dataset> data) in the pwd
+- create a symbolic link (ln -s <path-to-dataset> data/) in the pwd
 - 20% of Train set is set aside for Validation set ( Question2 ) 
 
 
