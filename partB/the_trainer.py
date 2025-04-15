@@ -19,7 +19,7 @@ from the_utils import (
     save_model,
     print_model_summary
 )
-from the_visualizer import plot_confusion_matrix, generate_gradcam, plot_sample_predictions, generate_guided_backprop
+from the_visualizer import plot_confusion_matrix, plot_sample_predictions
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Fine-tune ResNet50 on iNaturalist subset")
@@ -194,8 +194,8 @@ def train(args):
     img_name = f"confusio_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
     plot_confusion_matrix(model, test_loader, the_classes, device,save_path=img_name, use_wandb=args.use_wandb)
     # plot_confusion_matrix(model, test_loader, the_classes, device)
-    img_name = f"pred_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
-    plot_confusion_matrix(model, test_loader, the_classes, device,save_path=img_name, use_wandb=args.use_wandb)
+    img_name1 = f"pred_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+    plot_sample_predictions(model, test_loader, the_classes, device,save_path=img_name1, use_wandb=args.use_wandb)
     # plot_sample_predictions(model, test_loader, the_classes, device)
 
     if args.use_wandb:
