@@ -43,7 +43,7 @@ sweep_config = {
 
 def main():
     sweep_id = wandb.sweep(sweep_config, project="finetune_partB_Assgn2")
-    wandb.agent(sweep_id, function=sweep_train, count=30)
+    wandb.agent(sweep_id, function=sweep_train, count=50)
 
 if __name__ == "__main__":
     main()
