@@ -1,0 +1,16 @@
+{"time":"2025-04-15T15:53:30.346170253+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250415_155330-tgsod2r6/logs/debug-core.log"}
+{"time":"2025-04-15T15:53:30.713281818+05:30","level":"INFO","msg":"created new stream","id":"tgsod2r6"}
+{"time":"2025-04-15T15:53:30.713330829+05:30","level":"INFO","msg":"stream: started","id":"tgsod2r6"}
+{"time":"2025-04-15T15:53:30.713361427+05:30","level":"INFO","msg":"handler: started","stream_id":"tgsod2r6"}
+{"time":"2025-04-15T15:53:30.713363451+05:30","level":"INFO","msg":"sender: started","stream_id":"tgsod2r6"}
+{"time":"2025-04-15T15:53:30.713397074+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tgsod2r6"}
+{"time":"2025-04-15T15:53:31.037201469+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T15:55:55.654714865+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T15:55:55.654758397+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T15:55:56.656112621+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_3d6a2e5f0bdcc1160d93.png","runtime_seconds":0.690739632,"progress":"1.2MB/2.8MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.406093022,"progress":"76.2KB/76.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.118720875,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.002640568,"progress":"16.0KB/4.6MB"}],"total_operations":4}}
+{"time":"2025-04-15T15:55:59.240063096+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T15:55:59.565136822+05:30","level":"INFO","msg":"stream: closing","id":"tgsod2r6"}
+{"time":"2025-04-15T15:55:59.565144236+05:30","level":"INFO","msg":"handler: closed","stream_id":"tgsod2r6"}
+{"time":"2025-04-15T15:55:59.565150848+05:30","level":"INFO","msg":"sender: closed","stream_id":"tgsod2r6"}
+{"time":"2025-04-15T15:55:59.565148815+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tgsod2r6"}
+{"time":"2025-04-15T15:55:59.565195131+05:30","level":"INFO","msg":"stream: closed","id":"tgsod2r6"}

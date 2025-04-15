@@ -1,0 +1,16 @@
+{"time":"2025-04-15T15:48:18.255107019+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250415_154818-myvv5vz2/logs/debug-core.log"}
+{"time":"2025-04-15T15:48:18.623252132+05:30","level":"INFO","msg":"created new stream","id":"myvv5vz2"}
+{"time":"2025-04-15T15:48:18.623279262+05:30","level":"INFO","msg":"stream: started","id":"myvv5vz2"}
+{"time":"2025-04-15T15:48:18.623289572+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"myvv5vz2"}
+{"time":"2025-04-15T15:48:18.623306263+05:30","level":"INFO","msg":"handler: started","stream_id":"myvv5vz2"}
+{"time":"2025-04-15T15:48:18.623294271+05:30","level":"INFO","msg":"sender: started","stream_id":"myvv5vz2"}
+{"time":"2025-04-15T15:48:18.945063105+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T15:50:42.430628957+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T15:50:42.430658532+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T15:50:43.432352282+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_65e63c7707bbfb52d22d.png","runtime_seconds":0.694623411,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.368978719,"progress":"76.3KB/76.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.072617671,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-15T15:50:46.348543215+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T15:50:46.656650877+05:30","level":"INFO","msg":"stream: closing","id":"myvv5vz2"}
+{"time":"2025-04-15T15:50:46.656660164+05:30","level":"INFO","msg":"handler: closed","stream_id":"myvv5vz2"}
+{"time":"2025-04-15T15:50:46.656666967+05:30","level":"INFO","msg":"sender: closed","stream_id":"myvv5vz2"}
+{"time":"2025-04-15T15:50:46.656664843+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"myvv5vz2"}
+{"time":"2025-04-15T15:50:46.656710779+05:30","level":"INFO","msg":"stream: closed","id":"myvv5vz2"}

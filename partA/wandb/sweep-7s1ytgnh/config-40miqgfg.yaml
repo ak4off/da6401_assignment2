@@ -1,0 +1,40 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_norm:
+  value: true
+batch_size:
+  value: 64
+dense_neurons:
+  value: 512
+dropout:
+  value: 0.4
+early_stopping_patience:
+  value: 3
+filter_sizes:
+  value:
+  - 3
+  - 3
+  - 5
+  - 5
+  - 7
+lr:
+  value: 0.0005
+num_filters:
+  value:
+  - 16
+  - 32
+  - 64
+  - 64
+  - 128
+optimizer:
+  value: sgd
+scheduler_patience:
+  value: 2
+use_data_augmentation:
+  value: true
+use_scheduler:
+  value: true
+weight_decay:
+  value: 0.001

@@ -40,7 +40,7 @@ sweep_config = {
 
 def run_sweep():
     sweep_id = wandb.sweep(sweep_config, project="cnn_partA_Assg2")
-    wandb.agent(sweep_id, function=launch_training)
+    wandb.agent(sweep_id, function=launch_training, count=50)  
 
 
 def launch_training():

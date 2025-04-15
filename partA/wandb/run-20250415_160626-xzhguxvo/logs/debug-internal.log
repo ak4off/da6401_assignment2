@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:06:26.956537602+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250415_160626-xzhguxvo/logs/debug-core.log"}
+{"time":"2025-04-15T16:06:27.321326495+05:30","level":"INFO","msg":"created new stream","id":"xzhguxvo"}
+{"time":"2025-04-15T16:06:27.321354137+05:30","level":"INFO","msg":"stream: started","id":"xzhguxvo"}
+{"time":"2025-04-15T16:06:27.321361741+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xzhguxvo"}
+{"time":"2025-04-15T16:06:27.321371259+05:30","level":"INFO","msg":"handler: started","stream_id":"xzhguxvo"}
+{"time":"2025-04-15T16:06:27.321372792+05:30","level":"INFO","msg":"sender: started","stream_id":"xzhguxvo"}
+{"time":"2025-04-15T16:06:27.837788316+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:08:55.205408302+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:08:55.205446663+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:08:56.207028075+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_13_97a5e5b491f083c388be.png","runtime_seconds":0.691966015,"progress":"1.2MB/2.6MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.40719064,"progress":"76.5KB/76.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.11217573,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.057493273,"progress":"96.0KB/14.2MB"}],"total_operations":4}}
+{"time":"2025-04-15T16:08:59.133570122+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:08:59.526892497+05:30","level":"INFO","msg":"stream: closing","id":"xzhguxvo"}
+{"time":"2025-04-15T16:08:59.526901293+05:30","level":"INFO","msg":"handler: closed","stream_id":"xzhguxvo"}
+{"time":"2025-04-15T16:08:59.526906964+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xzhguxvo"}
+{"time":"2025-04-15T16:08:59.526911783+05:30","level":"INFO","msg":"sender: closed","stream_id":"xzhguxvo"}
+{"time":"2025-04-15T16:08:59.526952099+05:30","level":"INFO","msg":"stream: closed","id":"xzhguxvo"}

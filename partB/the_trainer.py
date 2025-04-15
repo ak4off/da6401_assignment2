@@ -9,6 +9,7 @@ import time
 
 from the_data_loader import get_dataloaders
 from models.resnet_finetune import load_resnet50
+from models.googlenet_finetune import load_googlenet
 from the_evaluator import Evaluator
 from the_utils import (
     set_seed, 
@@ -18,7 +19,7 @@ from the_utils import (
     save_model,
     print_model_summary
 )
-from the_visualize import plot_confusion_matrix, generate_gradcam, plot_sample_predictions, generate_guided_backprop
+from the_visualizer import plot_confusion_matrix, generate_gradcam, plot_sample_predictions, generate_guided_backprop
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Fine-tune ResNet50 on iNaturalist subset")
@@ -73,12 +74,23 @@ def train(args):
     )
 
     # Load Model
-    model = load_resnet50(
-        num_classes=num_classes,
-        dropout=args.dropout,
-        dense_size=args.dense_size,
-        freeze_option=args.freeze_option
-    )
+    if args.model == "resnet50":
+        model = load_resnet50(
+            num_classes=num_classes,
+            dropout=args.dropout,
+            dense_size=args.dense_size,
+            freeze_option=args.freeze_option
+        )
+    elif args.model == "googlenet":
+        model = load_googlenet(
+            num_classes=num_classes,
+            dropout=args.dropout,
+            dense_size=args.dense_size,
+            freeze_option=args.freeze_option
+        )    
+    else:
+        raise ValueError("Unsupported model. Choose 'resnet50' or 'googlenet'.")
+    
     model.to(device)
     if args.use_wandb:
         wandb.watch(model, log="all", log_freq=100)
@@ -89,7 +101,7 @@ def train(args):
     # Loss, Optimizer, Scheduler
     criterion = get_loss_function("cross_entropy")
     optimizer = get_optimizer(model, args.lr, args.weight_decay)
-    scheduler = get_scheduler(optimizer)
+    lr_scheduler = get_scheduler(optimizer)
 
     best_val_acc = 0.0
     start_time = time.time()
@@ -105,6 +117,13 @@ def train(args):
 
             optimizer.zero_grad()
             outputs = model(images)
+            if args.model == "googlenet":
+                outputs = model(images)
+
+                if isinstance(outputs, tuple) or hasattr(outputs, 'logits'):
+                    outputs = outputs.logits  # Extract main logits
+            else:
+                outputs = model(images)
             loss = criterion(outputs, labels)
             loss.backward()
             optimizer.step()
@@ -114,8 +133,8 @@ def train(args):
             total += labels.size(0)
             correct += (preds == labels).sum().item()
 
-            if i % args.log_interval == 0:
-                print(f"[Epoch {epoch+1} | Batch {i}] Loss: {loss.item():.4f}")
+            # if i % args.log_interval == 0:
+            #     print(f"[Epoch {epoch+1} | Batch {i}] Loss: {loss.item():.4f}")
 
         train_acc = 100 * correct / total
         avg_train_loss = train_loss / len(train_loader)
@@ -127,12 +146,12 @@ def train(args):
         print(f"[Epoch {epoch+1}] Train Acc: {train_acc:.2f}%, Val Acc: {val_acc:.2f}%, "
               f"Train Loss: {avg_train_loss:.4f}, Val Loss: {val_loss:.4f}")
 
-        # scheduler.step(val_loss)
+        # lr_scheduler.step(val_loss)
         if args.use_scheduler:
-            scheduler.step(val_acc)
+            lr_scheduler.step(val_acc)
 
             
-        # scheduler.step(val_loss)
+        # lr_scheduler.step(val_loss)
         current_lr = optimizer.param_groups[0]['lr']
         if args.use_wandb:
             wandb.log({
@@ -171,13 +190,13 @@ def train(args):
 
     # After final test evaluation
     # Visualize confusion matrix
-    class_names = test_loader.dataset.classes  # if dataset is an ImageFolder
+    the_classes = test_loader.dataset.classes  # if dataset is an ImageFolder
     img_name = f"confusio_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
-    plot_confusion_matrix(model, test_loader, class_names, device,save_path=img_name, use_wandb=args.use_wandb)
-    # plot_confusion_matrix(model, test_loader, class_names, device)
+    plot_confusion_matrix(model, test_loader, the_classes, device,save_path=img_name, use_wandb=args.use_wandb)
+    # plot_confusion_matrix(model, test_loader, the_classes, device)
     img_name = f"pred_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
-    plot_confusion_matrix(model, test_loader, class_names, device,save_path=img_name, use_wandb=args.use_wandb)
-    # plot_sample_predictions(model, test_loader, class_names, device)
+    plot_confusion_matrix(model, test_loader, the_classes, device,save_path=img_name, use_wandb=args.use_wandb)
+    # plot_sample_predictions(model, test_loader, the_classes, device)
 
     if args.use_wandb:
         wandb.log({"test_acc": test_acc, "test_loss": test_loss})

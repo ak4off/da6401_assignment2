@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:09:05.292476642+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250415_160905-40miqgfg/logs/debug-core.log"}
+{"time":"2025-04-15T16:09:05.653663235+05:30","level":"INFO","msg":"created new stream","id":"40miqgfg"}
+{"time":"2025-04-15T16:09:05.653691327+05:30","level":"INFO","msg":"stream: started","id":"40miqgfg"}
+{"time":"2025-04-15T16:09:05.653698932+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"40miqgfg"}
+{"time":"2025-04-15T16:09:05.653717026+05:30","level":"INFO","msg":"handler: started","stream_id":"40miqgfg"}
+{"time":"2025-04-15T16:09:05.653723568+05:30","level":"INFO","msg":"sender: started","stream_id":"40miqgfg"}
+{"time":"2025-04-15T16:09:05.96223727+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:11:31.413389424+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:11:31.413421975+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:11:32.414835782+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_d0e6576713431145d21a.png","runtime_seconds":0.691539833,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.337689983},{"desc":"uploading wandb-summary.json","runtime_seconds":0.337680645,"progress":"76.5KB/76.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.050216678,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-15T16:11:35.607852552+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:11:35.967682326+05:30","level":"INFO","msg":"stream: closing","id":"40miqgfg"}
+{"time":"2025-04-15T16:11:35.967691454+05:30","level":"INFO","msg":"handler: closed","stream_id":"40miqgfg"}
+{"time":"2025-04-15T16:11:35.967696403+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"40miqgfg"}
+{"time":"2025-04-15T16:11:35.967706241+05:30","level":"INFO","msg":"sender: closed","stream_id":"40miqgfg"}
+{"time":"2025-04-15T16:11:35.967728773+05:30","level":"INFO","msg":"stream: closed","id":"40miqgfg"}

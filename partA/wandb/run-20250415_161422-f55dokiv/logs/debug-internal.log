@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:14:22.422305226+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250415_161422-f55dokiv/logs/debug-core.log"}
+{"time":"2025-04-15T16:14:22.791982263+05:30","level":"INFO","msg":"created new stream","id":"f55dokiv"}
+{"time":"2025-04-15T16:14:22.792012889+05:30","level":"INFO","msg":"stream: started","id":"f55dokiv"}
+{"time":"2025-04-15T16:14:22.792025201+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"f55dokiv"}
+{"time":"2025-04-15T16:14:22.792042353+05:30","level":"INFO","msg":"sender: started","stream_id":"f55dokiv"}
+{"time":"2025-04-15T16:14:22.792034669+05:30","level":"INFO","msg":"handler: started","stream_id":"f55dokiv"}
+{"time":"2025-04-15T16:14:23.079037711+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:16:49.297512177+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:16:49.297547081+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:16:50.298956898+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_bf9e6819222c538d8c86.png","runtime_seconds":0.693531601,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.40138238},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4013714,"progress":"76.0KB/76.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.133629026,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-15T16:16:53.353008921+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:16:53.659716384+05:30","level":"INFO","msg":"stream: closing","id":"f55dokiv"}
+{"time":"2025-04-15T16:16:53.659724609+05:30","level":"INFO","msg":"handler: closed","stream_id":"f55dokiv"}
+{"time":"2025-04-15T16:16:53.659733966+05:30","level":"INFO","msg":"sender: closed","stream_id":"f55dokiv"}
+{"time":"2025-04-15T16:16:53.659729568+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"f55dokiv"}
+{"time":"2025-04-15T16:16:53.659783257+05:30","level":"INFO","msg":"stream: closed","id":"f55dokiv"}

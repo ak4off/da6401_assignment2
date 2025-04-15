@@ -1,0 +1,16 @@
+{"time":"2025-04-15T15:43:02.297239689+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250415_154302-im5eusly/logs/debug-core.log"}
+{"time":"2025-04-15T15:43:02.661972627+05:30","level":"INFO","msg":"created new stream","id":"im5eusly"}
+{"time":"2025-04-15T15:43:02.661998866+05:30","level":"INFO","msg":"stream: started","id":"im5eusly"}
+{"time":"2025-04-15T15:43:02.662026689+05:30","level":"INFO","msg":"handler: started","stream_id":"im5eusly"}
+{"time":"2025-04-15T15:43:02.662033491+05:30","level":"INFO","msg":"sender: started","stream_id":"im5eusly"}
+{"time":"2025-04-15T15:43:02.662025667+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"im5eusly"}
+{"time":"2025-04-15T15:43:02.997215277+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T15:45:26.716846828+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T15:45:26.716876904+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T15:45:27.718438808+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/test_predictions_grid_13_878a7ca822015914fb30.png","runtime_seconds":3.151513547,"progress":"2.7MB/2.7MB"},{"desc":"uploading media/images/misclassified_grid_14_02d6efffbdbbd75b708c.png","runtime_seconds":0.690749483,"progress":"992.0KB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.401353414},{"desc":"uploading wandb-summary.json","runtime_seconds":0.401348313,"progress":"77.3KB/77.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.142158103,"progress":"1.3KB/1.3KB"}],"total_operations":5}}
+{"time":"2025-04-15T15:45:31.776729298+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T15:45:32.159056587+05:30","level":"INFO","msg":"stream: closing","id":"im5eusly"}
+{"time":"2025-04-15T15:45:32.159064753+05:30","level":"INFO","msg":"handler: closed","stream_id":"im5eusly"}
+{"time":"2025-04-15T15:45:32.159069461+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"im5eusly"}
+{"time":"2025-04-15T15:45:32.159084219+05:30","level":"INFO","msg":"sender: closed","stream_id":"im5eusly"}
+{"time":"2025-04-15T15:45:32.159115147+05:30","level":"INFO","msg":"stream: closed","id":"im5eusly"}
