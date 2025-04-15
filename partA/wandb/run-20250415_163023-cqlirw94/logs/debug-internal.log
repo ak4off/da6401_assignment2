@@ -1,0 +1,7 @@
+{"time":"2025-04-15T16:30:23.804288344+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250415_163023-cqlirw94/logs/debug-core.log"}
+{"time":"2025-04-15T16:30:24.170024472+05:30","level":"INFO","msg":"created new stream","id":"cqlirw94"}
+{"time":"2025-04-15T16:30:24.170081368+05:30","level":"INFO","msg":"stream: started","id":"cqlirw94"}
+{"time":"2025-04-15T16:30:24.170140969+05:30","level":"INFO","msg":"handler: started","stream_id":"cqlirw94"}
+{"time":"2025-04-15T16:30:24.170147812+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cqlirw94"}
+{"time":"2025-04-15T16:30:24.170223553+05:30","level":"INFO","msg":"sender: started","stream_id":"cqlirw94"}
+{"time":"2025-04-15T16:30:24.521755333+05:30","level":"INFO","msg":"Starting system monitor"}
