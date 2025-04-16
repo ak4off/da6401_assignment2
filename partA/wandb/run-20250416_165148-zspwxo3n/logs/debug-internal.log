@@ -1,0 +1,16 @@
+{"time":"2025-04-16T16:51:48.237053507+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_165148-zspwxo3n/logs/debug-core.log"}
+{"time":"2025-04-16T16:51:48.595560397+05:30","level":"INFO","msg":"created new stream","id":"zspwxo3n"}
+{"time":"2025-04-16T16:51:48.595613817+05:30","level":"INFO","msg":"stream: started","id":"zspwxo3n"}
+{"time":"2025-04-16T16:51:48.595623205+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zspwxo3n"}
+{"time":"2025-04-16T16:51:48.595659292+05:30","level":"INFO","msg":"sender: started","stream_id":"zspwxo3n"}
+{"time":"2025-04-16T16:51:48.595656537+05:30","level":"INFO","msg":"handler: started","stream_id":"zspwxo3n"}
+{"time":"2025-04-16T16:51:48.894095413+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T16:54:23.177877329+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T16:54:23.17792605+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T16:54:24.17951432+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_7e63430ed6a163e90039.png","runtime_seconds":0.699212962,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.40834484},{"desc":"uploading wandb-summary.json","runtime_seconds":0.408337286,"progress":"64.0KB/77.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.107840472,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T16:54:27.37814704+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T16:54:27.710303939+05:30","level":"INFO","msg":"stream: closing","id":"zspwxo3n"}
+{"time":"2025-04-16T16:54:27.710316562+05:30","level":"INFO","msg":"handler: closed","stream_id":"zspwxo3n"}
+{"time":"2025-04-16T16:54:27.710324307+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zspwxo3n"}
+{"time":"2025-04-16T16:54:27.710333213+05:30","level":"INFO","msg":"sender: closed","stream_id":"zspwxo3n"}
+{"time":"2025-04-16T16:54:27.710378338+05:30","level":"INFO","msg":"stream: closed","id":"zspwxo3n"}

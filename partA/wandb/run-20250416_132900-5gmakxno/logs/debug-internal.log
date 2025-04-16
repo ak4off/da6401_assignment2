@@ -1,0 +1,16 @@
+{"time":"2025-04-16T13:29:00.72455415+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_132900-5gmakxno/logs/debug-core.log"}
+{"time":"2025-04-16T13:29:01.083470345+05:30","level":"INFO","msg":"created new stream","id":"5gmakxno"}
+{"time":"2025-04-16T13:29:01.083500091+05:30","level":"INFO","msg":"stream: started","id":"5gmakxno"}
+{"time":"2025-04-16T13:29:01.083511162+05:30","level":"INFO","msg":"handler: started","stream_id":"5gmakxno"}
+{"time":"2025-04-16T13:29:01.083531149+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5gmakxno"}
+{"time":"2025-04-16T13:29:01.083517103+05:30","level":"INFO","msg":"sender: started","stream_id":"5gmakxno"}
+{"time":"2025-04-16T13:29:01.378645786+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T13:31:32.18161067+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T13:31:32.181647018+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T13:31:33.14352108+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_1b1abce53d7dd2e97104.png","runtime_seconds":0.687948946,"progress":"1.1MB/2.8MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.383347439,"progress":"32.0KB/45.2KB"},{"desc":"uploading output.log","runtime_seconds":0.383340366},{"desc":"uploading config.yaml","runtime_seconds":0.104421567,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T13:31:36.569031554+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T13:31:36.871542085+05:30","level":"INFO","msg":"stream: closing","id":"5gmakxno"}
+{"time":"2025-04-16T13:31:36.871551713+05:30","level":"INFO","msg":"handler: closed","stream_id":"5gmakxno"}
+{"time":"2025-04-16T13:31:36.871559999+05:30","level":"INFO","msg":"sender: closed","stream_id":"5gmakxno"}
+{"time":"2025-04-16T13:31:36.871557464+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"5gmakxno"}
+{"time":"2025-04-16T13:31:36.871603931+05:30","level":"INFO","msg":"stream: closed","id":"5gmakxno"}

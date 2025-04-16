@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:57:03.799372451+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165703-7crdvzhq/logs/debug-core.log"}
+{"time":"2025-04-15T16:57:04.175824208+05:30","level":"INFO","msg":"created new stream","id":"7crdvzhq"}
+{"time":"2025-04-15T16:57:04.175854354+05:30","level":"INFO","msg":"stream: started","id":"7crdvzhq"}
+{"time":"2025-04-15T16:57:04.175865505+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"7crdvzhq"}
+{"time":"2025-04-15T16:57:04.175885833+05:30","level":"INFO","msg":"sender: started","stream_id":"7crdvzhq"}
+{"time":"2025-04-15T16:57:04.175893658+05:30","level":"INFO","msg":"handler: started","stream_id":"7crdvzhq"}
+{"time":"2025-04-15T16:57:04.51648753+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:57:04.855576355+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:57:04.855641807+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:57:05.817176391+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.263474934,"progress":"1.4KB/1.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.263468642,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-15T16:57:06.202380647+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:57:06.50449803+05:30","level":"INFO","msg":"stream: closing","id":"7crdvzhq"}
+{"time":"2025-04-15T16:57:06.504507818+05:30","level":"INFO","msg":"handler: closed","stream_id":"7crdvzhq"}
+{"time":"2025-04-15T16:57:06.504512677+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"7crdvzhq"}
+{"time":"2025-04-15T16:57:06.504517456+05:30","level":"INFO","msg":"sender: closed","stream_id":"7crdvzhq"}
+{"time":"2025-04-15T16:57:06.504545749+05:30","level":"INFO","msg":"stream: closed","id":"7crdvzhq"}

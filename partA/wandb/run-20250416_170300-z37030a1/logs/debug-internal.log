@@ -1,0 +1,16 @@
+{"time":"2025-04-16T17:03:00.179706713+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_170300-z37030a1/logs/debug-core.log"}
+{"time":"2025-04-16T17:03:00.543035461+05:30","level":"INFO","msg":"created new stream","id":"z37030a1"}
+{"time":"2025-04-16T17:03:00.543076368+05:30","level":"INFO","msg":"stream: started","id":"z37030a1"}
+{"time":"2025-04-16T17:03:00.543086707+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"z37030a1"}
+{"time":"2025-04-16T17:03:00.543092568+05:30","level":"INFO","msg":"sender: started","stream_id":"z37030a1"}
+{"time":"2025-04-16T17:03:00.54312063+05:30","level":"INFO","msg":"handler: started","stream_id":"z37030a1"}
+{"time":"2025-04-16T17:03:00.847925538+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:05:31.279259623+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T17:05:31.279300419+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T17:05:32.280859931+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_3475222485f0d3fed4d9.png","runtime_seconds":0.697844281,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.372998911},{"desc":"uploading wandb-summary.json","runtime_seconds":0.372993891,"progress":"45.1KB/45.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.050525178,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T17:05:35.519040893+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:05:36.136052029+05:30","level":"INFO","msg":"stream: closing","id":"z37030a1"}
+{"time":"2025-04-16T17:05:36.136059864+05:30","level":"INFO","msg":"handler: closed","stream_id":"z37030a1"}
+{"time":"2025-04-16T17:05:36.136067328+05:30","level":"INFO","msg":"sender: closed","stream_id":"z37030a1"}
+{"time":"2025-04-16T17:05:36.136064142+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"z37030a1"}
+{"time":"2025-04-16T17:05:36.136102684+05:30","level":"INFO","msg":"stream: closed","id":"z37030a1"}

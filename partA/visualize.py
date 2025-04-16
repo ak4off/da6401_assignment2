@@ -91,7 +91,77 @@ def plot_confusion_matrix(y_true, y_pred, the_classes, use_wandb=False):
     else:
         plt.show()
     plt.close(fig)
+def plot_test_predictions_grid(model, test_loader, the_classes, device, save_path="sastest_predictions_grid.png", use_wandb=False):
+    import matplotlib.pyplot as plt
+    import torch
+    import wandb
 
+    model.eval()
+    max_images = 30
+    correct_samples = []
+    incorrect_samples = []
+
+    with torch.no_grad():
+        for images, labels in test_loader:
+            images, labels = images.to(device), labels.to(device)
+            outputs = model(images)
+            preds = outputs.argmax(dim=1)
+
+            for i in range(images.size(0)):
+                img_cpu = images[i].cpu()
+                true_label = labels[i].item()
+                pred_label = preds[i].item()
+                sample = (img_cpu, true_label, pred_label)
+
+                if true_label == pred_label:
+                    correct_samples.append(sample)
+                else:
+                    incorrect_samples.append(sample)
+
+                if len(correct_samples) + len(incorrect_samples) >= 3 * max_images:
+                    break
+            if len(correct_samples) + len(incorrect_samples) >= 3 * max_images:
+                break
+
+    # Balance: 20 correct, 10 incorrect (if available)
+    num_correct = min(20, len(correct_samples))
+    num_incorrect = max_images - num_correct
+
+    selected_correct = correct_samples[:num_correct]
+    selected_incorrect = incorrect_samples[:num_incorrect]
+
+    final_samples = selected_correct + selected_incorrect
+    # Optional: shuffle so wrong predictions aren't all at the end
+    import random
+    random.shuffle(final_samples)
+
+    fig, axes = plt.subplots(10, 3, figsize=(13, 30))
+    axes = axes.flatten()
+
+    for idx, (img_tensor, true_label, pred_label) in enumerate(final_samples):
+        ax = axes[idx]
+        img = img_tensor.permute(1, 2, 0).numpy()
+        img = (img - img.min()) / (img.max() - img.min())
+
+        ax.imshow(img)
+        ax.axis("off")
+
+        correct = (true_label == pred_label)
+        color = "green" if correct else "red"
+        status_icon = "✓" if correct else "✗"
+        ax.set_title(f"{status_icon} Pred: {the_classes[pred_label]}\nTrue: {the_classes[true_label]}", fontsize=9, color=color)
+
+    for j in range(len(final_samples), len(axes)):
+        axes[j].axis('off')
+
+    plt.tight_layout()
+    if use_wandb and wandb.run is not None:
+        wandb.log({"test_predictions_grid": wandb.Image(fig)})
+    else:
+        plt.savefig(save_path)
+        print(f"Test prediction grid saved to: {save_path}")
+    plt.close(fig)
+'''
 def plot_test_predictions_grid(model, test_loader, the_classes, device, save_path="test_predictions_grid.png", use_wandb=False):
     model.eval()
     images_shown = 0
@@ -129,4 +199,4 @@ def plot_test_predictions_grid(model, test_loader, the_classes, device, save_pat
     # if use_wandb:
     if use_wandb and wandb.run is not None:
         wandb.log({"test_predictions_grid": wandb.Image(fig)})
-    plt.close(fig)
+    plt.close(fig)'''

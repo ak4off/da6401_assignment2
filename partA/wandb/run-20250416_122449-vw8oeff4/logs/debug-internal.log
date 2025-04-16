@@ -1,0 +1,16 @@
+{"time":"2025-04-16T12:24:49.733569479+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_122449-vw8oeff4/logs/debug-core.log"}
+{"time":"2025-04-16T12:24:50.100578554+05:30","level":"INFO","msg":"created new stream","id":"vw8oeff4"}
+{"time":"2025-04-16T12:24:50.100603972+05:30","level":"INFO","msg":"stream: started","id":"vw8oeff4"}
+{"time":"2025-04-16T12:24:50.100615524+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vw8oeff4"}
+{"time":"2025-04-16T12:24:50.100636753+05:30","level":"INFO","msg":"sender: started","stream_id":"vw8oeff4"}
+{"time":"2025-04-16T12:24:50.100644298+05:30","level":"INFO","msg":"handler: started","stream_id":"vw8oeff4"}
+{"time":"2025-04-16T12:24:50.414075628+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T12:27:27.414924355+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T12:27:27.414948971+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T12:27:28.416413376+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_5a064d2657cd26e549d1.png","runtime_seconds":0.701962236,"progress":"1.2MB/2.8MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.419427773,"progress":"76.5KB/76.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.146771213,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.058853032,"progress":"32.0KB/18.2MB"}],"total_operations":4}}
+{"time":"2025-04-16T12:27:31.692057015+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T12:27:32.032966037+05:30","level":"INFO","msg":"stream: closing","id":"vw8oeff4"}
+{"time":"2025-04-16T12:27:32.032974463+05:30","level":"INFO","msg":"handler: closed","stream_id":"vw8oeff4"}
+{"time":"2025-04-16T12:27:32.032981256+05:30","level":"INFO","msg":"sender: closed","stream_id":"vw8oeff4"}
+{"time":"2025-04-16T12:27:32.032980014+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vw8oeff4"}
+{"time":"2025-04-16T12:27:32.033029096+05:30","level":"INFO","msg":"stream: closed","id":"vw8oeff4"}

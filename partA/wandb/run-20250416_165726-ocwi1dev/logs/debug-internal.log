@@ -1,0 +1,16 @@
+{"time":"2025-04-16T16:57:26.904479944+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_165726-ocwi1dev/logs/debug-core.log"}
+{"time":"2025-04-16T16:57:27.267963283+05:30","level":"INFO","msg":"created new stream","id":"ocwi1dev"}
+{"time":"2025-04-16T16:57:27.267988941+05:30","level":"INFO","msg":"stream: started","id":"ocwi1dev"}
+{"time":"2025-04-16T16:57:27.268009048+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ocwi1dev"}
+{"time":"2025-04-16T16:57:27.268009238+05:30","level":"INFO","msg":"sender: started","stream_id":"ocwi1dev"}
+{"time":"2025-04-16T16:57:27.268030278+05:30","level":"INFO","msg":"handler: started","stream_id":"ocwi1dev"}
+{"time":"2025-04-16T16:57:27.583585128+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T16:59:57.97184577+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T16:59:57.971880144+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T16:59:58.974159915+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_560d6ab7255eafe93015.png","runtime_seconds":0.698056955,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.416721786},{"desc":"uploading wandb-summary.json","runtime_seconds":0.416712648,"progress":"45.7KB/45.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.154850427,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.058968752,"progress":"80.0KB/14.2MB"}],"total_operations":5}}
+{"time":"2025-04-16T17:00:02.151410103+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:00:02.605357926+05:30","level":"INFO","msg":"stream: closing","id":"ocwi1dev"}
+{"time":"2025-04-16T17:00:02.605366553+05:30","level":"INFO","msg":"handler: closed","stream_id":"ocwi1dev"}
+{"time":"2025-04-16T17:00:02.605371522+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ocwi1dev"}
+{"time":"2025-04-16T17:00:02.605380819+05:30","level":"INFO","msg":"sender: closed","stream_id":"ocwi1dev"}
+{"time":"2025-04-16T17:00:02.605409563+05:30","level":"INFO","msg":"stream: closed","id":"ocwi1dev"}

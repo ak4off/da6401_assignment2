@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:45:48.555331144+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_164548-tr2zxbvu/logs/debug-core.log"}
+{"time":"2025-04-15T16:45:48.923080286+05:30","level":"INFO","msg":"created new stream","id":"tr2zxbvu"}
+{"time":"2025-04-15T16:45:48.923126953+05:30","level":"INFO","msg":"stream: started","id":"tr2zxbvu"}
+{"time":"2025-04-15T16:45:48.923136882+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tr2zxbvu"}
+{"time":"2025-04-15T16:45:48.92316273+05:30","level":"INFO","msg":"sender: started","stream_id":"tr2zxbvu"}
+{"time":"2025-04-15T16:45:48.92318419+05:30","level":"INFO","msg":"handler: started","stream_id":"tr2zxbvu"}
+{"time":"2025-04-15T16:45:49.260387881+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:45:49.327715436+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:45:49.327748388+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:45:50.299111926+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.021572629,"progress":"1.5KB/1.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.021562681,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-15T16:45:50.909169627+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:45:51.222432753+05:30","level":"INFO","msg":"stream: closing","id":"tr2zxbvu"}
+{"time":"2025-04-15T16:45:51.222443093+05:30","level":"INFO","msg":"handler: closed","stream_id":"tr2zxbvu"}
+{"time":"2025-04-15T16:45:51.222450667+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tr2zxbvu"}
+{"time":"2025-04-15T16:45:51.222461176+05:30","level":"INFO","msg":"sender: closed","stream_id":"tr2zxbvu"}
+{"time":"2025-04-15T16:45:51.22250614+05:30","level":"INFO","msg":"stream: closed","id":"tr2zxbvu"}

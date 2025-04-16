@@ -1,0 +1,412 @@
+2025-04-15 16:56:53,510 INFO    Thread-91 (_run_job):1042230 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165653-10od9lk2/logs/debug.log
+2025-04-15 16:56:53,510 INFO    Thread-91 (_run_job):1042230 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165653-10od9lk2/logs/debug-internal.log
+2025-04-15 16:56:53,510 INFO    Thread-91 (_run_job):1042230 [wandb_init.py:init():781] calling init triggers
+2025-04-15 16:56:53,510 INFO    Thread-91 (_run_job):1042230 [wandb_init.py:init():786] wandb.init called with sweep_config: {'batch_size': 64, 'data_aug': False, 'data_dir': 'data/inaturalist_12K', 'dense_size': 1024, 'dropout': 0.2, 'early_stopping_patience': 5, 'epochs': 15, 'freeze_option': 1, 'lr': 0.00012991565149961107, 'scheduler_patience': 4, 'use_scheduler': True, 'weight_decay': 0.0001}
+config: {'data_dir': 'data/inaturalist_12K', 'image_size': 224, 'batch_size': 64, 'data_aug': False, 'model': 'resnet50', 'freeze_option': 1, 'dropout': 0.2, 'dense_size': 1024, 'epochs': 15, 'lr': 0.00012991565149961107, 'weight_decay': 0.0001, 'log_interval': 10, 'early_stopping_patience': 5, 'use_scheduler': True, 'scheduler_patience': 4, 'save_model_path': './checkpoints/best_model.pt', 'seed': 42, 'use_wandb': True, 'wandb_project': 'finetune_partB_Assgn2', 'wandb_entity': 'ns24z274-iitm-ac-in', 'wandb_run_name': 'cerulean-sweep-30', '_wandb': {}}
+2025-04-15 16:56:53,510 INFO    Thread-91 (_run_job):1042230 [wandb_init.py:init():801] wandb.init() called while a run is active
+2025-04-15 16:56:53,772 INFO    Thread-91 (_run_job):1042230 [wandb_run.py:_finish():2189] finishing run ns24z274-iitm-ac-in/finetune_partB_Assgn2/10od9lk2
+2025-04-15 16:56:53,773 INFO    Thread-91 (_run_job):1042230 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 1
+2025-04-15 16:56:53,773 INFO    Thread-91 (_run_job):1042230 [wandb_run.py:_restore():2401] restore
+2025-04-15 16:56:53,773 INFO    Thread-91 (_run_job):1042230 [wandb_run.py:_restore():2407] restore done
+2025-04-15 16:56:55,501 INFO    Thread-91 (_run_job):1042230 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-15 16:56:55,501 INFO    Thread-91 (_run_job):1042230 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-15 16:56:55,501 INFO    Thread-91 (_run_job):1042230 [wandb_run.py:_footer_sync_info():4025] logging synced files
+2025-04-15 16:56:55,502 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 10od9lk2 errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:56:57,503 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:01,064 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 74b0fd7b errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:03,065 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:06,504 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 7crdvzhq errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:09,506 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:12,794 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 13efrkpg errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:14,795 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:18,247 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run pqr67n8g errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:21,249 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:25,255 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 8zojltfs errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:27,256 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:30,747 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run ajmrvg0c errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:32,747 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:36,227 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 0mj8f5m9 errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:38,228 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:41,613 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run sy8qencf errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:44,614 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:48,097 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run uwvtdoyh errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:50,098 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:54,172 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run q9u0f92o errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:57:55,173 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:57:58,534 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run qhl5mo9l errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:01,537 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:04,829 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run xfsm9iq1 errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:06,829 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:10,798 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run qd6kx980 errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:12,799 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:16,320 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run znn1uzak errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:18,321 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:22,284 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run gfiz99ta errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:24,285 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:28,301 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run k0tbjkn1 errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:30,302 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:34,464 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 84bxijwl errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:35,464 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:39,567 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run bok1mrcp errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:41,568 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:44,958 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 10w0sxic errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:46,959 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:50,275 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run sp82lrkl errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:51,275 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

@@ -1,0 +1,26 @@
+wandb_version: 1
+
+batch_size:
+  value: 32
+data_aug:
+  value: true
+data_dir:
+  value: data/inaturalist_12K
+dense_size:
+  value: 1024
+dropout:
+  value: 0.1
+early_stopping_patience:
+  value: 3
+epochs:
+  value: 5
+freeze_option:
+  value: 1
+lr:
+  value: 0.0002911576275416237
+scheduler_patience:
+  value: 4
+use_scheduler:
+  value: true
+weight_decay:
+  value: 0.0001

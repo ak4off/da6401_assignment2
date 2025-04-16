@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:58:13.521566184+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165813-znn1uzak/logs/debug-core.log"}
+{"time":"2025-04-15T16:58:13.888404248+05:30","level":"INFO","msg":"created new stream","id":"znn1uzak"}
+{"time":"2025-04-15T16:58:13.888432651+05:30","level":"INFO","msg":"stream: started","id":"znn1uzak"}
+{"time":"2025-04-15T16:58:13.888457908+05:30","level":"INFO","msg":"handler: started","stream_id":"znn1uzak"}
+{"time":"2025-04-15T16:58:13.888457918+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"znn1uzak"}
+{"time":"2025-04-15T16:58:13.888483856+05:30","level":"INFO","msg":"sender: started","stream_id":"znn1uzak"}
+{"time":"2025-04-15T16:58:14.182780098+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:58:14.620626484+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:58:14.620657752+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:58:15.581636801+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.396121906,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.120001202,"progress":"971B/971B"}],"total_operations":2}}
+{"time":"2025-04-15T16:58:16.009095618+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:58:16.320171594+05:30","level":"INFO","msg":"stream: closing","id":"znn1uzak"}
+{"time":"2025-04-15T16:58:16.320184769+05:30","level":"INFO","msg":"handler: closed","stream_id":"znn1uzak"}
+{"time":"2025-04-15T16:58:16.320190249+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"znn1uzak"}
+{"time":"2025-04-15T16:58:16.320193245+05:30","level":"INFO","msg":"sender: closed","stream_id":"znn1uzak"}
+{"time":"2025-04-15T16:58:16.320226467+05:30","level":"INFO","msg":"stream: closed","id":"znn1uzak"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-16T16:26:52.414303162+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_162652-vog7ftn4/logs/debug-core.log"}
+{"time":"2025-04-16T16:26:52.776904573+05:30","level":"INFO","msg":"created new stream","id":"vog7ftn4"}
+{"time":"2025-04-16T16:26:52.776948615+05:30","level":"INFO","msg":"stream: started","id":"vog7ftn4"}
+{"time":"2025-04-16T16:26:52.777011683+05:30","level":"INFO","msg":"sender: started","stream_id":"vog7ftn4"}
+{"time":"2025-04-16T16:26:52.777030669+05:30","level":"INFO","msg":"handler: started","stream_id":"vog7ftn4"}
+{"time":"2025-04-16T16:26:52.777021602+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vog7ftn4"}
+{"time":"2025-04-16T16:26:53.093904295+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T16:29:29.725939172+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T16:29:29.725967385+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T16:29:30.727540549+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_2f768a8b5a6c8f0e0970.png","runtime_seconds":0.68921214,"progress":"1.1MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.409803835,"progress":"77.3KB/77.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.100035526,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.039265579,"progress":"32.0KB/18.2MB"}],"total_operations":4}}
+{"time":"2025-04-16T16:29:33.943987663+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T16:29:34.275362824+05:30","level":"INFO","msg":"stream: closing","id":"vog7ftn4"}
+{"time":"2025-04-16T16:29:34.275372743+05:30","level":"INFO","msg":"handler: closed","stream_id":"vog7ftn4"}
+{"time":"2025-04-16T16:29:34.275383242+05:30","level":"INFO","msg":"sender: closed","stream_id":"vog7ftn4"}
+{"time":"2025-04-16T16:29:34.275377642+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vog7ftn4"}
+{"time":"2025-04-16T16:29:34.275418759+05:30","level":"INFO","msg":"stream: closed","id":"vog7ftn4"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-16T16:40:42.335648998+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_164042-j6g6ynzn/logs/debug-core.log"}
+{"time":"2025-04-16T16:40:42.701928986+05:30","level":"INFO","msg":"created new stream","id":"j6g6ynzn"}
+{"time":"2025-04-16T16:40:42.701967368+05:30","level":"INFO","msg":"stream: started","id":"j6g6ynzn"}
+{"time":"2025-04-16T16:40:42.702030105+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"j6g6ynzn"}
+{"time":"2025-04-16T16:40:42.702026739+05:30","level":"INFO","msg":"sender: started","stream_id":"j6g6ynzn"}
+{"time":"2025-04-16T16:40:42.702072044+05:30","level":"INFO","msg":"handler: started","stream_id":"j6g6ynzn"}
+{"time":"2025-04-16T16:40:43.031164499+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T16:43:16.537175207+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T16:43:16.537203359+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T16:43:17.538768809+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_f548da80395e1d93902c.png","runtime_seconds":0.697818239,"progress":"1.1MB/2.8MB"},{"desc":"uploading output.log","runtime_seconds":0.395173619},{"desc":"uploading wandb-summary.json","runtime_seconds":0.395167127,"progress":"64.0KB/76.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.096345278,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T16:43:21.582231515+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T16:43:21.943363192+05:30","level":"INFO","msg":"stream: closing","id":"j6g6ynzn"}
+{"time":"2025-04-16T16:43:21.94337277+05:30","level":"INFO","msg":"handler: closed","stream_id":"j6g6ynzn"}
+{"time":"2025-04-16T16:43:21.943380915+05:30","level":"INFO","msg":"sender: closed","stream_id":"j6g6ynzn"}
+{"time":"2025-04-16T16:43:21.943377789+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"j6g6ynzn"}
+{"time":"2025-04-16T16:43:21.943413456+05:30","level":"INFO","msg":"stream: closed","id":"j6g6ynzn"}

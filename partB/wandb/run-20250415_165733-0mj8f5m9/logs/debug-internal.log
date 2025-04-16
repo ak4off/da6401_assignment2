@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:57:33.479440476+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165733-0mj8f5m9/logs/debug-core.log"}
+{"time":"2025-04-15T16:57:33.841099541+05:30","level":"INFO","msg":"created new stream","id":"0mj8f5m9"}
+{"time":"2025-04-15T16:57:33.841128525+05:30","level":"INFO","msg":"stream: started","id":"0mj8f5m9"}
+{"time":"2025-04-15T16:57:33.84113619+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"0mj8f5m9"}
+{"time":"2025-04-15T16:57:33.841139606+05:30","level":"INFO","msg":"sender: started","stream_id":"0mj8f5m9"}
+{"time":"2025-04-15T16:57:33.841161136+05:30","level":"INFO","msg":"handler: started","stream_id":"0mj8f5m9"}
+{"time":"2025-04-15T16:57:34.114434884+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:57:34.407674579+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:57:34.407739551+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:57:35.367694232+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.247383348,"progress":"1.4KB/1.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.247378178,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-15T16:57:35.933369221+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:57:36.227379514+05:30","level":"INFO","msg":"stream: closing","id":"0mj8f5m9"}
+{"time":"2025-04-15T16:57:36.227387319+05:30","level":"INFO","msg":"handler: closed","stream_id":"0mj8f5m9"}
+{"time":"2025-04-15T16:57:36.227392238+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"0mj8f5m9"}
+{"time":"2025-04-15T16:57:36.227395584+05:30","level":"INFO","msg":"sender: closed","stream_id":"0mj8f5m9"}
+{"time":"2025-04-15T16:57:36.227422214+05:30","level":"INFO","msg":"stream: closed","id":"0mj8f5m9"}

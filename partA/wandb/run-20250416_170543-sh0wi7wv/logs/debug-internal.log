@@ -1,0 +1,16 @@
+{"time":"2025-04-16T17:05:43.72214303+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_170543-sh0wi7wv/logs/debug-core.log"}
+{"time":"2025-04-16T17:05:44.084802119+05:30","level":"INFO","msg":"created new stream","id":"sh0wi7wv"}
+{"time":"2025-04-16T17:05:44.084849537+05:30","level":"INFO","msg":"stream: started","id":"sh0wi7wv"}
+{"time":"2025-04-16T17:05:44.084919518+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sh0wi7wv"}
+{"time":"2025-04-16T17:05:44.084940848+05:30","level":"INFO","msg":"sender: started","stream_id":"sh0wi7wv"}
+{"time":"2025-04-16T17:05:44.084967628+05:30","level":"INFO","msg":"handler: started","stream_id":"sh0wi7wv"}
+{"time":"2025-04-16T17:05:44.401862515+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:08:16.600746066+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T17:08:16.600820054+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T17:08:17.561807544+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_952e263366467313b816.png","runtime_seconds":0.698042105,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.370354486},{"desc":"uploading wandb-summary.json","runtime_seconds":0.370341862,"progress":"45.1KB/45.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.075404971,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T17:08:21.509201778+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:08:21.822670457+05:30","level":"INFO","msg":"stream: closing","id":"sh0wi7wv"}
+{"time":"2025-04-16T17:08:21.822678783+05:30","level":"INFO","msg":"handler: closed","stream_id":"sh0wi7wv"}
+{"time":"2025-04-16T17:08:21.822685706+05:30","level":"INFO","msg":"sender: closed","stream_id":"sh0wi7wv"}
+{"time":"2025-04-16T17:08:21.822683522+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sh0wi7wv"}
+{"time":"2025-04-16T17:08:21.82274676+05:30","level":"INFO","msg":"stream: closed","id":"sh0wi7wv"}

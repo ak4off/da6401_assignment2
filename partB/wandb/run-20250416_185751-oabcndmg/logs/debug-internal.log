@@ -1,0 +1,16 @@
+{"time":"2025-04-16T18:57:51.755665426+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_185751-oabcndmg/logs/debug-core.log"}
+{"time":"2025-04-16T18:57:52.122116085+05:30","level":"INFO","msg":"created new stream","id":"oabcndmg"}
+{"time":"2025-04-16T18:57:52.122138577+05:30","level":"INFO","msg":"stream: started","id":"oabcndmg"}
+{"time":"2025-04-16T18:57:52.122175957+05:30","level":"INFO","msg":"sender: started","stream_id":"oabcndmg"}
+{"time":"2025-04-16T18:57:52.122175937+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"oabcndmg"}
+{"time":"2025-04-16T18:57:52.122211514+05:30","level":"INFO","msg":"handler: started","stream_id":"oabcndmg"}
+{"time":"2025-04-16T18:57:52.397078064+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T19:00:12.554640804+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T19:00:12.554797723+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T19:00:13.517704246+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_7_b5495440e6da2d460592.png","runtime_seconds":0.453967326,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.356915217,"progress":"3.5KB/3.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.356908404,"progress":"16.0KB/245.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.079683094,"progress":"1013B/1013B"}],"total_operations":4}}
+{"time":"2025-04-16T19:00:15.226815056+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T19:00:15.614183487+05:30","level":"INFO","msg":"stream: closing","id":"oabcndmg"}
+{"time":"2025-04-16T19:00:15.614194086+05:30","level":"INFO","msg":"handler: closed","stream_id":"oabcndmg"}
+{"time":"2025-04-16T19:00:15.614200448+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"oabcndmg"}
+{"time":"2025-04-16T19:00:15.614219553+05:30","level":"INFO","msg":"sender: closed","stream_id":"oabcndmg"}
+{"time":"2025-04-16T19:00:15.614238208+05:30","level":"INFO","msg":"stream: closed","id":"oabcndmg"}

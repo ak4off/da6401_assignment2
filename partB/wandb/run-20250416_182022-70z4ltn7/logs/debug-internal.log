@@ -1,0 +1,16 @@
+{"time":"2025-04-16T18:20:22.07119235+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_182022-70z4ltn7/logs/debug-core.log"}
+{"time":"2025-04-16T18:20:22.438364731+05:30","level":"INFO","msg":"created new stream","id":"70z4ltn7"}
+{"time":"2025-04-16T18:20:22.438416589+05:30","level":"INFO","msg":"stream: started","id":"70z4ltn7"}
+{"time":"2025-04-16T18:20:22.438441235+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"70z4ltn7"}
+{"time":"2025-04-16T18:20:22.438476651+05:30","level":"INFO","msg":"sender: started","stream_id":"70z4ltn7"}
+{"time":"2025-04-16T18:20:22.438446505+05:30","level":"INFO","msg":"handler: started","stream_id":"70z4ltn7"}
+{"time":"2025-04-16T18:20:22.972243541+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T18:25:25.577247774+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T18:25:25.577284122+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T18:25:26.578312276+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_12_ef2d53289b1125c79f87.png","runtime_seconds":0.694090112,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.331685505,"progress":"6.4KB/6.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.331680647,"progress":"80.0KB/297.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.010873549,"progress":"1009B/1009B"}],"total_operations":4}}
+{"time":"2025-04-16T18:25:28.063892169+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T18:25:28.456361502+05:30","level":"INFO","msg":"stream: closing","id":"70z4ltn7"}
+{"time":"2025-04-16T18:25:28.456368876+05:30","level":"INFO","msg":"handler: closed","stream_id":"70z4ltn7"}
+{"time":"2025-04-16T18:25:28.456375618+05:30","level":"INFO","msg":"sender: closed","stream_id":"70z4ltn7"}
+{"time":"2025-04-16T18:25:28.456373464+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"70z4ltn7"}
+{"time":"2025-04-16T18:25:28.456412507+05:30","level":"INFO","msg":"stream: closed","id":"70z4ltn7"}

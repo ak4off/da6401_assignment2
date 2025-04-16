@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:56:13.615514316+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165613-9iwaycfc/logs/debug-core.log"}
+{"time":"2025-04-15T16:56:13.982763034+05:30","level":"INFO","msg":"created new stream","id":"9iwaycfc"}
+{"time":"2025-04-15T16:56:13.982804592+05:30","level":"INFO","msg":"stream: started","id":"9iwaycfc"}
+{"time":"2025-04-15T16:56:13.982859364+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"9iwaycfc"}
+{"time":"2025-04-15T16:56:13.982881074+05:30","level":"INFO","msg":"sender: started","stream_id":"9iwaycfc"}
+{"time":"2025-04-15T16:56:13.982885703+05:30","level":"INFO","msg":"handler: started","stream_id":"9iwaycfc"}
+{"time":"2025-04-15T16:56:14.29358646+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:56:14.6226852+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:56:14.622746584+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:56:15.583206909+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.241392071,"progress":"1.4KB/1.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.241384457,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-15T16:56:15.972508888+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:56:16.263718535+05:30","level":"INFO","msg":"stream: closing","id":"9iwaycfc"}
+{"time":"2025-04-15T16:56:16.263728444+05:30","level":"INFO","msg":"handler: closed","stream_id":"9iwaycfc"}
+{"time":"2025-04-15T16:56:16.263733122+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"9iwaycfc"}
+{"time":"2025-04-15T16:56:16.263736669+05:30","level":"INFO","msg":"sender: closed","stream_id":"9iwaycfc"}
+{"time":"2025-04-15T16:56:16.263786502+05:30","level":"INFO","msg":"stream: closed","id":"9iwaycfc"}

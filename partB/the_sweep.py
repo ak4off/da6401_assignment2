@@ -19,6 +19,7 @@ def sweep_train():
         train(args)
 
 sweep_config = {
+    "name": "finetune_partB_v1",
     "method": "bayes",  
     "metric": {
         "name": "val_acc",
@@ -35,14 +36,15 @@ sweep_config = {
         "data_aug": {"values": [False, True]},
         # "data_dir": {"values": ['data']}  # Add the data_dir parameter to the sweep
         "data_dir": {"value": "data/inaturalist_12K"},  # Pass dataset path in sweep config
-        'use_scheduler': {'values': [True]},  # Enforced ReduceLROnPlateau usage
+        # 'use_scheduler': {'values': [True]},  # Enforced ReduceLROnPlateau usage
+        'use_scheduler': {'values': [True, False]},  # Enforced ReduceLROnPlateau usage
         'scheduler_patience': {'values': [2, 3, 4]},
         'early_stopping_patience': {'values': [3, 5, 7]},
     }
 }
 
 def main():
-    sweep_id = wandb.sweep(sweep_config, project="finetune_partB_Assgn2")
+    sweep_id = wandb.sweep(sweep_config, project="Assgn2")
     wandb.agent(sweep_id, function=sweep_train, count=50)
 
 if __name__ == "__main__":

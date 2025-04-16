@@ -1,0 +1,16 @@
+{"time":"2025-04-16T17:29:21.923439401+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_172921-bheh8v4y/logs/debug-core.log"}
+{"time":"2025-04-16T17:29:22.28427779+05:30","level":"INFO","msg":"created new stream","id":"bheh8v4y"}
+{"time":"2025-04-16T17:29:22.284306814+05:30","level":"INFO","msg":"stream: started","id":"bheh8v4y"}
+{"time":"2025-04-16T17:29:22.284322554+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bheh8v4y"}
+{"time":"2025-04-16T17:29:22.284330018+05:30","level":"INFO","msg":"handler: started","stream_id":"bheh8v4y"}
+{"time":"2025-04-16T17:29:22.284339075+05:30","level":"INFO","msg":"sender: started","stream_id":"bheh8v4y"}
+{"time":"2025-04-16T17:29:22.743625095+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:46:22.462494201+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T17:46:22.462546189+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T17:46:23.463554911+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_17_c3ade6a82c9122fa8aa8.png","runtime_seconds":0.692593296,"progress":"1.2MB/1.9MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.390581897,"progress":"64.0KB/511.6KB"},{"desc":"uploading output.log","runtime_seconds":0.39057875,"progress":"9.2KB/9.2KB"},{"desc":"uploading history steps 14-18, summary, console lines 41-44","runtime_seconds":0.378513371},{"desc":"uploading config.yaml","runtime_seconds":0.077546111,"progress":"1010B/1010B"}],"total_operations":5}}
+{"time":"2025-04-16T17:46:24.922169808+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:46:25.236888291+05:30","level":"INFO","msg":"stream: closing","id":"bheh8v4y"}
+{"time":"2025-04-16T17:46:25.23689864+05:30","level":"INFO","msg":"handler: closed","stream_id":"bheh8v4y"}
+{"time":"2025-04-16T17:46:25.236905052+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bheh8v4y"}
+{"time":"2025-04-16T17:46:25.236923406+05:30","level":"INFO","msg":"sender: closed","stream_id":"bheh8v4y"}
+{"time":"2025-04-16T17:46:25.236944546+05:30","level":"INFO","msg":"stream: closed","id":"bheh8v4y"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:54:36.794569492+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165436-dr0ds16h/logs/debug-core.log"}
+{"time":"2025-04-15T16:54:37.159082214+05:30","level":"INFO","msg":"created new stream","id":"dr0ds16h"}
+{"time":"2025-04-15T16:54:37.159110888+05:30","level":"INFO","msg":"stream: started","id":"dr0ds16h"}
+{"time":"2025-04-15T16:54:37.159121778+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dr0ds16h"}
+{"time":"2025-04-15T16:54:37.15913366+05:30","level":"INFO","msg":"handler: started","stream_id":"dr0ds16h"}
+{"time":"2025-04-15T16:54:37.159141184+05:30","level":"INFO","msg":"sender: started","stream_id":"dr0ds16h"}
+{"time":"2025-04-15T16:54:37.464556714+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:54:38.040693052+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:54:38.040755659+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:54:39.001907768+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.473951145,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.160503753,"progress":"972B/972B"}],"total_operations":2}}
+{"time":"2025-04-15T16:54:39.190526458+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:54:39.487516541+05:30","level":"INFO","msg":"stream: closing","id":"dr0ds16h"}
+{"time":"2025-04-15T16:54:39.487533803+05:30","level":"INFO","msg":"handler: closed","stream_id":"dr0ds16h"}
+{"time":"2025-04-15T16:54:39.487539173+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dr0ds16h"}
+{"time":"2025-04-15T16:54:39.487582574+05:30","level":"INFO","msg":"sender: closed","stream_id":"dr0ds16h"}
+{"time":"2025-04-15T16:54:39.487586952+05:30","level":"INFO","msg":"stream: closed","id":"dr0ds16h"}

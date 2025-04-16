@@ -1,0 +1,16 @@
+{"time":"2025-04-16T13:42:08.323203321+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_134208-m35n9eav/logs/debug-core.log"}
+{"time":"2025-04-16T13:42:08.684184566+05:30","level":"INFO","msg":"created new stream","id":"m35n9eav"}
+{"time":"2025-04-16T13:42:08.684232135+05:30","level":"INFO","msg":"stream: started","id":"m35n9eav"}
+{"time":"2025-04-16T13:42:08.684294442+05:30","level":"INFO","msg":"handler: started","stream_id":"m35n9eav"}
+{"time":"2025-04-16T13:42:08.684307446+05:30","level":"INFO","msg":"sender: started","stream_id":"m35n9eav"}
+{"time":"2025-04-16T13:42:08.684300523+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"m35n9eav"}
+{"time":"2025-04-16T13:42:09.039266952+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T13:44:36.75675903+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T13:44:36.75678603+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T13:44:37.759011173+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_259e030a2e3f9f592bb5.png","runtime_seconds":0.698335152,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.410187216,"progress":"45.4KB/45.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.123842018,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.123831158,"progress":"112.0KB/6.6MB"}],"total_operations":4}}
+{"time":"2025-04-16T13:44:40.315244577+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T13:44:40.692580092+05:30","level":"INFO","msg":"stream: closing","id":"m35n9eav"}
+{"time":"2025-04-16T13:44:40.69258997+05:30","level":"INFO","msg":"handler: closed","stream_id":"m35n9eav"}
+{"time":"2025-04-16T13:44:40.692595611+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"m35n9eav"}
+{"time":"2025-04-16T13:44:40.692601763+05:30","level":"INFO","msg":"sender: closed","stream_id":"m35n9eav"}
+{"time":"2025-04-16T13:44:40.692645094+05:30","level":"INFO","msg":"stream: closed","id":"m35n9eav"}

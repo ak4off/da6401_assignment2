@@ -1,0 +1,16 @@
+{"time":"2025-04-16T16:26:59.646823884+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_162659-safnsvya/logs/debug-core.log"}
+{"time":"2025-04-16T16:27:00.008667608+05:30","level":"INFO","msg":"created new stream","id":"safnsvya"}
+{"time":"2025-04-16T16:27:00.008719165+05:30","level":"INFO","msg":"stream: started","id":"safnsvya"}
+{"time":"2025-04-16T16:27:00.008755673+05:30","level":"INFO","msg":"sender: started","stream_id":"safnsvya"}
+{"time":"2025-04-16T16:27:00.008769038+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"safnsvya"}
+{"time":"2025-04-16T16:27:00.008780199+05:30","level":"INFO","msg":"handler: started","stream_id":"safnsvya"}
+{"time":"2025-04-16T16:27:00.371079526+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T16:38:25.821277663+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T16:38:25.821315464+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T16:38:26.822419072+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_12_1ccebd73c4a3456aa3d0.png","runtime_seconds":0.696594287,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.398217276,"progress":"6.3KB/6.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.39820887,"progress":"96.0KB/514.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.101778358,"progress":"1007B/1007B"}],"total_operations":4}}
+{"time":"2025-04-16T16:38:28.633000757+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T16:38:29.364218751+05:30","level":"INFO","msg":"stream: closing","id":"safnsvya"}
+{"time":"2025-04-16T16:38:29.364226986+05:30","level":"INFO","msg":"handler: closed","stream_id":"safnsvya"}
+{"time":"2025-04-16T16:38:29.364231645+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"safnsvya"}
+{"time":"2025-04-16T16:38:29.364235853+05:30","level":"INFO","msg":"sender: closed","stream_id":"safnsvya"}
+{"time":"2025-04-16T16:38:29.364281468+05:30","level":"INFO","msg":"stream: closed","id":"safnsvya"}

@@ -1,0 +1,7 @@
+{"time":"2025-04-16T19:00:20.358187182+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_190020-epyem2cg/logs/debug-core.log"}
+{"time":"2025-04-16T19:00:20.724027788+05:30","level":"INFO","msg":"created new stream","id":"epyem2cg"}
+{"time":"2025-04-16T19:00:20.724052974+05:30","level":"INFO","msg":"stream: started","id":"epyem2cg"}
+{"time":"2025-04-16T19:00:20.724071829+05:30","level":"INFO","msg":"sender: started","stream_id":"epyem2cg"}
+{"time":"2025-04-16T19:00:20.724120919+05:30","level":"INFO","msg":"handler: started","stream_id":"epyem2cg"}
+{"time":"2025-04-16T19:00:20.724117162+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"epyem2cg"}
+{"time":"2025-04-16T19:00:21.049425846+05:30","level":"INFO","msg":"Starting system monitor"}

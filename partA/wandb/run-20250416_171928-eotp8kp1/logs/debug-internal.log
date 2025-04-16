@@ -1,0 +1,16 @@
+{"time":"2025-04-16T17:19:28.092617338+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_171928-eotp8kp1/logs/debug-core.log"}
+{"time":"2025-04-16T17:19:28.457032165+05:30","level":"INFO","msg":"created new stream","id":"eotp8kp1"}
+{"time":"2025-04-16T17:19:28.457055839+05:30","level":"INFO","msg":"stream: started","id":"eotp8kp1"}
+{"time":"2025-04-16T17:19:28.457070096+05:30","level":"INFO","msg":"sender: started","stream_id":"eotp8kp1"}
+{"time":"2025-04-16T17:19:28.457091347+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"eotp8kp1"}
+{"time":"2025-04-16T17:19:28.457124019+05:30","level":"INFO","msg":"handler: started","stream_id":"eotp8kp1"}
+{"time":"2025-04-16T17:19:28.742364108+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:21:59.130623662+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T17:21:59.130715005+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T17:22:00.092448319+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_4b2078689dc6d33e35ec.png","runtime_seconds":0.698791393,"progress":"1.1MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.373558907},{"desc":"uploading wandb-summary.json","runtime_seconds":0.373550321,"progress":"45.0KB/45.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.108218653,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T17:22:03.859777237+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:22:04.208443461+05:30","level":"INFO","msg":"stream: closing","id":"eotp8kp1"}
+{"time":"2025-04-16T17:22:04.208456936+05:30","level":"INFO","msg":"handler: closed","stream_id":"eotp8kp1"}
+{"time":"2025-04-16T17:22:04.208463038+05:30","level":"INFO","msg":"sender: closed","stream_id":"eotp8kp1"}
+{"time":"2025-04-16T17:22:04.208462326+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"eotp8kp1"}
+{"time":"2025-04-16T17:22:04.208512681+05:30","level":"INFO","msg":"stream: closed","id":"eotp8kp1"}

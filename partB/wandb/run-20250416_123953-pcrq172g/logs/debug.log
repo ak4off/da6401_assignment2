@@ -1,0 +1,53 @@
+2025-04-16 12:39:53,205 INFO    Thread-16 (_run_job):1393881 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_123953-pcrq172g/logs/debug.log
+2025-04-16 12:39:53,205 INFO    Thread-16 (_run_job):1393881 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_123953-pcrq172g/logs/debug-internal.log
+2025-04-16 12:39:53,205 INFO    Thread-16 (_run_job):1393881 [wandb_init.py:init():781] calling init triggers
+2025-04-16 12:39:53,205 INFO    Thread-16 (_run_job):1393881 [wandb_init.py:init():786] wandb.init called with sweep_config: {'batch_size': 64, 'data_aug': True, 'data_dir': 'data/inaturalist_12K', 'dense_size': 1024, 'dropout': 0.1, 'early_stopping_patience': 7, 'epochs': 15, 'freeze_option': 2, 'lr': 0.00011503545539022883, 'scheduler_patience': 2, 'use_scheduler': True, 'weight_decay': 0.0001}
+config: {'data_dir': 'data/inaturalist_12K', 'image_size': 224, 'batch_size': 64, 'data_aug': True, 'model': 'resnet50', 'freeze_option': 2, 'dropout': 0.1, 'dense_size': 1024, 'epochs': 15, 'lr': 0.00011503545539022883, 'weight_decay': 0.0001, 'log_interval': 10, 'early_stopping_patience': 7, 'use_scheduler': True, 'scheduler_patience': 2, 'save_model_path': './checkpoints/best_model.pt', 'seed': 42, 'use_wandb': True, 'wandb_project': 'Assgn2', 'wandb_entity': 'ns24z274-iitm-ac-in', 'wandb_run_name': 'neat-sweep-5', '_wandb': {}}
+2025-04-16 12:39:53,205 INFO    Thread-16 (_run_job):1393881 [wandb_init.py:init():801] wandb.init() called while a run is active
+2025-04-16 12:39:54,293 INFO    Thread-16 (_run_job):1393881 [wandb_watch.py:_watch():71] Watching
+2025-04-16 12:54:05,335 INFO    Thread-16 (_run_job):1393881 [wandb_run.py:_finish():2189] finishing run ns24z274-iitm-ac-in/Assgn2/pcrq172g
+2025-04-16 12:54:05,335 INFO    Thread-16 (_run_job):1393881 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-16 12:54:05,335 INFO    Thread-16 (_run_job):1393881 [wandb_run.py:_restore():2401] restore
+2025-04-16 12:54:05,335 INFO    Thread-16 (_run_job):1393881 [wandb_run.py:_restore():2407] restore done
+2025-04-16 12:54:08,917 INFO    Thread-16 (_run_job):1393881 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-16 12:54:08,918 INFO    Thread-16 (_run_job):1393881 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-16 12:54:08,918 INFO    Thread-16 (_run_job):1393881 [wandb_run.py:_footer_sync_info():4025] logging synced files
+2025-04-16 12:54:08,922 INFO    Thread-16 (_run_job):1393881 [wandb_run.py:_finish():2189] finishing run ns24z274-iitm-ac-in/Assgn2/pcrq172g
+2025-04-16 12:54:10,919 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 13:01:07,227 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 13:15:31,944 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 13:23:20,504 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 13:32:16,677 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 13:40:28,142 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 13:45:23,822 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 13:50:29,676 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 14:05:00,146 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 14:19:20,127 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 14:25:24,003 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 14:27:52,072 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 14:40:21,656 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 14:48:26,563 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 15:01:42,513 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 15:14:58,597 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 15:23:57,032 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 15:30:06,855 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 15:45:08,637 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 15:59:01,950 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 16:12:02,746 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 16:26:58,926 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 16:38:31,364 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 16:53:48,995 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 17:09:02,232 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 17:17:45,012 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 17:29:21,172 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 17:46:29,239 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 17:57:54,777 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 18:06:38,225 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 18:15:09,007 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 18:20:21,351 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 18:25:32,459 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 18:32:04,082 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 18:36:49,163 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 18:44:12,524 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 18:57:51,023 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 19:00:19,616 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

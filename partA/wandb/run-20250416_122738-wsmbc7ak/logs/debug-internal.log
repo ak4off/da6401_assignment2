@@ -1,0 +1,16 @@
+{"time":"2025-04-16T12:27:38.935910938+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_122738-wsmbc7ak/logs/debug-core.log"}
+{"time":"2025-04-16T12:27:39.317425235+05:30","level":"INFO","msg":"created new stream","id":"wsmbc7ak"}
+{"time":"2025-04-16T12:27:39.317450663+05:30","level":"INFO","msg":"stream: started","id":"wsmbc7ak"}
+{"time":"2025-04-16T12:27:39.31749195+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wsmbc7ak"}
+{"time":"2025-04-16T12:27:39.317493473+05:30","level":"INFO","msg":"handler: started","stream_id":"wsmbc7ak"}
+{"time":"2025-04-16T12:27:39.317516015+05:30","level":"INFO","msg":"sender: started","stream_id":"wsmbc7ak"}
+{"time":"2025-04-16T12:27:39.625254934+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T12:30:11.095671976+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T12:30:11.095715197+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T12:30:12.057612934+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_d3e2b5c253e06cc1f106.png","runtime_seconds":0.695613579,"progress":"1.1MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.380951096},{"desc":"uploading wandb-summary.json","runtime_seconds":0.380944814,"progress":"48.0KB/76.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.092729394,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T12:30:15.325294396+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T12:30:15.655597767+05:30","level":"INFO","msg":"stream: closing","id":"wsmbc7ak"}
+{"time":"2025-04-16T12:30:15.655606955+05:30","level":"INFO","msg":"handler: closed","stream_id":"wsmbc7ak"}
+{"time":"2025-04-16T12:30:15.655612405+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wsmbc7ak"}
+{"time":"2025-04-16T12:30:15.655619137+05:30","level":"INFO","msg":"sender: closed","stream_id":"wsmbc7ak"}
+{"time":"2025-04-16T12:30:15.655661617+05:30","level":"INFO","msg":"stream: closed","id":"wsmbc7ak"}

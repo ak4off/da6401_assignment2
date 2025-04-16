@@ -1,0 +1,16 @@
+{"time":"2025-04-16T17:38:06.725502507+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_173806-pun2uobf/logs/debug-core.log"}
+{"time":"2025-04-16T17:38:07.098029889+05:30","level":"INFO","msg":"created new stream","id":"pun2uobf"}
+{"time":"2025-04-16T17:38:07.098055317+05:30","level":"INFO","msg":"stream: started","id":"pun2uobf"}
+{"time":"2025-04-16T17:38:07.098073871+05:30","level":"INFO","msg":"sender: started","stream_id":"pun2uobf"}
+{"time":"2025-04-16T17:38:07.098071467+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pun2uobf"}
+{"time":"2025-04-16T17:38:07.098092116+05:30","level":"INFO","msg":"handler: started","stream_id":"pun2uobf"}
+{"time":"2025-04-16T17:38:07.379740885+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:40:37.499210545+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T17:40:37.49924531+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T17:40:38.500585352+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_be5df733e6b9ff0a8aa1.png","runtime_seconds":0.415808094,"progress":"1.1MB/2.7MB"},{"desc":"uploading history steps 10-15, summary","runtime_seconds":0.317899688},{"desc":"uploading output.log","runtime_seconds":0.115696667},{"desc":"uploading wandb-summary.json","runtime_seconds":0.115688292,"progress":"32.0KB/45.2KB"}],"total_operations":4}}
+{"time":"2025-04-16T17:40:42.910991959+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:40:43.21262635+05:30","level":"INFO","msg":"stream: closing","id":"pun2uobf"}
+{"time":"2025-04-16T17:40:43.212634466+05:30","level":"INFO","msg":"handler: closed","stream_id":"pun2uobf"}
+{"time":"2025-04-16T17:40:43.212638754+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pun2uobf"}
+{"time":"2025-04-16T17:40:43.212645416+05:30","level":"INFO","msg":"sender: closed","stream_id":"pun2uobf"}
+{"time":"2025-04-16T17:40:43.212680823+05:30","level":"INFO","msg":"stream: closed","id":"pun2uobf"}

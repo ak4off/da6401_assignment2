@@ -1,0 +1,16 @@
+{"time":"2025-04-16T15:23:57.771477156+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_152357-fov28tf6/logs/debug-core.log"}
+{"time":"2025-04-16T15:23:58.1375061+05:30","level":"INFO","msg":"created new stream","id":"fov28tf6"}
+{"time":"2025-04-16T15:23:58.137546376+05:30","level":"INFO","msg":"stream: started","id":"fov28tf6"}
+{"time":"2025-04-16T15:23:58.137615686+05:30","level":"INFO","msg":"sender: started","stream_id":"fov28tf6"}
+{"time":"2025-04-16T15:23:58.137624392+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fov28tf6"}
+{"time":"2025-04-16T15:23:58.137653056+05:30","level":"INFO","msg":"handler: started","stream_id":"fov28tf6"}
+{"time":"2025-04-16T15:23:58.461043745+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T15:29:58.965789742+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T15:29:58.965843813+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T15:29:59.92712948+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_14_7eaabfce0e03b62cc541.png","runtime_seconds":0.684231933,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.36764312,"progress":"7.5KB/7.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.367535027,"progress":"80.0KB/296.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.076050841,"progress":"1008B/1008B"}],"total_operations":4}}
+{"time":"2025-04-16T15:30:01.446145544+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T15:30:01.852225845+05:30","level":"INFO","msg":"stream: closing","id":"fov28tf6"}
+{"time":"2025-04-16T15:30:01.85223397+05:30","level":"INFO","msg":"handler: closed","stream_id":"fov28tf6"}
+{"time":"2025-04-16T15:30:01.852238579+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fov28tf6"}
+{"time":"2025-04-16T15:30:01.852242777+05:30","level":"INFO","msg":"sender: closed","stream_id":"fov28tf6"}
+{"time":"2025-04-16T15:30:01.852271971+05:30","level":"INFO","msg":"stream: closed","id":"fov28tf6"}

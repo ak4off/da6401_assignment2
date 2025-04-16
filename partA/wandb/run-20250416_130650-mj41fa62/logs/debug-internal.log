@@ -1,0 +1,16 @@
+{"time":"2025-04-16T13:06:50.039399804+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_130650-mj41fa62/logs/debug-core.log"}
+{"time":"2025-04-16T13:06:50.417349127+05:30","level":"INFO","msg":"created new stream","id":"mj41fa62"}
+{"time":"2025-04-16T13:06:50.417375085+05:30","level":"INFO","msg":"stream: started","id":"mj41fa62"}
+{"time":"2025-04-16T13:06:50.417390063+05:30","level":"INFO","msg":"sender: started","stream_id":"mj41fa62"}
+{"time":"2025-04-16T13:06:50.417389553+05:30","level":"INFO","msg":"handler: started","stream_id":"mj41fa62"}
+{"time":"2025-04-16T13:06:50.417408618+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mj41fa62"}
+{"time":"2025-04-16T13:06:50.763036034+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T13:08:32.120658922+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T13:08:32.120715027+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T13:08:33.082632869+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_9_85edce594ea745c33b5c.png","runtime_seconds":0.699078264,"progress":"1.1MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.387431409,"progress":"47.0KB/47.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.091705335,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.038651083,"progress":"16.0KB/6.6MB"}],"total_operations":4}}
+{"time":"2025-04-16T13:08:36.421887355+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T13:08:41.764300003+05:30","level":"INFO","msg":"stream: closing","id":"mj41fa62"}
+{"time":"2025-04-16T13:08:41.764311144+05:30","level":"INFO","msg":"handler: closed","stream_id":"mj41fa62"}
+{"time":"2025-04-16T13:08:41.764320151+05:30","level":"INFO","msg":"sender: closed","stream_id":"mj41fa62"}
+{"time":"2025-04-16T13:08:41.764317686+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mj41fa62"}
+{"time":"2025-04-16T13:08:41.764364113+05:30","level":"INFO","msg":"stream: closed","id":"mj41fa62"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:57:21.977980469+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165721-8zojltfs/logs/debug-core.log"}
+{"time":"2025-04-15T16:57:22.343464197+05:30","level":"INFO","msg":"created new stream","id":"8zojltfs"}
+{"time":"2025-04-15T16:57:22.343515002+05:30","level":"INFO","msg":"stream: started","id":"8zojltfs"}
+{"time":"2025-04-15T16:57:22.343609569+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"8zojltfs"}
+{"time":"2025-04-15T16:57:22.343602325+05:30","level":"INFO","msg":"sender: started","stream_id":"8zojltfs"}
+{"time":"2025-04-15T16:57:22.343620599+05:30","level":"INFO","msg":"handler: started","stream_id":"8zojltfs"}
+{"time":"2025-04-15T16:57:22.661801913+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:57:22.982601+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:57:22.982688964+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:57:23.943180491+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.306169926,"progress":"1.4KB/1.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.306165027,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-15T16:57:24.947720844+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:57:25.255382974+05:30","level":"INFO","msg":"stream: closing","id":"8zojltfs"}
+{"time":"2025-04-15T16:57:25.255392161+05:30","level":"INFO","msg":"handler: closed","stream_id":"8zojltfs"}
+{"time":"2025-04-15T16:57:25.255399595+05:30","level":"INFO","msg":"sender: closed","stream_id":"8zojltfs"}
+{"time":"2025-04-15T16:57:25.25539669+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"8zojltfs"}
+{"time":"2025-04-15T16:57:25.255432406+05:30","level":"INFO","msg":"stream: closed","id":"8zojltfs"}

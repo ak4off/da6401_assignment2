@@ -1,0 +1,16 @@
+{"time":"2025-04-16T15:52:28.506236041+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_155228-1fc603i8/logs/debug-core.log"}
+{"time":"2025-04-16T15:52:28.870842843+05:30","level":"INFO","msg":"created new stream","id":"1fc603i8"}
+{"time":"2025-04-16T15:52:28.870870866+05:30","level":"INFO","msg":"stream: started","id":"1fc603i8"}
+{"time":"2025-04-16T15:52:28.870900632+05:30","level":"INFO","msg":"handler: started","stream_id":"1fc603i8"}
+{"time":"2025-04-16T15:52:28.870908857+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"1fc603i8"}
+{"time":"2025-04-16T15:52:28.870925869+05:30","level":"INFO","msg":"sender: started","stream_id":"1fc603i8"}
+{"time":"2025-04-16T15:52:29.147821327+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T15:55:01.773024656+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T15:55:01.773057467+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T15:55:02.774475169+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_1da31900985e3feca1ab.png","runtime_seconds":0.700374691,"progress":"1.1MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.414834519},{"desc":"uploading wandb-summary.json","runtime_seconds":0.414815303,"progress":"76.8KB/76.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.125675672,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T15:55:06.135466154+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T15:55:06.459985156+05:30","level":"INFO","msg":"stream: closing","id":"1fc603i8"}
+{"time":"2025-04-16T15:55:06.459993742+05:30","level":"INFO","msg":"handler: closed","stream_id":"1fc603i8"}
+{"time":"2025-04-16T15:55:06.460002539+05:30","level":"INFO","msg":"sender: closed","stream_id":"1fc603i8"}
+{"time":"2025-04-16T15:55:06.459998651+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"1fc603i8"}
+{"time":"2025-04-16T15:55:06.460038145+05:30","level":"INFO","msg":"stream: closed","id":"1fc603i8"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:54:31.420585285+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165431-s3mdpbum/logs/debug-core.log"}
+{"time":"2025-04-15T16:54:31.783697544+05:30","level":"INFO","msg":"created new stream","id":"s3mdpbum"}
+{"time":"2025-04-15T16:54:31.783720887+05:30","level":"INFO","msg":"stream: started","id":"s3mdpbum"}
+{"time":"2025-04-15T16:54:31.783742688+05:30","level":"INFO","msg":"handler: started","stream_id":"s3mdpbum"}
+{"time":"2025-04-15T16:54:31.783795006+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"s3mdpbum"}
+{"time":"2025-04-15T16:54:31.783796749+05:30","level":"INFO","msg":"sender: started","stream_id":"s3mdpbum"}
+{"time":"2025-04-15T16:54:32.069158418+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:54:32.768674924+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:54:32.768994229+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:54:33.729654257+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.638984767,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.357129419,"progress":"968B/968B"}],"total_operations":2}}
+{"time":"2025-04-15T16:54:33.764800641+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:54:34.066858196+05:30","level":"INFO","msg":"stream: closing","id":"s3mdpbum"}
+{"time":"2025-04-15T16:54:34.06686606+05:30","level":"INFO","msg":"handler: closed","stream_id":"s3mdpbum"}
+{"time":"2025-04-15T16:54:34.066870138+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"s3mdpbum"}
+{"time":"2025-04-15T16:54:34.066874496+05:30","level":"INFO","msg":"sender: closed","stream_id":"s3mdpbum"}
+{"time":"2025-04-15T16:54:34.066902559+05:30","level":"INFO","msg":"stream: closed","id":"s3mdpbum"}

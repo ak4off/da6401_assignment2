@@ -1,0 +1,16 @@
+{"time":"2025-04-16T16:13:08.784150604+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_161308-otf4gamg/logs/debug-core.log"}
+{"time":"2025-04-16T16:13:09.151926545+05:30","level":"INFO","msg":"created new stream","id":"otf4gamg"}
+{"time":"2025-04-16T16:13:09.151943296+05:30","level":"INFO","msg":"stream: started","id":"otf4gamg"}
+{"time":"2025-04-16T16:13:09.151975556+05:30","level":"INFO","msg":"sender: started","stream_id":"otf4gamg"}
+{"time":"2025-04-16T16:13:09.151968263+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"otf4gamg"}
+{"time":"2025-04-16T16:13:09.151996094+05:30","level":"INFO","msg":"handler: started","stream_id":"otf4gamg"}
+{"time":"2025-04-16T16:13:09.474168041+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T16:15:42.951733948+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T16:15:42.951767129+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T16:15:43.953505925+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_03725b35ab88bd482aa9.png","runtime_seconds":0.695948521,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.400637765},{"desc":"uploading wandb-summary.json","runtime_seconds":0.400630461,"progress":"77.3KB/77.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.132227298,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T16:15:47.721489448+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T16:15:48.029299855+05:30","level":"INFO","msg":"stream: closing","id":"otf4gamg"}
+{"time":"2025-04-16T16:15:48.029309233+05:30","level":"INFO","msg":"handler: closed","stream_id":"otf4gamg"}
+{"time":"2025-04-16T16:15:48.029314512+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"otf4gamg"}
+{"time":"2025-04-16T16:15:48.029321555+05:30","level":"INFO","msg":"sender: closed","stream_id":"otf4gamg"}
+{"time":"2025-04-16T16:15:48.029353996+05:30","level":"INFO","msg":"stream: closed","id":"otf4gamg"}

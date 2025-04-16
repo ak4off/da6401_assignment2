@@ -1,0 +1,163 @@
+2025-04-15 16:58:19,035 INFO    Thread-136 (_run_job):1042230 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-15 16:58:19,035 INFO    Thread-136 (_run_job):1042230 [wandb_setup.py:_flush():67] Configure stats pid to 1042230
+2025-04-15 16:58:19,035 INFO    Thread-136 (_run_job):1042230 [wandb_setup.py:_flush():67] Loading settings from /home/speech/.config/wandb/settings
+2025-04-15 16:58:19,035 INFO    Thread-136 (_run_job):1042230 [wandb_setup.py:_flush():67] Loading settings from /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/settings
+2025-04-15 16:58:19,035 INFO    Thread-136 (_run_job):1042230 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-15 16:58:19,035 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165819-gfiz99ta/logs/debug.log
+2025-04-15 16:58:19,035 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165819-gfiz99ta/logs/debug-internal.log
+2025-04-15 16:58:19,035 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():781] calling init triggers
+2025-04-15 16:58:19,035 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():786] wandb.init called with sweep_config: {'batch_size': 32, 'data_aug': False, 'data_dir': 'data/inaturalist_12K', 'dense_size': 256, 'dropout': 0, 'early_stopping_patience': 3, 'epochs': 5, 'freeze_option': 0, 'lr': 0.0008228991147875334, 'scheduler_patience': 2, 'use_scheduler': True, 'weight_decay': 0.001}
+config: {'_wandb': {}}
+2025-04-15 16:58:19,036 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():809] starting backend
+2025-04-15 16:58:19,036 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():813] sending inform_init request
+2025-04-15 16:58:19,036 INFO    Thread-136 (_run_job):1042230 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-15 16:58:19,036 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():823] backend started and connected
+2025-04-15 16:58:19,036 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_config_callback():1327] config_cb None None {'batch_size': 32, 'data_aug': False, 'data_dir': 'data/inaturalist_12K', 'dense_size': 256, 'dropout': 0, 'early_stopping_patience': 3, 'epochs': 5, 'freeze_option': 0, 'lr': 0.0008228991147875334, 'scheduler_patience': 2, 'use_scheduler': True, 'weight_decay': 0.001}
+2025-04-15 16:58:19,037 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():915] updated telemetry
+2025-04-15 16:58:19,039 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-15 16:58:19,721 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-15 16:58:19,746 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-15 16:58:19,746 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-15 16:58:19,747 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-15 16:58:19,747 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-15 16:58:19,747 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165819-gfiz99ta/logs/debug.log
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165819-gfiz99ta/logs/debug.log
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165819-gfiz99ta/logs/debug-internal.log
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165819-gfiz99ta/logs/debug-internal.log
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():781] calling init triggers
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():781] calling init triggers
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():786] wandb.init called with sweep_config: {'batch_size': 32, 'data_aug': False, 'data_dir': 'data/inaturalist_12K', 'dense_size': 256, 'dropout': 0, 'early_stopping_patience': 3, 'epochs': 5, 'freeze_option': 0, 'lr': 0.0008228991147875334, 'scheduler_patience': 2, 'use_scheduler': True, 'weight_decay': 0.001}
+config: {'data_dir': 'data/inaturalist_12K', 'image_size': 224, 'batch_size': 32, 'data_aug': False, 'model': 'resnet50', 'freeze_option': 0, 'dropout': 0, 'dense_size': 256, 'epochs': 5, 'lr': 0.0008228991147875334, 'weight_decay': 0.001, 'log_interval': 10, 'early_stopping_patience': 3, 'use_scheduler': True, 'scheduler_patience': 2, 'save_model_path': './checkpoints/best_model.pt', 'seed': 42, 'use_wandb': True, 'wandb_project': 'finetune_partB_Assgn2', 'wandb_entity': 'ns24z274-iitm-ac-in', 'wandb_run_name': 'effortless-sweep-45', '_wandb': {}}
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():786] wandb.init called with sweep_config: {'batch_size': 32, 'data_aug': False, 'data_dir': 'data/inaturalist_12K', 'dense_size': 256, 'dropout': 0, 'early_stopping_patience': 3, 'epochs': 5, 'freeze_option': 0, 'lr': 0.0008228991147875334, 'scheduler_patience': 2, 'use_scheduler': True, 'weight_decay': 0.001}
+config: {'data_dir': 'data/inaturalist_12K', 'image_size': 224, 'batch_size': 32, 'data_aug': False, 'model': 'resnet50', 'freeze_option': 0, 'dropout': 0, 'dense_size': 256, 'epochs': 5, 'lr': 0.0008228991147875334, 'weight_decay': 0.001, 'log_interval': 10, 'early_stopping_patience': 3, 'use_scheduler': True, 'scheduler_patience': 2, 'save_model_path': './checkpoints/best_model.pt', 'seed': 42, 'use_wandb': True, 'wandb_project': 'finetune_partB_Assgn2', 'wandb_entity': 'ns24z274-iitm-ac-in', 'wandb_run_name': 'effortless-sweep-45', '_wandb': {}}
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():801] wandb.init() called while a run is active
+2025-04-15 16:58:19,749 INFO    Thread-136 (_run_job):1042230 [wandb_init.py:init():801] wandb.init() called while a run is active
+2025-04-15 16:58:20,004 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_finish():2189] finishing run ns24z274-iitm-ac-in/finetune_partB_Assgn2/gfiz99ta
+2025-04-15 16:58:20,004 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_finish():2189] finishing run ns24z274-iitm-ac-in/finetune_partB_Assgn2/gfiz99ta
+2025-04-15 16:58:20,005 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 1
+2025-04-15 16:58:20,005 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 1
+2025-04-15 16:58:20,005 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_restore():2401] restore
+2025-04-15 16:58:20,005 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_restore():2401] restore
+2025-04-15 16:58:20,005 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_restore():2407] restore done
+2025-04-15 16:58:20,005 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_restore():2407] restore done
+2025-04-15 16:58:22,284 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-15 16:58:22,284 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-15 16:58:22,284 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-15 16:58:22,284 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-15 16:58:22,284 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_footer_sync_info():4025] logging synced files
+2025-04-15 16:58:22,284 INFO    Thread-136 (_run_job):1042230 [wandb_run.py:_footer_sync_info():4025] logging synced files
+2025-04-15 16:58:22,284 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run gfiz99ta errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:24,285 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:28,301 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run k0tbjkn1 errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:30,302 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:34,464 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 84bxijwl errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:35,464 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:39,567 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run bok1mrcp errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:41,568 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:44,958 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run 10w0sxic errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:46,959 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-15 16:58:50,275 ERROR   MainThread:1042230 [pyagent.py:_run_jobs_from_queue():234] [no run ID] Run sp82lrkl errored:
+Traceback (most recent call last):
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_sweep.py", line 19, in sweep_train
+    train(args)
+  File "/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/the_trainer.py", line 94, in train
+    model.to(device)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/speech/.conda/envs/dl_things/lib/python3.10/site-packages/torch/nn/modules/module.py", line 925, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 23.65 GiB total capacity; 3.73 GiB already allocated; 4.69 MiB free; 3.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+2025-04-15 16:58:51,275 INFO    MsgRouterThr:1042230 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

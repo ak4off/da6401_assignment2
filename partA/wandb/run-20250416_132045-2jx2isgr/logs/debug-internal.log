@@ -1,0 +1,16 @@
+{"time":"2025-04-16T13:20:45.807576952+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_132045-2jx2isgr/logs/debug-core.log"}
+{"time":"2025-04-16T13:20:46.168321286+05:30","level":"INFO","msg":"created new stream","id":"2jx2isgr"}
+{"time":"2025-04-16T13:20:46.168346834+05:30","level":"INFO","msg":"stream: started","id":"2jx2isgr"}
+{"time":"2025-04-16T13:20:46.168361542+05:30","level":"INFO","msg":"sender: started","stream_id":"2jx2isgr"}
+{"time":"2025-04-16T13:20:46.168364437+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2jx2isgr"}
+{"time":"2025-04-16T13:20:46.168399773+05:30","level":"INFO","msg":"handler: started","stream_id":"2jx2isgr"}
+{"time":"2025-04-16T13:20:46.490139573+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T13:23:17.370954584+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T13:23:17.370981294+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T13:23:18.372354674+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_53c5f6adcd49760fcce4.png","runtime_seconds":0.70256036,"progress":"1.0MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.415804134,"progress":"45.8KB/45.8KB"},{"desc":"uploading output.log","runtime_seconds":0.415800228},{"desc":"uploading config.yaml","runtime_seconds":0.122031923,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T13:23:22.177581324+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T13:23:22.498969301+05:30","level":"INFO","msg":"stream: closing","id":"2jx2isgr"}
+{"time":"2025-04-16T13:23:22.498976074+05:30","level":"INFO","msg":"handler: closed","stream_id":"2jx2isgr"}
+{"time":"2025-04-16T13:23:22.498981043+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2jx2isgr"}
+{"time":"2025-04-16T13:23:22.498983408+05:30","level":"INFO","msg":"sender: closed","stream_id":"2jx2isgr"}
+{"time":"2025-04-16T13:23:22.499021449+05:30","level":"INFO","msg":"stream: closed","id":"2jx2isgr"}

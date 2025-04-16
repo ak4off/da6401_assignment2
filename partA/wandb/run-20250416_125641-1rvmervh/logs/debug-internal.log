@@ -1,0 +1,16 @@
+{"time":"2025-04-16T12:56:41.798843013+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_125641-1rvmervh/logs/debug-core.log"}
+{"time":"2025-04-16T12:56:42.166552407+05:30","level":"INFO","msg":"created new stream","id":"1rvmervh"}
+{"time":"2025-04-16T12:56:42.166579087+05:30","level":"INFO","msg":"stream: started","id":"1rvmervh"}
+{"time":"2025-04-16T12:56:42.166603853+05:30","level":"INFO","msg":"sender: started","stream_id":"1rvmervh"}
+{"time":"2025-04-16T12:56:42.166602671+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"1rvmervh"}
+{"time":"2025-04-16T12:56:42.166652574+05:30","level":"INFO","msg":"handler: started","stream_id":"1rvmervh"}
+{"time":"2025-04-16T12:56:42.473636507+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T12:59:12.737254104+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T12:59:12.737299408+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T12:59:13.739627498+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_85e386b1da500cbedbce.png","runtime_seconds":0.596532195,"progress":"1.1MB/2.8MB"},{"desc":"uploading output.log","runtime_seconds":0.308717647},{"desc":"uploading wandb-summary.json","runtime_seconds":0.308711505,"progress":"32.0KB/46.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.033620751,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T12:59:16.631823369+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T12:59:16.915213966+05:30","level":"INFO","msg":"stream: closing","id":"1rvmervh"}
+{"time":"2025-04-16T12:59:16.915222071+05:30","level":"INFO","msg":"handler: closed","stream_id":"1rvmervh"}
+{"time":"2025-04-16T12:59:16.915227181+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"1rvmervh"}
+{"time":"2025-04-16T12:59:16.915239113+05:30","level":"INFO","msg":"sender: closed","stream_id":"1rvmervh"}
+{"time":"2025-04-16T12:59:16.915266074+05:30","level":"INFO","msg":"stream: closed","id":"1rvmervh"}

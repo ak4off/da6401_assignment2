@@ -1,0 +1,16 @@
+{"time":"2025-04-16T13:40:28.88562746+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_134028-3anrjt59/logs/debug-core.log"}
+{"time":"2025-04-16T13:40:29.251171343+05:30","level":"INFO","msg":"created new stream","id":"3anrjt59"}
+{"time":"2025-04-16T13:40:29.251198514+05:30","level":"INFO","msg":"stream: started","id":"3anrjt59"}
+{"time":"2025-04-16T13:40:29.251208863+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"3anrjt59"}
+{"time":"2025-04-16T13:40:29.251218311+05:30","level":"INFO","msg":"handler: started","stream_id":"3anrjt59"}
+{"time":"2025-04-16T13:40:29.251243699+05:30","level":"INFO","msg":"sender: started","stream_id":"3anrjt59"}
+{"time":"2025-04-16T13:40:29.791319035+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T13:45:15.275065256+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T13:45:15.275109879+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T13:45:16.276257659+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_7_b1c91a36c1f6c3e06c1d.png","runtime_seconds":0.562721378,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.382269748,"progress":"3.9KB/3.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.382259971,"progress":"32.0KB/504.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.058417257,"progress":"1012B/1012B"}],"total_operations":4}}
+{"time":"2025-04-16T13:45:18.330522639+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T13:45:18.819148595+05:30","level":"INFO","msg":"stream: closing","id":"3anrjt59"}
+{"time":"2025-04-16T13:45:18.81916198+05:30","level":"INFO","msg":"handler: closed","stream_id":"3anrjt59"}
+{"time":"2025-04-16T13:45:18.819171278+05:30","level":"INFO","msg":"sender: closed","stream_id":"3anrjt59"}
+{"time":"2025-04-16T13:45:18.819169995+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"3anrjt59"}
+{"time":"2025-04-16T13:45:18.819237261+05:30","level":"INFO","msg":"stream: closed","id":"3anrjt59"}

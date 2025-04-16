@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:56:18.989205942+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165618-vyk2vedr/logs/debug-core.log"}
+{"time":"2025-04-15T16:56:19.357631917+05:30","level":"INFO","msg":"created new stream","id":"vyk2vedr"}
+{"time":"2025-04-15T16:56:19.357657545+05:30","level":"INFO","msg":"stream: started","id":"vyk2vedr"}
+{"time":"2025-04-15T16:56:19.357669598+05:30","level":"INFO","msg":"sender: started","stream_id":"vyk2vedr"}
+{"time":"2025-04-15T16:56:19.357669527+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vyk2vedr"}
+{"time":"2025-04-15T16:56:19.357686078+05:30","level":"INFO","msg":"handler: started","stream_id":"vyk2vedr"}
+{"time":"2025-04-15T16:56:19.663625955+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:56:19.969596369+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:56:19.969631544+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:56:20.93050363+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.245928465,"progress":"1.4KB/1.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.245919879,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-15T16:56:21.388618142+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:56:21.68577831+05:30","level":"INFO","msg":"stream: closing","id":"vyk2vedr"}
+{"time":"2025-04-15T16:56:21.685790714+05:30","level":"INFO","msg":"handler: closed","stream_id":"vyk2vedr"}
+{"time":"2025-04-15T16:56:21.685801384+05:30","level":"INFO","msg":"sender: closed","stream_id":"vyk2vedr"}
+{"time":"2025-04-15T16:56:21.685796645+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vyk2vedr"}
+{"time":"2025-04-15T16:56:21.685833373+05:30","level":"INFO","msg":"stream: closed","id":"vyk2vedr"}

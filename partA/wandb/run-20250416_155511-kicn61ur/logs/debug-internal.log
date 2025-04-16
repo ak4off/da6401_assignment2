@@ -1,0 +1,16 @@
+{"time":"2025-04-16T15:55:11.593793009+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_155511-kicn61ur/logs/debug-core.log"}
+{"time":"2025-04-16T15:55:11.955492234+05:30","level":"INFO","msg":"created new stream","id":"kicn61ur"}
+{"time":"2025-04-16T15:55:11.955581651+05:30","level":"INFO","msg":"handler: started","stream_id":"kicn61ur"}
+{"time":"2025-04-16T15:55:11.955664677+05:30","level":"INFO","msg":"stream: started","id":"kicn61ur"}
+{"time":"2025-04-16T15:55:11.955686988+05:30","level":"INFO","msg":"sender: started","stream_id":"kicn61ur"}
+{"time":"2025-04-16T15:55:11.955669746+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kicn61ur"}
+{"time":"2025-04-16T15:55:12.265449862+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T15:56:56.595364113+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T15:56:56.595404759+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T15:56:57.596658079+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_9_b427ff3f3d5b656663e5.png","runtime_seconds":0.690119918,"progress":"1.1MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.426555877,"progress":"46.8KB/46.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.153512765,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-16T15:57:00.386725643+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T15:57:00.713488534+05:30","level":"INFO","msg":"stream: closing","id":"kicn61ur"}
+{"time":"2025-04-16T15:57:00.713496529+05:30","level":"INFO","msg":"handler: closed","stream_id":"kicn61ur"}
+{"time":"2025-04-16T15:57:00.713504314+05:30","level":"INFO","msg":"sender: closed","stream_id":"kicn61ur"}
+{"time":"2025-04-16T15:57:00.713501038+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kicn61ur"}
+{"time":"2025-04-16T15:57:00.713543758+05:30","level":"INFO","msg":"stream: closed","id":"kicn61ur"}

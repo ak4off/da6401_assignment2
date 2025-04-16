@@ -1,0 +1,16 @@
+{"time":"2025-04-16T13:15:32.665320427+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_131532-srqrwirv/logs/debug-core.log"}
+{"time":"2025-04-16T13:15:33.030965754+05:30","level":"INFO","msg":"created new stream","id":"srqrwirv"}
+{"time":"2025-04-16T13:15:33.031020667+05:30","level":"INFO","msg":"stream: started","id":"srqrwirv"}
+{"time":"2025-04-16T13:15:33.031052797+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"srqrwirv"}
+{"time":"2025-04-16T13:15:33.03107005+05:30","level":"INFO","msg":"sender: started","stream_id":"srqrwirv"}
+{"time":"2025-04-16T13:15:33.031095928+05:30","level":"INFO","msg":"handler: started","stream_id":"srqrwirv"}
+{"time":"2025-04-16T13:15:33.360853412+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T13:23:14.055627551+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T13:23:14.055725745+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T13:23:15.018204249+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_10_3ae9a74f92f4c758f2d8.png","runtime_seconds":0.700586191,"progress":"1.2MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.344228826,"progress":"5.2KB/5.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.344224579,"progress":"80.0KB/504.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.013171059,"progress":"1010B/1010B"}],"total_operations":4}}
+{"time":"2025-04-16T13:23:16.512350613+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T13:23:17.503222511+05:30","level":"INFO","msg":"stream: closing","id":"srqrwirv"}
+{"time":"2025-04-16T13:23:17.503234514+05:30","level":"INFO","msg":"handler: closed","stream_id":"srqrwirv"}
+{"time":"2025-04-16T13:23:17.503240816+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"srqrwirv"}
+{"time":"2025-04-16T13:23:17.503257958+05:30","level":"INFO","msg":"sender: closed","stream_id":"srqrwirv"}
+{"time":"2025-04-16T13:23:17.503286812+05:30","level":"INFO","msg":"stream: closed","id":"srqrwirv"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-16T15:30:07.598811621+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_153007-j5gfi5mp/logs/debug-core.log"}
+{"time":"2025-04-16T15:30:07.974193503+05:30","level":"INFO","msg":"created new stream","id":"j5gfi5mp"}
+{"time":"2025-04-16T15:30:07.974251662+05:30","level":"INFO","msg":"stream: started","id":"j5gfi5mp"}
+{"time":"2025-04-16T15:30:07.97426649+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"j5gfi5mp"}
+{"time":"2025-04-16T15:30:07.974280176+05:30","level":"INFO","msg":"sender: started","stream_id":"j5gfi5mp"}
+{"time":"2025-04-16T15:30:07.974336511+05:30","level":"INFO","msg":"handler: started","stream_id":"j5gfi5mp"}
+{"time":"2025-04-16T15:30:08.600740023+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T15:45:03.622210807+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T15:45:03.622237537+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T15:45:04.623113685+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_17_63a1d3a2d40f138fb09c.png","runtime_seconds":0.699436781,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.383336097,"progress":"9.5KB/9.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.383329204,"progress":"128.0KB/503.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.075360218,"progress":"1009B/1009B"}],"total_operations":4}}
+{"time":"2025-04-16T15:45:06.091513621+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T15:45:06.636543273+05:30","level":"INFO","msg":"stream: closing","id":"j5gfi5mp"}
+{"time":"2025-04-16T15:45:06.636555736+05:30","level":"INFO","msg":"handler: closed","stream_id":"j5gfi5mp"}
+{"time":"2025-04-16T15:45:06.636562539+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"j5gfi5mp"}
+{"time":"2025-04-16T15:45:06.636565705+05:30","level":"INFO","msg":"sender: closed","stream_id":"j5gfi5mp"}
+{"time":"2025-04-16T15:45:06.636599548+05:30","level":"INFO","msg":"stream: closed","id":"j5gfi5mp"}

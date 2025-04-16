@@ -1,0 +1,16 @@
+{"time":"2025-04-16T14:20:01.825272633+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_142001-2klznhuz/logs/debug-core.log"}
+{"time":"2025-04-16T14:20:02.191613445+05:30","level":"INFO","msg":"created new stream","id":"2klznhuz"}
+{"time":"2025-04-16T14:20:02.191635716+05:30","level":"INFO","msg":"stream: started","id":"2klznhuz"}
+{"time":"2025-04-16T14:20:02.191644232+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2klznhuz"}
+{"time":"2025-04-16T14:20:02.1916591+05:30","level":"INFO","msg":"sender: started","stream_id":"2klznhuz"}
+{"time":"2025-04-16T14:20:02.191657337+05:30","level":"INFO","msg":"handler: started","stream_id":"2klznhuz"}
+{"time":"2025-04-16T14:20:02.507578672+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T14:22:30.881396358+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T14:22:30.881425613+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T14:22:31.882967348+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_c0e3ba6f5ca13b53dbea.png","runtime_seconds":0.686786969,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.368388362},{"desc":"uploading wandb-summary.json","runtime_seconds":0.368381769,"progress":"45.2KB/45.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.088323124,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T14:22:34.977447667+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T14:22:35.273369003+05:30","level":"INFO","msg":"stream: closing","id":"2klznhuz"}
+{"time":"2025-04-16T14:22:35.273376718+05:30","level":"INFO","msg":"handler: closed","stream_id":"2klznhuz"}
+{"time":"2025-04-16T14:22:35.273384793+05:30","level":"INFO","msg":"sender: closed","stream_id":"2klznhuz"}
+{"time":"2025-04-16T14:22:35.273382488+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2klznhuz"}
+{"time":"2025-04-16T14:22:35.273427252+05:30","level":"INFO","msg":"stream: closed","id":"2klznhuz"}

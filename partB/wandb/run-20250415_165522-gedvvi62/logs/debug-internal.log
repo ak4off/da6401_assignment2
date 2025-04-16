@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:55:22.476350475+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165522-gedvvi62/logs/debug-core.log"}
+{"time":"2025-04-15T16:55:22.85375605+05:30","level":"INFO","msg":"created new stream","id":"gedvvi62"}
+{"time":"2025-04-15T16:55:22.853791396+05:30","level":"INFO","msg":"stream: started","id":"gedvvi62"}
+{"time":"2025-04-15T16:55:22.853858421+05:30","level":"INFO","msg":"handler: started","stream_id":"gedvvi62"}
+{"time":"2025-04-15T16:55:22.853871715+05:30","level":"INFO","msg":"sender: started","stream_id":"gedvvi62"}
+{"time":"2025-04-15T16:55:22.853871625+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gedvvi62"}
+{"time":"2025-04-15T16:55:23.144741499+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:55:23.485651422+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:55:23.485685175+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:55:24.446939292+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.101840602,"progress":"1.7KB/1.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.101835393,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-15T16:55:24.971930176+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:55:25.289729096+05:30","level":"INFO","msg":"stream: closing","id":"gedvvi62"}
+{"time":"2025-04-15T16:55:25.289737292+05:30","level":"INFO","msg":"handler: closed","stream_id":"gedvvi62"}
+{"time":"2025-04-15T16:55:25.289742451+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gedvvi62"}
+{"time":"2025-04-15T16:55:25.289744686+05:30","level":"INFO","msg":"sender: closed","stream_id":"gedvvi62"}
+{"time":"2025-04-15T16:55:25.289781775+05:30","level":"INFO","msg":"stream: closed","id":"gedvvi62"}

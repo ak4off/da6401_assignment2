@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:54:42.209036947+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165442-kp3zrg12/logs/debug-core.log"}
+{"time":"2025-04-15T16:54:42.579589378+05:30","level":"INFO","msg":"created new stream","id":"kp3zrg12"}
+{"time":"2025-04-15T16:54:42.579620747+05:30","level":"INFO","msg":"stream: started","id":"kp3zrg12"}
+{"time":"2025-04-15T16:54:42.579628872+05:30","level":"INFO","msg":"handler: started","stream_id":"kp3zrg12"}
+{"time":"2025-04-15T16:54:42.579647046+05:30","level":"INFO","msg":"sender: started","stream_id":"kp3zrg12"}
+{"time":"2025-04-15T16:54:42.579679807+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kp3zrg12"}
+{"time":"2025-04-15T16:54:42.896180256+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:54:43.30170662+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:54:43.301772192+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:54:44.261323408+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.300082813,"progress":"1.7KB/1.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.300074898,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.013936508,"progress":"972B/972B"}],"total_operations":3}}
+{"time":"2025-04-15T16:54:44.614440875+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:54:44.91092748+05:30","level":"INFO","msg":"stream: closing","id":"kp3zrg12"}
+{"time":"2025-04-15T16:54:44.91093841+05:30","level":"INFO","msg":"handler: closed","stream_id":"kp3zrg12"}
+{"time":"2025-04-15T16:54:44.910944932+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kp3zrg12"}
+{"time":"2025-04-15T16:54:44.910954811+05:30","level":"INFO","msg":"sender: closed","stream_id":"kp3zrg12"}
+{"time":"2025-04-15T16:54:44.910991149+05:30","level":"INFO","msg":"stream: closed","id":"kp3zrg12"}

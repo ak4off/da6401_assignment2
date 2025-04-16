@@ -165,9 +165,12 @@ def main(args):
 
     # Plot confusion matrix
     the_classes = test_loader.dataset.classes  # or set manually if needed
-    plot_confusion_matrix(y_true, y_pred, the_classes, use_wandb=args.use_wandb)
-    plot_test_predictions_grid(model, test_loader, the_classes, device, save_path="test_predictions_grid.png", use_wandb=args.use_wandb)
-    plot_misclassified_grid(model, test_loader, the_classes, device, save_path="misclassified_grid.png", use_wandb=args.use_wandb)
+    imgc_name = f"confusio_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+    plot_confusion_matrix(y_true, y_pred, the_classes, use_wandb=args.use_wandb,save_path=imgc_name)
+    img_name1 = f"pred_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+    plot_test_predictions_grid(model, test_loader, the_classes, device, save_path=img_name1, use_wandb=args.use_wandb)
+    miscla = f"miscl_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+    plot_misclassified_grid(model, test_loader, the_classes, device, save_path=miscla, use_wandb=args.use_wandb)
 
     # Log to wandb
     if args.use_wandb:

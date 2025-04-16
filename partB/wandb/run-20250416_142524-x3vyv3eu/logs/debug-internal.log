@@ -1,0 +1,16 @@
+{"time":"2025-04-16T14:25:24.740625379+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_142524-x3vyv3eu/logs/debug-core.log"}
+{"time":"2025-04-16T14:25:25.120734862+05:30","level":"INFO","msg":"created new stream","id":"x3vyv3eu"}
+{"time":"2025-04-16T14:25:25.120772654+05:30","level":"INFO","msg":"stream: started","id":"x3vyv3eu"}
+{"time":"2025-04-16T14:25:25.120830904+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"x3vyv3eu"}
+{"time":"2025-04-16T14:25:25.120873044+05:30","level":"INFO","msg":"handler: started","stream_id":"x3vyv3eu"}
+{"time":"2025-04-16T14:25:25.1208499+05:30","level":"INFO","msg":"sender: started","stream_id":"x3vyv3eu"}
+{"time":"2025-04-16T14:25:25.420539181+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T14:27:45.224622942+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T14:27:45.224651336+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T14:27:46.225656984+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_7_74bc9936677a7215a0f0.png","runtime_seconds":0.682907374,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.394043508,"progress":"3.6KB/3.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.394037818,"progress":"128.0KB/245.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.08993052,"progress":"1013B/1013B"}],"total_operations":4}}
+{"time":"2025-04-16T14:27:47.716406172+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T14:27:48.07159826+05:30","level":"INFO","msg":"stream: closing","id":"x3vyv3eu"}
+{"time":"2025-04-16T14:27:48.071606866+05:30","level":"INFO","msg":"handler: closed","stream_id":"x3vyv3eu"}
+{"time":"2025-04-16T14:27:48.071612106+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"x3vyv3eu"}
+{"time":"2025-04-16T14:27:48.071615352+05:30","level":"INFO","msg":"sender: closed","stream_id":"x3vyv3eu"}
+{"time":"2025-04-16T14:27:48.071636492+05:30","level":"INFO","msg":"stream: closed","id":"x3vyv3eu"}

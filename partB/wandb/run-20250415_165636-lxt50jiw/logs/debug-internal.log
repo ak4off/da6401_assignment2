@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:56:36.22965119+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165636-lxt50jiw/logs/debug-core.log"}
+{"time":"2025-04-15T16:56:36.596589103+05:30","level":"INFO","msg":"created new stream","id":"lxt50jiw"}
+{"time":"2025-04-15T16:56:36.596629278+05:30","level":"INFO","msg":"stream: started","id":"lxt50jiw"}
+{"time":"2025-04-15T16:56:36.596683078+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lxt50jiw"}
+{"time":"2025-04-15T16:56:36.596713505+05:30","level":"INFO","msg":"sender: started","stream_id":"lxt50jiw"}
+{"time":"2025-04-15T16:56:36.596721229+05:30","level":"INFO","msg":"handler: started","stream_id":"lxt50jiw"}
+{"time":"2025-04-15T16:56:37.10271747+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:56:37.421607919+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:56:37.421640821+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:56:38.382242501+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.225508162,"progress":"24B/24B"},{"desc":"uploading output.log","runtime_seconds":0.225501579,"progress":"1.4KB/1.4KB"}],"total_operations":2}}
+{"time":"2025-04-15T16:56:38.791034064+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:56:39.102596593+05:30","level":"INFO","msg":"stream: closing","id":"lxt50jiw"}
+{"time":"2025-04-15T16:56:39.102608705+05:30","level":"INFO","msg":"handler: closed","stream_id":"lxt50jiw"}
+{"time":"2025-04-15T16:56:39.102614125+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lxt50jiw"}
+{"time":"2025-04-15T16:56:39.102623954+05:30","level":"INFO","msg":"sender: closed","stream_id":"lxt50jiw"}
+{"time":"2025-04-15T16:56:39.102650173+05:30","level":"INFO","msg":"stream: closed","id":"lxt50jiw"}

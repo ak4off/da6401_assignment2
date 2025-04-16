@@ -1,0 +1,16 @@
+{"time":"2025-04-16T16:32:25.129038941+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_163225-hglto9j8/logs/debug-core.log"}
+{"time":"2025-04-16T16:32:25.489111932+05:30","level":"INFO","msg":"created new stream","id":"hglto9j8"}
+{"time":"2025-04-16T16:32:25.489150455+05:30","level":"INFO","msg":"stream: started","id":"hglto9j8"}
+{"time":"2025-04-16T16:32:25.489165232+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hglto9j8"}
+{"time":"2025-04-16T16:32:25.489176924+05:30","level":"INFO","msg":"handler: started","stream_id":"hglto9j8"}
+{"time":"2025-04-16T16:32:25.489199156+05:30","level":"INFO","msg":"sender: started","stream_id":"hglto9j8"}
+{"time":"2025-04-16T16:32:25.798105511+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T16:34:58.571860975+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T16:34:58.571888948+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T16:34:59.573378596+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_7bf423639198ed3440b1.png","runtime_seconds":0.689507992,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.374947112,"progress":"64.0KB/77.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.07110781,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.071099695,"progress":"128.0KB/18.2MB"}],"total_operations":4}}
+{"time":"2025-04-16T16:35:02.533354931+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T16:35:02.937039993+05:30","level":"INFO","msg":"stream: closing","id":"hglto9j8"}
+{"time":"2025-04-16T16:35:02.937047998+05:30","level":"INFO","msg":"handler: closed","stream_id":"hglto9j8"}
+{"time":"2025-04-16T16:35:02.937055472+05:30","level":"INFO","msg":"sender: closed","stream_id":"hglto9j8"}
+{"time":"2025-04-16T16:35:02.937052867+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hglto9j8"}
+{"time":"2025-04-16T16:35:02.937089936+05:30","level":"INFO","msg":"stream: closed","id":"hglto9j8"}

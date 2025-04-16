@@ -1,0 +1,16 @@
+{"time":"2025-04-16T17:17:45.742938822+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_171745-rkn04khg/logs/debug-core.log"}
+{"time":"2025-04-16T17:17:46.110127411+05:30","level":"INFO","msg":"created new stream","id":"rkn04khg"}
+{"time":"2025-04-16T17:17:46.110173879+05:30","level":"INFO","msg":"stream: started","id":"rkn04khg"}
+{"time":"2025-04-16T17:17:46.11021124+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rkn04khg"}
+{"time":"2025-04-16T17:17:46.110224505+05:30","level":"INFO","msg":"sender: started","stream_id":"rkn04khg"}
+{"time":"2025-04-16T17:17:46.110265663+05:30","level":"INFO","msg":"handler: started","stream_id":"rkn04khg"}
+{"time":"2025-04-16T17:17:46.431624787+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:29:13.844430057+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T17:29:13.844465855+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T17:29:14.845822965+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_12_6b5c3ff7a3f9d8ad7414.png","runtime_seconds":0.699670224,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.158978796,"progress":"6.3KB/6.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.158970921,"progress":"16.0KB/500.4KB"}],"total_operations":3}}
+{"time":"2025-04-16T17:29:16.690864085+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:29:17.169935607+05:30","level":"INFO","msg":"stream: closing","id":"rkn04khg"}
+{"time":"2025-04-16T17:29:17.169945837+05:30","level":"INFO","msg":"handler: closed","stream_id":"rkn04khg"}
+{"time":"2025-04-16T17:29:17.169952539+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rkn04khg"}
+{"time":"2025-04-16T17:29:17.169975933+05:30","level":"INFO","msg":"sender: closed","stream_id":"rkn04khg"}
+{"time":"2025-04-16T17:29:17.17002207+05:30","level":"INFO","msg":"stream: closed","id":"rkn04khg"}

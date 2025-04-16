@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:58:47.691550849+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165847-sp82lrkl/logs/debug-core.log"}
+{"time":"2025-04-15T16:58:48.052306521+05:30","level":"INFO","msg":"created new stream","id":"sp82lrkl"}
+{"time":"2025-04-15T16:58:48.052337048+05:30","level":"INFO","msg":"stream: started","id":"sp82lrkl"}
+{"time":"2025-04-15T16:58:48.052344742+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sp82lrkl"}
+{"time":"2025-04-15T16:58:48.052378004+05:30","level":"INFO","msg":"handler: started","stream_id":"sp82lrkl"}
+{"time":"2025-04-15T16:58:48.052368907+05:30","level":"INFO","msg":"sender: started","stream_id":"sp82lrkl"}
+{"time":"2025-04-15T16:58:48.367966333+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:58:48.669645572+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:58:48.669694664+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:58:49.631137021+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.290748057,"progress":"1.4KB/1.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.29073891,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.023694945,"progress":"972B/972B"}],"total_operations":3}}
+{"time":"2025-04-15T16:58:49.956846993+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:58:50.274938732+05:30","level":"INFO","msg":"stream: closing","id":"sp82lrkl"}
+{"time":"2025-04-15T16:58:50.274947198+05:30","level":"INFO","msg":"handler: closed","stream_id":"sp82lrkl"}
+{"time":"2025-04-15T16:58:50.274951145+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sp82lrkl"}
+{"time":"2025-04-15T16:58:50.274954992+05:30","level":"INFO","msg":"sender: closed","stream_id":"sp82lrkl"}
+{"time":"2025-04-15T16:58:50.274979638+05:30","level":"INFO","msg":"stream: closed","id":"sp82lrkl"}

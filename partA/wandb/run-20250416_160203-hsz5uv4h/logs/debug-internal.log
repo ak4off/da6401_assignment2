@@ -1,0 +1,16 @@
+{"time":"2025-04-16T16:02:03.284344593+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_160203-hsz5uv4h/logs/debug-core.log"}
+{"time":"2025-04-16T16:02:03.645009745+05:30","level":"INFO","msg":"created new stream","id":"hsz5uv4h"}
+{"time":"2025-04-16T16:02:03.645046504+05:30","level":"INFO","msg":"stream: started","id":"hsz5uv4h"}
+{"time":"2025-04-16T16:02:03.645059007+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hsz5uv4h"}
+{"time":"2025-04-16T16:02:03.645093362+05:30","level":"INFO","msg":"handler: started","stream_id":"hsz5uv4h"}
+{"time":"2025-04-16T16:02:03.645071982+05:30","level":"INFO","msg":"sender: started","stream_id":"hsz5uv4h"}
+{"time":"2025-04-16T16:02:03.975220049+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T16:04:39.031615692+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T16:04:39.031644746+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T16:04:40.033103114+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_04e13d0bee8c6f009d34.png","runtime_seconds":0.694785976,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.421781943},{"desc":"uploading wandb-summary.json","runtime_seconds":0.421771362,"progress":"77.3KB/77.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.157827778,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T16:04:44.084955267+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T16:04:44.40882069+05:30","level":"INFO","msg":"stream: closing","id":"hsz5uv4h"}
+{"time":"2025-04-16T16:04:44.408828735+05:30","level":"INFO","msg":"handler: closed","stream_id":"hsz5uv4h"}
+{"time":"2025-04-16T16:04:44.40883681+05:30","level":"INFO","msg":"sender: closed","stream_id":"hsz5uv4h"}
+{"time":"2025-04-16T16:04:44.408833544+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hsz5uv4h"}
+{"time":"2025-04-16T16:04:44.408869882+05:30","level":"INFO","msg":"stream: closed","id":"hsz5uv4h"}

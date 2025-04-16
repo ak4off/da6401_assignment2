@@ -1,0 +1,16 @@
+{"time":"2025-04-16T13:23:21.216803371+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_132321-f2fuzblm/logs/debug-core.log"}
+{"time":"2025-04-16T13:23:21.577325728+05:30","level":"INFO","msg":"created new stream","id":"f2fuzblm"}
+{"time":"2025-04-16T13:23:21.577355253+05:30","level":"INFO","msg":"stream: started","id":"f2fuzblm"}
+{"time":"2025-04-16T13:23:21.577372145+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"f2fuzblm"}
+{"time":"2025-04-16T13:23:21.577395839+05:30","level":"INFO","msg":"sender: started","stream_id":"f2fuzblm"}
+{"time":"2025-04-16T13:23:21.577422339+05:30","level":"INFO","msg":"handler: started","stream_id":"f2fuzblm"}
+{"time":"2025-04-16T13:23:21.880978761+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T13:32:08.790075326+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T13:32:08.790113758+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T13:32:09.79113715+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_11_194cc6a680a34f649c66.png","runtime_seconds":0.692643633,"progress":"1.2MB/1.9MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.392495459,"progress":"112.0KB/514.3KB"},{"desc":"uploading output.log","runtime_seconds":0.392483778,"progress":"5.9KB/5.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.082542263,"progress":"1010B/1010B"}],"total_operations":4}}
+{"time":"2025-04-16T13:32:11.252205678+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T13:32:11.673675571+05:30","level":"INFO","msg":"stream: closing","id":"f2fuzblm"}
+{"time":"2025-04-16T13:32:11.673686071+05:30","level":"INFO","msg":"handler: closed","stream_id":"f2fuzblm"}
+{"time":"2025-04-16T13:32:11.67369113+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"f2fuzblm"}
+{"time":"2025-04-16T13:32:11.673705918+05:30","level":"INFO","msg":"sender: closed","stream_id":"f2fuzblm"}
+{"time":"2025-04-16T13:32:11.673741635+05:30","level":"INFO","msg":"stream: closed","id":"f2fuzblm"}

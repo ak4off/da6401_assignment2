@@ -1,0 +1,15 @@
+{"time":"2025-04-15T16:56:30.880083999+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250415_165630-f0c4u66f/logs/debug-core.log"}
+{"time":"2025-04-15T16:56:31.250389713+05:30","level":"INFO","msg":"created new stream","id":"f0c4u66f"}
+{"time":"2025-04-15T16:56:31.250431982+05:30","level":"INFO","msg":"stream: started","id":"f0c4u66f"}
+{"time":"2025-04-15T16:56:31.250440408+05:30","level":"INFO","msg":"handler: started","stream_id":"f0c4u66f"}
+{"time":"2025-04-15T16:56:31.250453182+05:30","level":"INFO","msg":"sender: started","stream_id":"f0c4u66f"}
+{"time":"2025-04-15T16:56:31.250453112+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"f0c4u66f"}
+{"time":"2025-04-15T16:56:31.563402006+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:56:31.902154207+05:30","level":"INFO","msg":"stream: closing","id":"f0c4u66f"}
+{"time":"2025-04-15T16:56:31.902166079+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:56:31.902205803+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:56:33.828168327+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:56:34.126502147+05:30","level":"INFO","msg":"handler: closed","stream_id":"f0c4u66f"}
+{"time":"2025-04-15T16:56:34.126523687+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"f0c4u66f"}
+{"time":"2025-04-15T16:56:34.126561187+05:30","level":"INFO","msg":"sender: closed","stream_id":"f0c4u66f"}
+{"time":"2025-04-15T16:56:34.126570264+05:30","level":"INFO","msg":"stream: closed","id":"f0c4u66f"}

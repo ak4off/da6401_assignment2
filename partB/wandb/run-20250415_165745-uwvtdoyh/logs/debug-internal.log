@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:57:45.345698498+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165745-uwvtdoyh/logs/debug-core.log"}
+{"time":"2025-04-15T16:57:45.711975652+05:30","level":"INFO","msg":"created new stream","id":"uwvtdoyh"}
+{"time":"2025-04-15T16:57:45.712016418+05:30","level":"INFO","msg":"stream: started","id":"uwvtdoyh"}
+{"time":"2025-04-15T16:57:45.712027228+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"uwvtdoyh"}
+{"time":"2025-04-15T16:57:45.712048468+05:30","level":"INFO","msg":"handler: started","stream_id":"uwvtdoyh"}
+{"time":"2025-04-15T16:57:45.712055742+05:30","level":"INFO","msg":"sender: started","stream_id":"uwvtdoyh"}
+{"time":"2025-04-15T16:57:46.037700002+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:57:46.380640038+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:57:46.380680573+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:57:47.34112287+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.244611769,"progress":"1.4KB/1.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.244605698,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-15T16:57:47.775939369+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:57:48.097579528+05:30","level":"INFO","msg":"stream: closing","id":"uwvtdoyh"}
+{"time":"2025-04-15T16:57:48.097588835+05:30","level":"INFO","msg":"handler: closed","stream_id":"uwvtdoyh"}
+{"time":"2025-04-15T16:57:48.097593594+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"uwvtdoyh"}
+{"time":"2025-04-15T16:57:48.097597612+05:30","level":"INFO","msg":"sender: closed","stream_id":"uwvtdoyh"}
+{"time":"2025-04-15T16:57:48.097616527+05:30","level":"INFO","msg":"stream: closed","id":"uwvtdoyh"}

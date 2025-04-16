@@ -1,0 +1,16 @@
+{"time":"2025-04-16T18:15:09.737720902+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_181509-bb7dvawv/logs/debug-core.log"}
+{"time":"2025-04-16T18:15:10.103199662+05:30","level":"INFO","msg":"created new stream","id":"bb7dvawv"}
+{"time":"2025-04-16T18:15:10.103223707+05:30","level":"INFO","msg":"stream: started","id":"bb7dvawv"}
+{"time":"2025-04-16T18:15:10.10324692+05:30","level":"INFO","msg":"handler: started","stream_id":"bb7dvawv"}
+{"time":"2025-04-16T18:15:10.103239797+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bb7dvawv"}
+{"time":"2025-04-16T18:15:10.103251178+05:30","level":"INFO","msg":"sender: started","stream_id":"bb7dvawv"}
+{"time":"2025-04-16T18:15:10.390991319+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T18:20:16.224072767+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T18:20:16.224105007+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T18:20:17.225246458+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_7_387d42f457929c30b98f.png","runtime_seconds":0.695906754,"progress":"1.2MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.342468151,"progress":"3.6KB/3.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.342463632,"progress":"112.0KB/504.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.02438284,"progress":"1012B/1012B"}],"total_operations":4}}
+{"time":"2025-04-16T18:20:18.695947658+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T18:20:19.350578277+05:30","level":"INFO","msg":"stream: closing","id":"bb7dvawv"}
+{"time":"2025-04-16T18:20:19.350588927+05:30","level":"INFO","msg":"handler: closed","stream_id":"bb7dvawv"}
+{"time":"2025-04-16T18:20:19.350594968+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bb7dvawv"}
+{"time":"2025-04-16T18:20:19.350601751+05:30","level":"INFO","msg":"sender: closed","stream_id":"bb7dvawv"}
+{"time":"2025-04-16T18:20:19.350646916+05:30","level":"INFO","msg":"stream: closed","id":"bb7dvawv"}

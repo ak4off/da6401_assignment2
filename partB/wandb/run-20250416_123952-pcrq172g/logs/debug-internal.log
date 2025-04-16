@@ -1,0 +1,16 @@
+{"time":"2025-04-16T12:39:52.532624388+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_123952-pcrq172g/logs/debug-core.log"}
+{"time":"2025-04-16T12:39:52.90347696+05:30","level":"INFO","msg":"created new stream","id":"pcrq172g"}
+{"time":"2025-04-16T12:39:52.903523237+05:30","level":"INFO","msg":"stream: started","id":"pcrq172g"}
+{"time":"2025-04-16T12:39:52.90353008+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pcrq172g"}
+{"time":"2025-04-16T12:39:52.903532394+05:30","level":"INFO","msg":"sender: started","stream_id":"pcrq172g"}
+{"time":"2025-04-16T12:39:52.903548534+05:30","level":"INFO","msg":"handler: started","stream_id":"pcrq172g"}
+{"time":"2025-04-16T12:39:53.180378674+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T12:54:05.335975302+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T12:54:05.336014154+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T12:54:06.336910786+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_17_8955e97f4a8bb7f92a83.png","runtime_seconds":0.677001375,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.295167961,"progress":"9.3KB/9.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.295158483,"progress":"16.0KB/511.9KB"}],"total_operations":3}}
+{"time":"2025-04-16T12:54:08.214660618+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T12:54:08.918819467+05:30","level":"INFO","msg":"stream: closing","id":"pcrq172g"}
+{"time":"2025-04-16T12:54:08.918831059+05:30","level":"INFO","msg":"handler: closed","stream_id":"pcrq172g"}
+{"time":"2025-04-16T12:54:08.918837822+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pcrq172g"}
+{"time":"2025-04-16T12:54:08.918840677+05:30","level":"INFO","msg":"sender: closed","stream_id":"pcrq172g"}
+{"time":"2025-04-16T12:54:08.918875292+05:30","level":"INFO","msg":"stream: closed","id":"pcrq172g"}

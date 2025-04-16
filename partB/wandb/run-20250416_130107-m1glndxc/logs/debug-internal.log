@@ -1,0 +1,16 @@
+{"time":"2025-04-16T13:01:07.959467715+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_130107-m1glndxc/logs/debug-core.log"}
+{"time":"2025-04-16T13:01:08.320122085+05:30","level":"INFO","msg":"created new stream","id":"m1glndxc"}
+{"time":"2025-04-16T13:01:08.320177168+05:30","level":"INFO","msg":"stream: started","id":"m1glndxc"}
+{"time":"2025-04-16T13:01:08.320229396+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"m1glndxc"}
+{"time":"2025-04-16T13:01:08.320263409+05:30","level":"INFO","msg":"sender: started","stream_id":"m1glndxc"}
+{"time":"2025-04-16T13:01:08.320288256+05:30","level":"INFO","msg":"handler: started","stream_id":"m1glndxc"}
+{"time":"2025-04-16T13:01:08.628447515+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T13:15:27.836167336+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T13:15:27.836207762+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T13:15:28.837210412+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_17_ef2d53289b1125c79f87.png","runtime_seconds":0.688104147,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.377045221,"progress":"9.4KB/9.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.377040723,"progress":"128.0KB/505.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.058903606,"progress":"1008B/1008B"}],"total_operations":4}}
+{"time":"2025-04-16T13:15:30.307404301+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T13:15:30.944142822+05:30","level":"INFO","msg":"stream: closing","id":"m1glndxc"}
+{"time":"2025-04-16T13:15:30.94415225+05:30","level":"INFO","msg":"handler: closed","stream_id":"m1glndxc"}
+{"time":"2025-04-16T13:15:30.944158091+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"m1glndxc"}
+{"time":"2025-04-16T13:15:30.944164182+05:30","level":"INFO","msg":"sender: closed","stream_id":"m1glndxc"}
+{"time":"2025-04-16T13:15:30.944190552+05:30","level":"INFO","msg":"stream: closed","id":"m1glndxc"}

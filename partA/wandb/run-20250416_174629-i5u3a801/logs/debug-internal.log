@@ -1,0 +1,16 @@
+{"time":"2025-04-16T17:46:29.774543006+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_174629-i5u3a801/logs/debug-core.log"}
+{"time":"2025-04-16T17:46:30.141191404+05:30","level":"INFO","msg":"created new stream","id":"i5u3a801"}
+{"time":"2025-04-16T17:46:30.141228884+05:30","level":"INFO","msg":"stream: started","id":"i5u3a801"}
+{"time":"2025-04-16T17:46:30.141369568+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"i5u3a801"}
+{"time":"2025-04-16T17:46:30.141428679+05:30","level":"INFO","msg":"sender: started","stream_id":"i5u3a801"}
+{"time":"2025-04-16T17:46:30.141427887+05:30","level":"INFO","msg":"handler: started","stream_id":"i5u3a801"}
+{"time":"2025-04-16T17:46:30.488551559+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:49:02.942617654+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T17:49:02.942698295+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T17:49:03.904533891+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_8c1e00655d4eeaf2e93b.png","runtime_seconds":0.695350835,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.322460136},{"desc":"uploading wandb-summary.json","runtime_seconds":0.32245152,"progress":"76.6KB/76.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.030040039,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T17:49:07.173057026+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:49:07.501765202+05:30","level":"INFO","msg":"stream: closing","id":"i5u3a801"}
+{"time":"2025-04-16T17:49:07.501775231+05:30","level":"INFO","msg":"handler: closed","stream_id":"i5u3a801"}
+{"time":"2025-04-16T17:49:07.501780842+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"i5u3a801"}
+{"time":"2025-04-16T17:49:07.501792904+05:30","level":"INFO","msg":"sender: closed","stream_id":"i5u3a801"}
+{"time":"2025-04-16T17:49:07.501819755+05:30","level":"INFO","msg":"stream: closed","id":"i5u3a801"}

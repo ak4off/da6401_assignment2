@@ -1,0 +1,16 @@
+{"time":"2025-04-16T17:24:55.610327202+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_172455-ihanx24k/logs/debug-core.log"}
+{"time":"2025-04-16T17:24:55.97489793+05:30","level":"INFO","msg":"created new stream","id":"ihanx24k"}
+{"time":"2025-04-16T17:24:55.974921394+05:30","level":"INFO","msg":"stream: started","id":"ihanx24k"}
+{"time":"2025-04-16T17:24:55.97493+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ihanx24k"}
+{"time":"2025-04-16T17:24:55.974957672+05:30","level":"INFO","msg":"sender: started","stream_id":"ihanx24k"}
+{"time":"2025-04-16T17:24:55.974975566+05:30","level":"INFO","msg":"handler: started","stream_id":"ihanx24k"}
+{"time":"2025-04-16T17:24:56.286645485+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:27:29.883114124+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T17:27:29.883146284+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T17:27:30.884565607+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_915f7a0a5b78404b2bdc.png","runtime_seconds":0.698210834,"progress":"1.1MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.398577391,"progress":"64.0KB/77.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.127122351,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.127112652,"progress":"32.0KB/14.2MB"}],"total_operations":4}}
+{"time":"2025-04-16T17:27:33.940881054+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:27:34.258417763+05:30","level":"INFO","msg":"stream: closing","id":"ihanx24k"}
+{"time":"2025-04-16T17:27:34.258429766+05:30","level":"INFO","msg":"handler: closed","stream_id":"ihanx24k"}
+{"time":"2025-04-16T17:27:34.258439815+05:30","level":"INFO","msg":"sender: closed","stream_id":"ihanx24k"}
+{"time":"2025-04-16T17:27:34.258436178+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ihanx24k"}
+{"time":"2025-04-16T17:27:34.258491552+05:30","level":"INFO","msg":"stream: closed","id":"ihanx24k"}

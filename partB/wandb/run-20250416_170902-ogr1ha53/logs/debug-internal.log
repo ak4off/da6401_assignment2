@@ -1,0 +1,16 @@
+{"time":"2025-04-16T17:09:02.955968614+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_170902-ogr1ha53/logs/debug-core.log"}
+{"time":"2025-04-16T17:09:03.317131386+05:30","level":"INFO","msg":"created new stream","id":"ogr1ha53"}
+{"time":"2025-04-16T17:09:03.317170369+05:30","level":"INFO","msg":"stream: started","id":"ogr1ha53"}
+{"time":"2025-04-16T17:09:03.31718716+05:30","level":"INFO","msg":"sender: started","stream_id":"ogr1ha53"}
+{"time":"2025-04-16T17:09:03.317212247+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ogr1ha53"}
+{"time":"2025-04-16T17:09:03.317218389+05:30","level":"INFO","msg":"handler: started","stream_id":"ogr1ha53"}
+{"time":"2025-04-16T17:09:03.747432585+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T17:17:30.368121589+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T17:17:30.368156867+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T17:17:31.369245086+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_17_ef2d53289b1125c79f87.png","runtime_seconds":0.659992836,"progress":"1.1MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.382590906,"progress":"9.4KB/9.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.382582551,"progress":"128.0KB/294.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.070401266,"progress":"1009B/1009B"}],"total_operations":4}}
+{"time":"2025-04-16T17:17:33.231662834+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T17:17:34.003012071+05:30","level":"INFO","msg":"stream: closing","id":"ogr1ha53"}
+{"time":"2025-04-16T17:17:34.003021208+05:30","level":"INFO","msg":"handler: closed","stream_id":"ogr1ha53"}
+{"time":"2025-04-16T17:17:34.003027871+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ogr1ha53"}
+{"time":"2025-04-16T17:17:34.003032069+05:30","level":"INFO","msg":"sender: closed","stream_id":"ogr1ha53"}
+{"time":"2025-04-16T17:17:34.003070922+05:30","level":"INFO","msg":"stream: closed","id":"ogr1ha53"}

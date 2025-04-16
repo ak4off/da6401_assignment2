@@ -1,0 +1,16 @@
+{"time":"2025-04-16T12:47:16.147061818+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_124716-yi48digx/logs/debug-core.log"}
+{"time":"2025-04-16T12:47:16.525773461+05:30","level":"INFO","msg":"created new stream","id":"yi48digx"}
+{"time":"2025-04-16T12:47:16.525814849+05:30","level":"INFO","msg":"stream: started","id":"yi48digx"}
+{"time":"2025-04-16T12:47:16.52587447+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yi48digx"}
+{"time":"2025-04-16T12:47:16.525885801+05:30","level":"INFO","msg":"handler: started","stream_id":"yi48digx"}
+{"time":"2025-04-16T12:47:16.525903975+05:30","level":"INFO","msg":"sender: started","stream_id":"yi48digx"}
+{"time":"2025-04-16T12:47:16.818962568+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T12:48:58.10582262+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T12:48:58.105902991+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T12:48:59.067631801+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_9_85edce594ea745c33b5c.png","runtime_seconds":0.694478535,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.362509792,"progress":"47.4KB/47.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.083989839,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.036615029,"progress":"64.0KB/18.2MB"}],"total_operations":4}}
+{"time":"2025-04-16T12:49:02.216517578+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T12:49:02.693336473+05:30","level":"INFO","msg":"stream: closing","id":"yi48digx"}
+{"time":"2025-04-16T12:49:02.693349247+05:30","level":"INFO","msg":"handler: closed","stream_id":"yi48digx"}
+{"time":"2025-04-16T12:49:02.693356882+05:30","level":"INFO","msg":"sender: closed","stream_id":"yi48digx"}
+{"time":"2025-04-16T12:49:02.69335606+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yi48digx"}
+{"time":"2025-04-16T12:49:02.693408698+05:30","level":"INFO","msg":"stream: closed","id":"yi48digx"}

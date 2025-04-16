@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:57:27.988857768+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165727-ajmrvg0c/logs/debug-core.log"}
+{"time":"2025-04-15T16:57:28.35974585+05:30","level":"INFO","msg":"created new stream","id":"ajmrvg0c"}
+{"time":"2025-04-15T16:57:28.359787217+05:30","level":"INFO","msg":"stream: started","id":"ajmrvg0c"}
+{"time":"2025-04-15T16:57:28.359841348+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ajmrvg0c"}
+{"time":"2025-04-15T16:57:28.359854182+05:30","level":"INFO","msg":"handler: started","stream_id":"ajmrvg0c"}
+{"time":"2025-04-15T16:57:28.359861746+05:30","level":"INFO","msg":"sender: started","stream_id":"ajmrvg0c"}
+{"time":"2025-04-15T16:57:28.657726018+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:57:28.992616144+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:57:28.99266207+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:57:29.953311765+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.273567886,"progress":"1.4KB/1.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.273560943,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-15T16:57:30.347856049+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:57:30.747099319+05:30","level":"INFO","msg":"stream: closing","id":"ajmrvg0c"}
+{"time":"2025-04-15T16:57:30.747106733+05:30","level":"INFO","msg":"handler: closed","stream_id":"ajmrvg0c"}
+{"time":"2025-04-15T16:57:30.74711039+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ajmrvg0c"}
+{"time":"2025-04-15T16:57:30.747114568+05:30","level":"INFO","msg":"sender: closed","stream_id":"ajmrvg0c"}
+{"time":"2025-04-15T16:57:30.747138623+05:30","level":"INFO","msg":"stream: closed","id":"ajmrvg0c"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-16T18:44:13.249944907+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_184413-li94rtxw/logs/debug-core.log"}
+{"time":"2025-04-16T18:44:13.622332159+05:30","level":"INFO","msg":"created new stream","id":"li94rtxw"}
+{"time":"2025-04-16T18:44:13.622362976+05:30","level":"INFO","msg":"stream: started","id":"li94rtxw"}
+{"time":"2025-04-16T18:44:13.622383174+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"li94rtxw"}
+{"time":"2025-04-16T18:44:13.622400296+05:30","level":"INFO","msg":"sender: started","stream_id":"li94rtxw"}
+{"time":"2025-04-16T18:44:13.622442475+05:30","level":"INFO","msg":"handler: started","stream_id":"li94rtxw"}
+{"time":"2025-04-16T18:44:13.929838333+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T18:57:43.242538444+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T18:57:43.242568089+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T18:57:44.243672879+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_17_48b907323f72171defa0.png","runtime_seconds":0.700015432,"progress":"1.2MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.397168368,"progress":"9.3KB/9.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.397160484,"progress":"160.0KB/514.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.091055968,"progress":"1008B/1008B"}],"total_operations":4}}
+{"time":"2025-04-16T18:57:45.722285316+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T18:57:46.019770655+05:30","level":"INFO","msg":"stream: closing","id":"li94rtxw"}
+{"time":"2025-04-16T18:57:46.019777818+05:30","level":"INFO","msg":"handler: closed","stream_id":"li94rtxw"}
+{"time":"2025-04-16T18:57:46.019782517+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"li94rtxw"}
+{"time":"2025-04-16T18:57:46.019790512+05:30","level":"INFO","msg":"sender: closed","stream_id":"li94rtxw"}
+{"time":"2025-04-16T18:57:46.019808867+05:30","level":"INFO","msg":"stream: closed","id":"li94rtxw"}

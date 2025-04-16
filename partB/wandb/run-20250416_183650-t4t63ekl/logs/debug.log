@@ -1,0 +1,18 @@
+2025-04-16 18:36:50,599 INFO    Thread-121 (_run_job):1393881 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_183650-t4t63ekl/logs/debug.log
+2025-04-16 18:36:50,599 INFO    Thread-121 (_run_job):1393881 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_183650-t4t63ekl/logs/debug-internal.log
+2025-04-16 18:36:50,599 INFO    Thread-121 (_run_job):1393881 [wandb_init.py:init():781] calling init triggers
+2025-04-16 18:36:50,599 INFO    Thread-121 (_run_job):1393881 [wandb_init.py:init():786] wandb.init called with sweep_config: {'batch_size': 64, 'data_aug': False, 'data_dir': 'data/inaturalist_12K', 'dense_size': 256, 'dropout': 0.2, 'early_stopping_patience': 5, 'epochs': 15, 'freeze_option': 2, 'lr': 5.9798650912114646e-05, 'scheduler_patience': 4, 'use_scheduler': False, 'weight_decay': 0}
+config: {'data_dir': 'data/inaturalist_12K', 'image_size': 224, 'batch_size': 64, 'data_aug': False, 'model': 'resnet50', 'freeze_option': 2, 'dropout': 0.2, 'dense_size': 256, 'epochs': 15, 'lr': 5.9798650912114646e-05, 'weight_decay': 0, 'log_interval': 10, 'early_stopping_patience': 5, 'use_scheduler': False, 'scheduler_patience': 4, 'save_model_path': './checkpoints/best_model.pt', 'seed': 42, 'use_wandb': True, 'wandb_project': 'Assgn2', 'wandb_entity': 'ns24z274-iitm-ac-in', 'wandb_run_name': 'fancy-sweep-40', '_wandb': {}}
+2025-04-16 18:36:50,599 INFO    Thread-121 (_run_job):1393881 [wandb_init.py:init():801] wandb.init() called while a run is active
+2025-04-16 18:36:51,583 INFO    Thread-121 (_run_job):1393881 [wandb_watch.py:_watch():71] Watching
+2025-04-16 18:44:04,729 INFO    Thread-121 (_run_job):1393881 [wandb_run.py:_finish():2189] finishing run ns24z274-iitm-ac-in/Assgn2/t4t63ekl
+2025-04-16 18:44:04,729 INFO    Thread-121 (_run_job):1393881 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-16 18:44:04,729 INFO    Thread-121 (_run_job):1393881 [wandb_run.py:_restore():2401] restore
+2025-04-16 18:44:04,730 INFO    Thread-121 (_run_job):1393881 [wandb_run.py:_restore():2407] restore done
+2025-04-16 18:44:07,519 INFO    Thread-121 (_run_job):1393881 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-16 18:44:07,520 INFO    Thread-121 (_run_job):1393881 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-16 18:44:07,520 INFO    Thread-121 (_run_job):1393881 [wandb_run.py:_footer_sync_info():4025] logging synced files
+2025-04-16 18:44:07,526 INFO    Thread-121 (_run_job):1393881 [wandb_run.py:_finish():2189] finishing run ns24z274-iitm-ac-in/Assgn2/t4t63ekl
+2025-04-16 18:44:12,524 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 18:57:51,023 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-04-16 19:00:19,616 INFO    MsgRouterThr:1393881 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

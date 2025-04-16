@@ -1,0 +1,16 @@
+{"time":"2025-04-16T12:54:11.865663396+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_125411-uy88xhmm/logs/debug-core.log"}
+{"time":"2025-04-16T12:54:12.228881287+05:30","level":"INFO","msg":"created new stream","id":"uy88xhmm"}
+{"time":"2025-04-16T12:54:12.228903168+05:30","level":"INFO","msg":"stream: started","id":"uy88xhmm"}
+{"time":"2025-04-16T12:54:12.228914579+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"uy88xhmm"}
+{"time":"2025-04-16T12:54:12.228930789+05:30","level":"INFO","msg":"sender: started","stream_id":"uy88xhmm"}
+{"time":"2025-04-16T12:54:12.228978148+05:30","level":"INFO","msg":"handler: started","stream_id":"uy88xhmm"}
+{"time":"2025-04-16T12:54:12.528661516+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T13:01:03.035666241+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T13:01:03.035738176+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T13:01:03.999120759+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_9_ac4bfeca1a39e2938780.png","runtime_seconds":0.703793747,"progress":"1.2MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.324381644,"progress":"4.7KB/4.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.324375403,"progress":"80.0KB/514.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.027916145,"progress":"1011B/1011B"}],"total_operations":4}}
+{"time":"2025-04-16T13:01:05.538114572+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T13:01:06.227886354+05:30","level":"INFO","msg":"stream: closing","id":"uy88xhmm"}
+{"time":"2025-04-16T13:01:06.227897084+05:30","level":"INFO","msg":"handler: closed","stream_id":"uy88xhmm"}
+{"time":"2025-04-16T13:01:06.227902384+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"uy88xhmm"}
+{"time":"2025-04-16T13:01:06.227915739+05:30","level":"INFO","msg":"sender: closed","stream_id":"uy88xhmm"}
+{"time":"2025-04-16T13:01:06.227937299+05:30","level":"INFO","msg":"stream: closed","id":"uy88xhmm"}

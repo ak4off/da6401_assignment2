@@ -1,0 +1,16 @@
+{"time":"2025-04-15T16:58:19.037666861+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250415_165819-gfiz99ta/logs/debug-core.log"}
+{"time":"2025-04-15T16:58:19.402892478+05:30","level":"INFO","msg":"created new stream","id":"gfiz99ta"}
+{"time":"2025-04-15T16:58:19.402933805+05:30","level":"INFO","msg":"stream: started","id":"gfiz99ta"}
+{"time":"2025-04-15T16:58:19.402991422+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gfiz99ta"}
+{"time":"2025-04-15T16:58:19.403014525+05:30","level":"INFO","msg":"handler: started","stream_id":"gfiz99ta"}
+{"time":"2025-04-15T16:58:19.403019074+05:30","level":"INFO","msg":"sender: started","stream_id":"gfiz99ta"}
+{"time":"2025-04-15T16:58:19.722402589+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T16:58:20.044466174+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T16:58:20.044519162+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T16:58:21.006318975+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.973804578,"progress":"842B/842B"},{"desc":"uploading output.log","runtime_seconds":0.338296459,"progress":"1.4KB/1.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.338287802,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.004238167,"progress":"970B/970B"}],"total_operations":4}}
+{"time":"2025-04-15T16:58:21.990470928+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T16:58:22.284661133+05:30","level":"INFO","msg":"stream: closing","id":"gfiz99ta"}
+{"time":"2025-04-15T16:58:22.284669398+05:30","level":"INFO","msg":"handler: closed","stream_id":"gfiz99ta"}
+{"time":"2025-04-15T16:58:22.284674268+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gfiz99ta"}
+{"time":"2025-04-15T16:58:22.284681461+05:30","level":"INFO","msg":"sender: closed","stream_id":"gfiz99ta"}
+{"time":"2025-04-15T16:58:22.284708732+05:30","level":"INFO","msg":"stream: closed","id":"gfiz99ta"}

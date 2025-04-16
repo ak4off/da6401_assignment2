@@ -1,0 +1,16 @@
+{"time":"2025-04-16T14:40:22.396180415+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partB/wandb/run-20250416_144022-ekaruf5p/logs/debug-core.log"}
+{"time":"2025-04-16T14:40:22.755423562+05:30","level":"INFO","msg":"created new stream","id":"ekaruf5p"}
+{"time":"2025-04-16T14:40:22.755447747+05:30","level":"INFO","msg":"stream: started","id":"ekaruf5p"}
+{"time":"2025-04-16T14:40:22.755476421+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ekaruf5p"}
+{"time":"2025-04-16T14:40:22.755520754+05:30","level":"INFO","msg":"handler: started","stream_id":"ekaruf5p"}
+{"time":"2025-04-16T14:40:22.755521456+05:30","level":"INFO","msg":"sender: started","stream_id":"ekaruf5p"}
+{"time":"2025-04-16T14:40:23.061936169+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T14:48:20.253151443+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T14:48:20.253183904+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T14:48:21.254218803+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/sample_predictions_11_cdc915c40e12baafe4a6.png","runtime_seconds":0.702851991,"progress":"1.2MB/1.9MB"},{"desc":"uploading output.log","runtime_seconds":0.402856765,"progress":"5.7KB/5.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.402850674,"progress":"96.0KB/507.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.070770155,"progress":"1010B/1010B"}],"total_operations":4}}
+{"time":"2025-04-16T14:48:22.718109649+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T14:48:23.561255589+05:30","level":"INFO","msg":"stream: closing","id":"ekaruf5p"}
+{"time":"2025-04-16T14:48:23.561263534+05:30","level":"INFO","msg":"handler: closed","stream_id":"ekaruf5p"}
+{"time":"2025-04-16T14:48:23.561268212+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ekaruf5p"}
+{"time":"2025-04-16T14:48:23.561275977+05:30","level":"INFO","msg":"sender: closed","stream_id":"ekaruf5p"}
+{"time":"2025-04-16T14:48:23.56130427+05:30","level":"INFO","msg":"stream: closed","id":"ekaruf5p"}
