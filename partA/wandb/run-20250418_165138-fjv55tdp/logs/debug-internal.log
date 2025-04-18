@@ -1,0 +1,16 @@
+{"time":"2025-04-18T16:51:38.991927315+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250418_165138-fjv55tdp/logs/debug-core.log"}
+{"time":"2025-04-18T16:51:39.384188288+05:30","level":"INFO","msg":"created new stream","id":"fjv55tdp"}
+{"time":"2025-04-18T16:51:39.384216921+05:30","level":"INFO","msg":"stream: started","id":"fjv55tdp"}
+{"time":"2025-04-18T16:51:39.38423776+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fjv55tdp"}
+{"time":"2025-04-18T16:51:39.384304644+05:30","level":"INFO","msg":"handler: started","stream_id":"fjv55tdp"}
+{"time":"2025-04-18T16:51:39.384314864+05:30","level":"INFO","msg":"sender: started","stream_id":"fjv55tdp"}
+{"time":"2025-04-18T16:51:39.698788449+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T16:54:01.04861231+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T16:54:01.048693201+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T16:54:02.009883312+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_861f4de7b2c56bfebecf.png","runtime_seconds":0.691305892,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.377638922,"progress":"47.2KB/47.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.101111927,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-18T16:54:05.46480821+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T16:54:05.766351002+05:30","level":"INFO","msg":"stream: closing","id":"fjv55tdp"}
+{"time":"2025-04-18T16:54:05.766359758+05:30","level":"INFO","msg":"handler: closed","stream_id":"fjv55tdp"}
+{"time":"2025-04-18T16:54:05.766364457+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fjv55tdp"}
+{"time":"2025-04-18T16:54:05.766368364+05:30","level":"INFO","msg":"sender: closed","stream_id":"fjv55tdp"}
+{"time":"2025-04-18T16:54:05.766407277+05:30","level":"INFO","msg":"stream: closed","id":"fjv55tdp"}

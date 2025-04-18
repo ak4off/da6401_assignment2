@@ -1,0 +1,16 @@
+{"time":"2025-04-16T23:32:49.388532024+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_233249-gwoou0gg/logs/debug-core.log"}
+{"time":"2025-04-16T23:32:49.746155277+05:30","level":"INFO","msg":"created new stream","id":"gwoou0gg"}
+{"time":"2025-04-16T23:32:49.746177248+05:30","level":"INFO","msg":"stream: started","id":"gwoou0gg"}
+{"time":"2025-04-16T23:32:49.746195271+05:30","level":"INFO","msg":"sender: started","stream_id":"gwoou0gg"}
+{"time":"2025-04-16T23:32:49.746212834+05:30","level":"INFO","msg":"handler: started","stream_id":"gwoou0gg"}
+{"time":"2025-04-16T23:32:49.746196253+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gwoou0gg"}
+{"time":"2025-04-16T23:32:50.034788217+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T23:35:07.01646804+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T23:35:07.016507263+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T23:35:08.01805389+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_17f1dab997647402af73.png","runtime_seconds":0.701295664,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.423974638},{"desc":"uploading wandb-summary.json","runtime_seconds":0.423966212,"progress":"44.9KB/44.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.13627023,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T23:35:11.483641428+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T23:35:11.835657437+05:30","level":"INFO","msg":"stream: closing","id":"gwoou0gg"}
+{"time":"2025-04-16T23:35:11.835671143+05:30","level":"INFO","msg":"handler: closed","stream_id":"gwoou0gg"}
+{"time":"2025-04-16T23:35:11.835684427+05:30","level":"INFO","msg":"sender: closed","stream_id":"gwoou0gg"}
+{"time":"2025-04-16T23:35:11.835679027+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gwoou0gg"}
+{"time":"2025-04-16T23:35:11.835730213+05:30","level":"INFO","msg":"stream: closed","id":"gwoou0gg"}

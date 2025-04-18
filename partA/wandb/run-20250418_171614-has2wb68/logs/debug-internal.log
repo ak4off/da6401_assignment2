@@ -1,0 +1,16 @@
+{"time":"2025-04-18T17:16:14.608102255+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250418_171614-has2wb68/logs/debug-core.log"}
+{"time":"2025-04-18T17:16:14.969782568+05:30","level":"INFO","msg":"created new stream","id":"has2wb68"}
+{"time":"2025-04-18T17:16:14.969804479+05:30","level":"INFO","msg":"stream: started","id":"has2wb68"}
+{"time":"2025-04-18T17:16:14.969957856+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"has2wb68"}
+{"time":"2025-04-18T17:16:14.969973806+05:30","level":"INFO","msg":"handler: started","stream_id":"has2wb68"}
+{"time":"2025-04-18T17:16:14.969979436+05:30","level":"INFO","msg":"sender: started","stream_id":"has2wb68"}
+{"time":"2025-04-18T17:16:15.277655814+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:18:39.400914504+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:18:39.40094439+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:18:40.402140163+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_5a2a668b2a8b2145bf80.png","runtime_seconds":0.693412014,"progress":"1.2MB/2.8MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.382166934,"progress":"76.6KB/76.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.084993525,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-18T17:18:43.915496412+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:18:44.281902371+05:30","level":"INFO","msg":"stream: closing","id":"has2wb68"}
+{"time":"2025-04-18T17:18:44.281914574+05:30","level":"INFO","msg":"handler: closed","stream_id":"has2wb68"}
+{"time":"2025-04-18T17:18:44.281921487+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"has2wb68"}
+{"time":"2025-04-18T17:18:44.281935433+05:30","level":"INFO","msg":"sender: closed","stream_id":"has2wb68"}
+{"time":"2025-04-18T17:18:44.281960671+05:30","level":"INFO","msg":"stream: closed","id":"has2wb68"}

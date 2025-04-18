@@ -1,0 +1,16 @@
+{"time":"2025-04-18T17:09:22.526589064+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250418_170922-w3gutabb/logs/debug-core.log"}
+{"time":"2025-04-18T17:09:22.892748878+05:30","level":"INFO","msg":"created new stream","id":"w3gutabb"}
+{"time":"2025-04-18T17:09:22.892775337+05:30","level":"INFO","msg":"stream: started","id":"w3gutabb"}
+{"time":"2025-04-18T17:09:22.892792009+05:30","level":"INFO","msg":"sender: started","stream_id":"w3gutabb"}
+{"time":"2025-04-18T17:09:22.89278735+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"w3gutabb"}
+{"time":"2025-04-18T17:09:22.892812477+05:30","level":"INFO","msg":"handler: started","stream_id":"w3gutabb"}
+{"time":"2025-04-18T17:09:23.217030241+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:11:43.60463479+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:11:43.604729878+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:11:44.566245952+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_7751fd5a42c92e30d9ec.png","runtime_seconds":0.690988137,"progress":"1.1MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.385835324,"progress":"45.4KB/45.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.093553339,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-18T17:11:47.529479785+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:11:47.836220632+05:30","level":"INFO","msg":"stream: closing","id":"w3gutabb"}
+{"time":"2025-04-18T17:11:47.836228076+05:30","level":"INFO","msg":"handler: closed","stream_id":"w3gutabb"}
+{"time":"2025-04-18T17:11:47.836232083+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"w3gutabb"}
+{"time":"2025-04-18T17:11:47.836234468+05:30","level":"INFO","msg":"sender: closed","stream_id":"w3gutabb"}
+{"time":"2025-04-18T17:11:47.836275635+05:30","level":"INFO","msg":"stream: closed","id":"w3gutabb"}

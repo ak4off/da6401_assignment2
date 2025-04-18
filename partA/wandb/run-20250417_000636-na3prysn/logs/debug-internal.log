@@ -1,0 +1,16 @@
+{"time":"2025-04-17T00:06:36.432553475+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250417_000636-na3prysn/logs/debug-core.log"}
+{"time":"2025-04-17T00:06:36.798759755+05:30","level":"INFO","msg":"created new stream","id":"na3prysn"}
+{"time":"2025-04-17T00:06:36.798784441+05:30","level":"INFO","msg":"stream: started","id":"na3prysn"}
+{"time":"2025-04-17T00:06:36.798795642+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"na3prysn"}
+{"time":"2025-04-17T00:06:36.798830116+05:30","level":"INFO","msg":"handler: started","stream_id":"na3prysn"}
+{"time":"2025-04-17T00:06:36.798832751+05:30","level":"INFO","msg":"sender: started","stream_id":"na3prysn"}
+{"time":"2025-04-17T00:06:37.32856329+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-17T00:08:55.928775996+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-17T00:08:55.928804019+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-17T00:08:56.929987635+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_4fc2a29522dd042047d2.png","runtime_seconds":0.700662657,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.384628764},{"desc":"uploading wandb-summary.json","runtime_seconds":0.384625938,"progress":"45.1KB/45.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.131967931,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-17T00:09:00.393444226+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-17T00:09:00.996479704+05:30","level":"INFO","msg":"stream: closing","id":"na3prysn"}
+{"time":"2025-04-17T00:09:00.996488771+05:30","level":"INFO","msg":"handler: closed","stream_id":"na3prysn"}
+{"time":"2025-04-17T00:09:00.99649391+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"na3prysn"}
+{"time":"2025-04-17T00:09:00.996498048+05:30","level":"INFO","msg":"sender: closed","stream_id":"na3prysn"}
+{"time":"2025-04-17T00:09:00.996533084+05:30","level":"INFO","msg":"stream: closed","id":"na3prysn"}

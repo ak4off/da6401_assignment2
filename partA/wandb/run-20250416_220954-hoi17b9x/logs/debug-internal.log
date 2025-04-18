@@ -1,0 +1,16 @@
+{"time":"2025-04-16T22:09:54.954887586+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_220954-hoi17b9x/logs/debug-core.log"}
+{"time":"2025-04-16T22:09:55.316166593+05:30","level":"INFO","msg":"created new stream","id":"hoi17b9x"}
+{"time":"2025-04-16T22:09:55.316206668+05:30","level":"INFO","msg":"stream: started","id":"hoi17b9x"}
+{"time":"2025-04-16T22:09:55.316232577+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hoi17b9x"}
+{"time":"2025-04-16T22:09:55.316258745+05:30","level":"INFO","msg":"sender: started","stream_id":"hoi17b9x"}
+{"time":"2025-04-16T22:09:55.316254548+05:30","level":"INFO","msg":"handler: started","stream_id":"hoi17b9x"}
+{"time":"2025-04-16T22:09:55.626063273+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T22:11:26.980835859+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T22:11:26.980858651+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T22:11:27.982141274+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_9_5eaa14da29de81e6fe70.png","runtime_seconds":0.687986263,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.387532801,"progress":"46.9KB/46.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.116265103,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-16T22:11:30.806601588+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T22:11:31.101283919+05:30","level":"INFO","msg":"stream: closing","id":"hoi17b9x"}
+{"time":"2025-04-16T22:11:31.101292184+05:30","level":"INFO","msg":"handler: closed","stream_id":"hoi17b9x"}
+{"time":"2025-04-16T22:11:31.101297374+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hoi17b9x"}
+{"time":"2025-04-16T22:11:31.101300951+05:30","level":"INFO","msg":"sender: closed","stream_id":"hoi17b9x"}
+{"time":"2025-04-16T22:11:31.1013381+05:30","level":"INFO","msg":"stream: closed","id":"hoi17b9x"}

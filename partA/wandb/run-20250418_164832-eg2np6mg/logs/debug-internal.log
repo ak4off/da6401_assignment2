@@ -1,0 +1,16 @@
+{"time":"2025-04-18T16:48:32.824157401+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250418_164832-eg2np6mg/logs/debug-core.log"}
+{"time":"2025-04-18T16:48:33.186417858+05:30","level":"INFO","msg":"created new stream","id":"eg2np6mg"}
+{"time":"2025-04-18T16:48:33.186439408+05:30","level":"INFO","msg":"stream: started","id":"eg2np6mg"}
+{"time":"2025-04-18T16:48:33.186624803+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"eg2np6mg"}
+{"time":"2025-04-18T16:48:33.186649208+05:30","level":"INFO","msg":"sender: started","stream_id":"eg2np6mg"}
+{"time":"2025-04-18T16:48:33.186628419+05:30","level":"INFO","msg":"handler: started","stream_id":"eg2np6mg"}
+{"time":"2025-04-18T16:48:33.541498437+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T16:51:00.270157013+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T16:51:00.2701879+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T16:51:01.271543902+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_0b8ac7659441281c0f3c.png","runtime_seconds":0.702411258,"progress":"1.1MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.394387461,"progress":"62B/62B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.394378263,"progress":"76.9KB/76.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.068036906,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-18T16:51:04.305882421+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T16:51:04.924466399+05:30","level":"INFO","msg":"stream: closing","id":"eg2np6mg"}
+{"time":"2025-04-18T16:51:04.924475256+05:30","level":"INFO","msg":"handler: closed","stream_id":"eg2np6mg"}
+{"time":"2025-04-18T16:51:04.92448259+05:30","level":"INFO","msg":"sender: closed","stream_id":"eg2np6mg"}
+{"time":"2025-04-18T16:51:04.924480345+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"eg2np6mg"}
+{"time":"2025-04-18T16:51:04.924512215+05:30","level":"INFO","msg":"stream: closed","id":"eg2np6mg"}

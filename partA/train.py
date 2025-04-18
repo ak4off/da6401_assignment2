@@ -165,8 +165,8 @@ def main(args):
 
     # Plot confusion matrix
     the_classes = test_loader.dataset.classes  # or set manually if needed
-    imgc_name = f"confusio_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
-    plot_confusion_matrix(y_true, y_pred, the_classes, use_wandb=args.use_wandb,save_path=imgc_name)
+    #imgc_name = f"confusio_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+    plot_confusion_matrix(y_true, y_pred, the_classes,use_wandb=args.use_wandb)
     img_name1 = f"pred_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
     plot_test_predictions_grid(model, test_loader, the_classes, device, save_path=img_name1, use_wandb=args.use_wandb)
     miscla = f"miscl_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"

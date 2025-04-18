@@ -1,0 +1,16 @@
+{"time":"2025-04-18T17:29:12.399335383+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250418_172912-zmati7ne/logs/debug-core.log"}
+{"time":"2025-04-18T17:29:12.761919762+05:30","level":"INFO","msg":"created new stream","id":"zmati7ne"}
+{"time":"2025-04-18T17:29:12.761937796+05:30","level":"INFO","msg":"stream: started","id":"zmati7ne"}
+{"time":"2025-04-18T17:29:12.761948917+05:30","level":"INFO","msg":"handler: started","stream_id":"zmati7ne"}
+{"time":"2025-04-18T17:29:12.761988822+05:30","level":"INFO","msg":"sender: started","stream_id":"zmati7ne"}
+{"time":"2025-04-18T17:29:12.762001135+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zmati7ne"}
+{"time":"2025-04-18T17:29:13.037600436+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:31:34.285640203+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:31:34.285716827+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:31:35.246918943+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_a72e4584e3dd1540150a.png","runtime_seconds":0.693129954,"progress":"1.2MB/2.8MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.361120133,"progress":"45.7KB/45.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.098717523,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-18T17:31:38.798596137+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:31:39.176518302+05:30","level":"INFO","msg":"stream: closing","id":"zmati7ne"}
+{"time":"2025-04-18T17:31:39.1765277+05:30","level":"INFO","msg":"handler: closed","stream_id":"zmati7ne"}
+{"time":"2025-04-18T17:31:39.176536436+05:30","level":"INFO","msg":"sender: closed","stream_id":"zmati7ne"}
+{"time":"2025-04-18T17:31:39.176534042+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zmati7ne"}
+{"time":"2025-04-18T17:31:39.176583805+05:30","level":"INFO","msg":"stream: closed","id":"zmati7ne"}

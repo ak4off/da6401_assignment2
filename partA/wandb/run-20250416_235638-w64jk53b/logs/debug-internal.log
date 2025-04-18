@@ -1,0 +1,16 @@
+{"time":"2025-04-16T23:56:38.390905725+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_235638-w64jk53b/logs/debug-core.log"}
+{"time":"2025-04-16T23:56:38.756433513+05:30","level":"INFO","msg":"created new stream","id":"w64jk53b"}
+{"time":"2025-04-16T23:56:38.756473528+05:30","level":"INFO","msg":"stream: started","id":"w64jk53b"}
+{"time":"2025-04-16T23:56:38.756530625+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"w64jk53b"}
+{"time":"2025-04-16T23:56:38.756575218+05:30","level":"INFO","msg":"sender: started","stream_id":"w64jk53b"}
+{"time":"2025-04-16T23:56:38.756614192+05:30","level":"INFO","msg":"handler: started","stream_id":"w64jk53b"}
+{"time":"2025-04-16T23:56:39.038728665+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T23:58:57.11700361+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T23:58:57.117032504+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T23:58:58.118789311+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_ae6ca27f953676fe49ae.png","runtime_seconds":0.689184698,"progress":"1.1MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.420100892},{"desc":"uploading wandb-summary.json","runtime_seconds":0.420098397,"progress":"45.8KB/45.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.11358269,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T23:59:02.201755093+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T23:59:02.754720092+05:30","level":"INFO","msg":"stream: closing","id":"w64jk53b"}
+{"time":"2025-04-16T23:59:02.754730902+05:30","level":"INFO","msg":"handler: closed","stream_id":"w64jk53b"}
+{"time":"2025-04-16T23:59:02.754740901+05:30","level":"INFO","msg":"sender: closed","stream_id":"w64jk53b"}
+{"time":"2025-04-16T23:59:02.754737585+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"w64jk53b"}
+{"time":"2025-04-16T23:59:02.754770897+05:30","level":"INFO","msg":"stream: closed","id":"w64jk53b"}

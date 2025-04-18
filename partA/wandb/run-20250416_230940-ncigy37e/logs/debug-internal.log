@@ -1,0 +1,16 @@
+{"time":"2025-04-16T23:09:40.318507647+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_230940-ncigy37e/logs/debug-core.log"}
+{"time":"2025-04-16T23:09:40.683500943+05:30","level":"INFO","msg":"created new stream","id":"ncigy37e"}
+{"time":"2025-04-16T23:09:40.683539836+05:30","level":"INFO","msg":"stream: started","id":"ncigy37e"}
+{"time":"2025-04-16T23:09:40.68379205+05:30","level":"INFO","msg":"sender: started","stream_id":"ncigy37e"}
+{"time":"2025-04-16T23:09:40.683810575+05:30","level":"INFO","msg":"handler: started","stream_id":"ncigy37e"}
+{"time":"2025-04-16T23:09:40.68382917+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ncigy37e"}
+{"time":"2025-04-16T23:09:41.005308496+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T23:11:59.504242483+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T23:11:59.504278701+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T23:12:00.50571793+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_6f3f8fcedb51f73bd1b1.png","runtime_seconds":0.699881737,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.436323819,"progress":"45.5KB/45.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.141829278,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.058268848,"progress":"112.0KB/14.2MB"}],"total_operations":4}}
+{"time":"2025-04-16T23:12:03.497601578+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T23:12:03.807836007+05:30","level":"INFO","msg":"stream: closing","id":"ncigy37e"}
+{"time":"2025-04-16T23:12:03.807843721+05:30","level":"INFO","msg":"handler: closed","stream_id":"ncigy37e"}
+{"time":"2025-04-16T23:12:03.807851817+05:30","level":"INFO","msg":"sender: closed","stream_id":"ncigy37e"}
+{"time":"2025-04-16T23:12:03.807848881+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ncigy37e"}
+{"time":"2025-04-16T23:12:03.807889447+05:30","level":"INFO","msg":"stream: closed","id":"ncigy37e"}

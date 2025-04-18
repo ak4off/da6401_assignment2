@@ -1,0 +1,16 @@
+{"time":"2025-04-16T23:42:47.291274653+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_234247-auvetyjb/logs/debug-core.log"}
+{"time":"2025-04-16T23:42:47.656223648+05:30","level":"INFO","msg":"created new stream","id":"auvetyjb"}
+{"time":"2025-04-16T23:42:47.65625673+05:30","level":"INFO","msg":"stream: started","id":"auvetyjb"}
+{"time":"2025-04-16T23:42:47.656279753+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"auvetyjb"}
+{"time":"2025-04-16T23:42:47.656300161+05:30","level":"INFO","msg":"sender: started","stream_id":"auvetyjb"}
+{"time":"2025-04-16T23:42:47.656332301+05:30","level":"INFO","msg":"handler: started","stream_id":"auvetyjb"}
+{"time":"2025-04-16T23:42:47.949074999+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T23:45:09.122641+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T23:45:09.122711472+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T23:45:10.083571155+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_a278f19a2b913ac62811.png","runtime_seconds":0.694431273,"progress":"1.2MB/2.8MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.37455268,"progress":"76.8KB/76.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.099361838,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-16T23:45:13.609560426+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T23:45:14.0316186+05:30","level":"INFO","msg":"stream: closing","id":"auvetyjb"}
+{"time":"2025-04-16T23:45:14.031626625+05:30","level":"INFO","msg":"handler: closed","stream_id":"auvetyjb"}
+{"time":"2025-04-16T23:45:14.031631825+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"auvetyjb"}
+{"time":"2025-04-16T23:45:14.031637365+05:30","level":"INFO","msg":"sender: closed","stream_id":"auvetyjb"}
+{"time":"2025-04-16T23:45:14.031663414+05:30","level":"INFO","msg":"stream: closed","id":"auvetyjb"}

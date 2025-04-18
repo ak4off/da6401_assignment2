@@ -1,0 +1,16 @@
+{"time":"2025-04-17T00:04:45.117409234+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250417_000445-m1le80cw/logs/debug-core.log"}
+{"time":"2025-04-17T00:04:45.486994651+05:30","level":"INFO","msg":"created new stream","id":"m1le80cw"}
+{"time":"2025-04-17T00:04:45.487043262+05:30","level":"INFO","msg":"stream: started","id":"m1le80cw"}
+{"time":"2025-04-17T00:04:45.487104457+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"m1le80cw"}
+{"time":"2025-04-17T00:04:45.487161263+05:30","level":"INFO","msg":"sender: started","stream_id":"m1le80cw"}
+{"time":"2025-04-17T00:04:45.487165942+05:30","level":"INFO","msg":"handler: started","stream_id":"m1le80cw"}
+{"time":"2025-04-17T00:04:45.770425464+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-17T00:06:17.755645171+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-17T00:06:17.755738295+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-17T00:06:18.716773711+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_9_6a129bbb18161b802aa6.png","runtime_seconds":0.688925113,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.211177042},{"desc":"uploading wandb-summary.json","runtime_seconds":0.211173216,"progress":"47.4KB/47.4KB"}],"total_operations":3}}
+{"time":"2025-04-17T00:06:22.342940453+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-17T00:06:22.665339165+05:30","level":"INFO","msg":"stream: closing","id":"m1le80cw"}
+{"time":"2025-04-17T00:06:22.665347781+05:30","level":"INFO","msg":"handler: closed","stream_id":"m1le80cw"}
+{"time":"2025-04-17T00:06:22.665352841+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"m1le80cw"}
+{"time":"2025-04-17T00:06:22.665356137+05:30","level":"INFO","msg":"sender: closed","stream_id":"m1le80cw"}
+{"time":"2025-04-17T00:06:22.66539536+05:30","level":"INFO","msg":"stream: closed","id":"m1le80cw"}

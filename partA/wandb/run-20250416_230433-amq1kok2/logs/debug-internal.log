@@ -1,0 +1,16 @@
+{"time":"2025-04-16T23:04:33.797704068+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_230433-amq1kok2/logs/debug-core.log"}
+{"time":"2025-04-16T23:04:34.160032916+05:30","level":"INFO","msg":"created new stream","id":"amq1kok2"}
+{"time":"2025-04-16T23:04:34.160060267+05:30","level":"INFO","msg":"stream: started","id":"amq1kok2"}
+{"time":"2025-04-16T23:04:34.160084713+05:30","level":"INFO","msg":"sender: started","stream_id":"amq1kok2"}
+{"time":"2025-04-16T23:04:34.160076568+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"amq1kok2"}
+{"time":"2025-04-16T23:04:34.160128085+05:30","level":"INFO","msg":"handler: started","stream_id":"amq1kok2"}
+{"time":"2025-04-16T23:04:34.451571338+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T23:06:55.266699071+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T23:06:55.266777869+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T23:06:56.227915757+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_2e9b381cb00acb595168.png","runtime_seconds":0.682035765,"progress":"1.2MB/2.8MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.355174696,"progress":"77.0KB/77.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.056973269,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-16T23:06:59.375015361+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T23:06:59.691328352+05:30","level":"INFO","msg":"stream: closing","id":"amq1kok2"}
+{"time":"2025-04-16T23:06:59.691336378+05:30","level":"INFO","msg":"handler: closed","stream_id":"amq1kok2"}
+{"time":"2025-04-16T23:06:59.691343832+05:30","level":"INFO","msg":"sender: closed","stream_id":"amq1kok2"}
+{"time":"2025-04-16T23:06:59.691341617+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"amq1kok2"}
+{"time":"2025-04-16T23:06:59.691369971+05:30","level":"INFO","msg":"stream: closed","id":"amq1kok2"}

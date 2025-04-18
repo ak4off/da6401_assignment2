@@ -1,0 +1,16 @@
+{"time":"2025-04-16T22:07:27.917827857+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_220727-ne9v1fh8/logs/debug-core.log"}
+{"time":"2025-04-16T22:07:28.278671046+05:30","level":"INFO","msg":"created new stream","id":"ne9v1fh8"}
+{"time":"2025-04-16T22:07:28.2787056+05:30","level":"INFO","msg":"stream: started","id":"ne9v1fh8"}
+{"time":"2025-04-16T22:07:28.278728724+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ne9v1fh8"}
+{"time":"2025-04-16T22:07:28.278771333+05:30","level":"INFO","msg":"handler: started","stream_id":"ne9v1fh8"}
+{"time":"2025-04-16T22:07:28.278771624+05:30","level":"INFO","msg":"sender: started","stream_id":"ne9v1fh8"}
+{"time":"2025-04-16T22:07:28.582750132+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T22:09:46.154911665+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T22:09:46.154948705+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T22:09:47.15704048+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_46daaaf608f07da45e09.png","runtime_seconds":0.699008789,"progress":"1.1MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.409047051},{"desc":"uploading wandb-summary.json","runtime_seconds":0.409042292,"progress":"77.0KB/77.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.122414824,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T22:09:50.049808637+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T22:09:50.380944508+05:30","level":"INFO","msg":"stream: closing","id":"ne9v1fh8"}
+{"time":"2025-04-16T22:09:50.380953064+05:30","level":"INFO","msg":"handler: closed","stream_id":"ne9v1fh8"}
+{"time":"2025-04-16T22:09:50.380957632+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ne9v1fh8"}
+{"time":"2025-04-16T22:09:50.380973322+05:30","level":"INFO","msg":"sender: closed","stream_id":"ne9v1fh8"}
+{"time":"2025-04-16T22:09:50.380992618+05:30","level":"INFO","msg":"stream: closed","id":"ne9v1fh8"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-18T17:26:38.371696829+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250418_172638-midupg5a/logs/debug-core.log"}
+{"time":"2025-04-18T17:26:38.738579872+05:30","level":"INFO","msg":"created new stream","id":"midupg5a"}
+{"time":"2025-04-18T17:26:38.738622672+05:30","level":"INFO","msg":"stream: started","id":"midupg5a"}
+{"time":"2025-04-18T17:26:38.738684549+05:30","level":"INFO","msg":"handler: started","stream_id":"midupg5a"}
+{"time":"2025-04-18T17:26:38.738691612+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"midupg5a"}
+{"time":"2025-04-18T17:26:38.738698806+05:30","level":"INFO","msg":"sender: started","stream_id":"midupg5a"}
+{"time":"2025-04-18T17:26:39.019892379+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:29:01.261598074+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:29:01.261628672+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:29:02.263469211+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_35d4ed7e5472625cbafa.png","runtime_seconds":0.700886045,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.407583055,"progress":"76.0KB/76.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.106430671,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.106427364,"progress":"112.0KB/4.6MB"}],"total_operations":4}}
+{"time":"2025-04-18T17:29:04.668284055+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:29:04.982989208+05:30","level":"INFO","msg":"stream: closing","id":"midupg5a"}
+{"time":"2025-04-18T17:29:04.982996271+05:30","level":"INFO","msg":"handler: closed","stream_id":"midupg5a"}
+{"time":"2025-04-18T17:29:04.983000559+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"midupg5a"}
+{"time":"2025-04-18T17:29:04.983008243+05:30","level":"INFO","msg":"sender: closed","stream_id":"midupg5a"}
+{"time":"2025-04-18T17:29:04.983021989+05:30","level":"INFO","msg":"stream: closed","id":"midupg5a"}

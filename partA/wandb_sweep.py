@@ -3,7 +3,7 @@ import os
 
 sweep_config = {
     'method': 'bayes',
-    "name": "scratch_partA_v1",
+    "name": "scratch_partA_v2",
 
     'metric': {'name': 'val_acc', 'goal': 'maximize'},
     'parameters': {
@@ -46,7 +46,7 @@ sweep_config = {
 
 
 def run_sweep():
-    sweep_id = wandb.sweep(sweep_config, project="Assg2")
+    sweep_id = wandb.sweep(sweep_config, project="sample_img")
     wandb.agent(sweep_id, function=launch_training, count=50)  
 
 

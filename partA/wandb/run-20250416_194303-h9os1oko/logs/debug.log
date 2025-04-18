@@ -1,0 +1,25 @@
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_setup.py:_flush():67] Configure stats pid to 1623411
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_setup.py:_flush():67] Loading settings from /home/speech/.config/wandb/settings
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_setup.py:_flush():67] Loading settings from /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/settings
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_194303-h9os1oko/logs/debug.log
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_194303-h9os1oko/logs/debug-internal.log
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_init.py:init():781] calling init triggers
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_init.py:init():786] wandb.init called with sweep_config: {'activation': 'mish', 'batch_norm': True, 'batch_size': 64, 'dense_neurons': 512, 'dropout': 0.3, 'early_stopping_patience': 7, 'epochs': 10, 'filter_sizes': [3, 3, 5, 5, 7], 'lr': 0.0001, 'num_filters': [32, 64, 128, 128, 256], 'optimizer': 'adam', 'scheduler_patience': 2, 'use_data_augmentation': True, 'use_scheduler': True, 'weight_decay': 0.0001}
+config: {'data_dir': 'data/inaturalist_12K', 'epochs': 10, 'batch_size': 64, 'lr': 0.001, 'weight_decay': 0.0001, 'optimizer': 'adam', 'activation': 'relu', 'num_filters': [32, 64, 128, 128, 256], 'filter_sizes': [3, 5, 5, 7, 7], 'dense_neurons': 512, 'dropout': 0.1, 'batch_norm': False, 'use_wandb': True, 'wandb_project': 'cnn_from_scratch_project', 'use_data_augmentation': False, 'use_scheduler': False, 'scheduler_patience': 3, 'early_stopping_patience': 5, '_wandb': {}}
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_init.py:init():809] starting backend
+2025-04-16 19:43:03,264 INFO    MainThread:1623411 [wandb_init.py:init():813] sending inform_init request
+2025-04-16 19:43:03,266 INFO    MainThread:1623411 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-16 19:43:03,266 INFO    MainThread:1623411 [wandb_init.py:init():823] backend started and connected
+2025-04-16 19:43:03,267 INFO    MainThread:1623411 [wandb_run.py:_config_callback():1327] config_cb None None {'activation': 'mish', 'batch_norm': True, 'batch_size': 64, 'dense_neurons': 512, 'dropout': 0.3, 'early_stopping_patience': 7, 'epochs': 10, 'filter_sizes': [3, 3, 5, 5, 7], 'lr': 0.0001, 'num_filters': [32, 64, 128, 128, 256], 'optimizer': 'adam', 'scheduler_patience': 2, 'use_data_augmentation': True, 'use_scheduler': True, 'weight_decay': 0.0001}
+2025-04-16 19:43:03,267 INFO    MainThread:1623411 [wandb_init.py:init():915] updated telemetry
+2025-04-16 19:43:03,270 INFO    MainThread:1623411 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-16 19:43:03,939 INFO    MainThread:1623411 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-16 19:43:03,962 INFO    MainThread:1623411 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-16 19:43:03,963 INFO    MainThread:1623411 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-16 19:43:03,963 INFO    MainThread:1623411 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-16 19:43:03,963 INFO    MainThread:1623411 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-16 19:43:03,963 INFO    MainThread:1623411 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-16 19:43:10,278 INFO    MainThread:1623411 [wandb_watch.py:_watch():71] Watching
+2025-04-16 19:45:33,964 INFO    MsgRouterThr:1623411 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 2 handles.

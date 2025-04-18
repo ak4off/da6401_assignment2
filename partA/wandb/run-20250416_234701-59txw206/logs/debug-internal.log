@@ -1,0 +1,16 @@
+{"time":"2025-04-16T23:47:01.660224154+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_234701-59txw206/logs/debug-core.log"}
+{"time":"2025-04-16T23:47:02.024469402+05:30","level":"INFO","msg":"created new stream","id":"59txw206"}
+{"time":"2025-04-16T23:47:02.024511781+05:30","level":"INFO","msg":"stream: started","id":"59txw206"}
+{"time":"2025-04-16T23:47:02.024525116+05:30","level":"INFO","msg":"sender: started","stream_id":"59txw206"}
+{"time":"2025-04-16T23:47:02.024522762+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"59txw206"}
+{"time":"2025-04-16T23:47:02.024539453+05:30","level":"INFO","msg":"handler: started","stream_id":"59txw206"}
+{"time":"2025-04-16T23:47:02.319484649+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T23:48:44.826601847+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T23:48:44.826646921+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T23:48:45.82795731+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_10_3b58af436292459d1283.png","runtime_seconds":0.691726668,"progress":"1.1MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.407757208},{"desc":"uploading wandb-summary.json","runtime_seconds":0.407749743,"progress":"46.4KB/46.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.099131141,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T23:48:49.290655149+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T23:48:49.63078325+05:30","level":"INFO","msg":"stream: closing","id":"59txw206"}
+{"time":"2025-04-16T23:48:49.630792738+05:30","level":"INFO","msg":"handler: closed","stream_id":"59txw206"}
+{"time":"2025-04-16T23:48:49.630798138+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"59txw206"}
+{"time":"2025-04-16T23:48:49.630801744+05:30","level":"INFO","msg":"sender: closed","stream_id":"59txw206"}
+{"time":"2025-04-16T23:48:49.630844374+05:30","level":"INFO","msg":"stream: closed","id":"59txw206"}

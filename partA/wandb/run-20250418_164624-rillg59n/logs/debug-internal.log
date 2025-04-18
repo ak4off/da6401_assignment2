@@ -1,0 +1,16 @@
+{"time":"2025-04-18T16:46:24.963574073+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250418_164624-rillg59n/logs/debug-core.log"}
+{"time":"2025-04-18T16:46:25.333887511+05:30","level":"INFO","msg":"created new stream","id":"rillg59n"}
+{"time":"2025-04-18T16:46:25.333907238+05:30","level":"INFO","msg":"stream: started","id":"rillg59n"}
+{"time":"2025-04-18T16:46:25.333923558+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rillg59n"}
+{"time":"2025-04-18T16:46:25.33394104+05:30","level":"INFO","msg":"sender: started","stream_id":"rillg59n"}
+{"time":"2025-04-18T16:46:25.333958413+05:30","level":"INFO","msg":"handler: started","stream_id":"rillg59n"}
+{"time":"2025-04-18T16:46:25.658067912+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T16:48:48.424312784+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T16:48:48.424344693+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T16:48:49.425837055+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_78c375ac297411a3350e.png","runtime_seconds":0.700386102,"progress":"1.1MB/2.8MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.426468324,"progress":"64.0KB/77.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.133101101,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.006004449,"progress":"16.0KB/18.2MB"}],"total_operations":4}}
+{"time":"2025-04-18T16:48:52.704072172+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T16:48:53.021213121+05:30","level":"INFO","msg":"stream: closing","id":"rillg59n"}
+{"time":"2025-04-18T16:48:53.021226306+05:30","level":"INFO","msg":"handler: closed","stream_id":"rillg59n"}
+{"time":"2025-04-18T16:48:53.021231986+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rillg59n"}
+{"time":"2025-04-18T16:48:53.021246293+05:30","level":"INFO","msg":"sender: closed","stream_id":"rillg59n"}
+{"time":"2025-04-18T16:48:53.021282781+05:30","level":"INFO","msg":"stream: closed","id":"rillg59n"}

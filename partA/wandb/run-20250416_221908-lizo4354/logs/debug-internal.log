@@ -1,0 +1,16 @@
+{"time":"2025-04-16T22:19:08.965697154+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_221908-lizo4354/logs/debug-core.log"}
+{"time":"2025-04-16T22:19:09.328514457+05:30","level":"INFO","msg":"created new stream","id":"lizo4354"}
+{"time":"2025-04-16T22:19:09.328542249+05:30","level":"INFO","msg":"stream: started","id":"lizo4354"}
+{"time":"2025-04-16T22:19:09.328554552+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lizo4354"}
+{"time":"2025-04-16T22:19:09.328573708+05:30","level":"INFO","msg":"sender: started","stream_id":"lizo4354"}
+{"time":"2025-04-16T22:19:09.32862278+05:30","level":"INFO","msg":"handler: started","stream_id":"lizo4354"}
+{"time":"2025-04-16T22:19:09.604578053+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T22:21:29.915603845+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T22:21:29.915661493+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T22:21:30.877253537+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_9b6ecac36c537640e384.png","runtime_seconds":0.699734747,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.361121717,"progress":"77.1KB/77.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.092807647,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-16T22:21:34.088447076+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T22:21:34.409747515+05:30","level":"INFO","msg":"stream: closing","id":"lizo4354"}
+{"time":"2025-04-16T22:21:34.409756502+05:30","level":"INFO","msg":"handler: closed","stream_id":"lizo4354"}
+{"time":"2025-04-16T22:21:34.409762673+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lizo4354"}
+{"time":"2025-04-16T22:21:34.409776429+05:30","level":"INFO","msg":"sender: closed","stream_id":"lizo4354"}
+{"time":"2025-04-16T22:21:34.409803891+05:30","level":"INFO","msg":"stream: closed","id":"lizo4354"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-16T22:56:57.058074073+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_225657-a10ojpwc/logs/debug-core.log"}
+{"time":"2025-04-16T22:56:57.421772695+05:30","level":"INFO","msg":"created new stream","id":"a10ojpwc"}
+{"time":"2025-04-16T22:56:57.421819714+05:30","level":"INFO","msg":"stream: started","id":"a10ojpwc"}
+{"time":"2025-04-16T22:56:57.421871681+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"a10ojpwc"}
+{"time":"2025-04-16T22:56:57.421913549+05:30","level":"INFO","msg":"sender: started","stream_id":"a10ojpwc"}
+{"time":"2025-04-16T22:56:57.42192445+05:30","level":"INFO","msg":"handler: started","stream_id":"a10ojpwc"}
+{"time":"2025-04-16T22:56:57.731362366+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T22:59:16.066312393+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T22:59:16.066357108+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T22:59:17.067580465+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_78ce27b6c9c7fa5408d8.png","runtime_seconds":0.692925832,"progress":"1.1MB/2.8MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.397689159,"progress":"45.7KB/45.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.111795877,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.052320435,"progress":"16.0KB/14.2MB"}],"total_operations":4}}
+{"time":"2025-04-16T22:59:20.074543415+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T22:59:20.415795264+05:30","level":"INFO","msg":"stream: closing","id":"a10ojpwc"}
+{"time":"2025-04-16T22:59:20.415803079+05:30","level":"INFO","msg":"handler: closed","stream_id":"a10ojpwc"}
+{"time":"2025-04-16T22:59:20.415810443+05:30","level":"INFO","msg":"sender: closed","stream_id":"a10ojpwc"}
+{"time":"2025-04-16T22:59:20.415807507+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"a10ojpwc"}
+{"time":"2025-04-16T22:59:20.415831923+05:30","level":"INFO","msg":"stream: closed","id":"a10ojpwc"}

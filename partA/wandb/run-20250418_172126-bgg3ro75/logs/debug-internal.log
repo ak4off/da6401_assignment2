@@ -1,0 +1,16 @@
+{"time":"2025-04-18T17:21:26.512250735+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250418_172126-bgg3ro75/logs/debug-core.log"}
+{"time":"2025-04-18T17:21:26.877122815+05:30","level":"INFO","msg":"created new stream","id":"bgg3ro75"}
+{"time":"2025-04-18T17:21:26.87715723+05:30","level":"INFO","msg":"stream: started","id":"bgg3ro75"}
+{"time":"2025-04-18T17:21:26.877218175+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bgg3ro75"}
+{"time":"2025-04-18T17:21:26.877250005+05:30","level":"INFO","msg":"sender: started","stream_id":"bgg3ro75"}
+{"time":"2025-04-18T17:21:26.877269341+05:30","level":"INFO","msg":"handler: started","stream_id":"bgg3ro75"}
+{"time":"2025-04-18T17:21:27.205181651+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:23:49.223634584+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:23:49.223718452+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:23:50.185353188+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_8e2169e9197bce8e4386.png","runtime_seconds":0.689308115,"progress":"1.1MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.349730711,"progress":"76.8KB/76.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.06800819,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-18T17:23:53.553660394+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:23:53.873180405+05:30","level":"INFO","msg":"stream: closing","id":"bgg3ro75"}
+{"time":"2025-04-18T17:23:53.873187719+05:30","level":"INFO","msg":"handler: closed","stream_id":"bgg3ro75"}
+{"time":"2025-04-18T17:23:53.873192679+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bgg3ro75"}
+{"time":"2025-04-18T17:23:53.873196045+05:30","level":"INFO","msg":"sender: closed","stream_id":"bgg3ro75"}
+{"time":"2025-04-18T17:23:53.873229809+05:30","level":"INFO","msg":"stream: closed","id":"bgg3ro75"}

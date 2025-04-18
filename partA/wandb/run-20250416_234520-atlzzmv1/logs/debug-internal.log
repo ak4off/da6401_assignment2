@@ -1,0 +1,16 @@
+{"time":"2025-04-16T23:45:20.888393094+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_234520-atlzzmv1/logs/debug-core.log"}
+{"time":"2025-04-16T23:45:21.251525517+05:30","level":"INFO","msg":"created new stream","id":"atlzzmv1"}
+{"time":"2025-04-16T23:45:21.251551906+05:30","level":"INFO","msg":"stream: started","id":"atlzzmv1"}
+{"time":"2025-04-16T23:45:21.25167701+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"atlzzmv1"}
+{"time":"2025-04-16T23:45:21.251683853+05:30","level":"INFO","msg":"sender: started","stream_id":"atlzzmv1"}
+{"time":"2025-04-16T23:45:21.251706225+05:30","level":"INFO","msg":"handler: started","stream_id":"atlzzmv1"}
+{"time":"2025-04-16T23:45:21.623831402+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T23:46:52.621625711+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T23:46:52.621665716+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T23:46:53.583421628+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_9_e489de7c3de8739cb2ff.png","runtime_seconds":0.68855608,"progress":"1.2MB/2.7MB"},{"desc":"uploading output.log","runtime_seconds":0.355281287},{"desc":"uploading wandb-summary.json","runtime_seconds":0.35526133,"progress":"46.9KB/46.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.042073447,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-04-16T23:46:56.441397452+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T23:46:56.785773804+05:30","level":"INFO","msg":"stream: closing","id":"atlzzmv1"}
+{"time":"2025-04-16T23:46:56.785781989+05:30","level":"INFO","msg":"handler: closed","stream_id":"atlzzmv1"}
+{"time":"2025-04-16T23:46:56.785786538+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"atlzzmv1"}
+{"time":"2025-04-16T23:46:56.785807296+05:30","level":"INFO","msg":"sender: closed","stream_id":"atlzzmv1"}
+{"time":"2025-04-16T23:46:56.785822445+05:30","level":"INFO","msg":"stream: closed","id":"atlzzmv1"}

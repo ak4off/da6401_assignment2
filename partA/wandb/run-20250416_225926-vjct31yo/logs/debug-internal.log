@@ -1,0 +1,16 @@
+{"time":"2025-04-16T22:59:26.545069371+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_225926-vjct31yo/logs/debug-core.log"}
+{"time":"2025-04-16T22:59:26.912782639+05:30","level":"INFO","msg":"created new stream","id":"vjct31yo"}
+{"time":"2025-04-16T22:59:26.912802045+05:30","level":"INFO","msg":"stream: started","id":"vjct31yo"}
+{"time":"2025-04-16T22:59:26.912870985+05:30","level":"INFO","msg":"sender: started","stream_id":"vjct31yo"}
+{"time":"2025-04-16T22:59:26.912861317+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vjct31yo"}
+{"time":"2025-04-16T22:59:26.912897746+05:30","level":"INFO","msg":"handler: started","stream_id":"vjct31yo"}
+{"time":"2025-04-16T22:59:27.265077912+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T23:01:45.318198908+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T23:01:45.318225298+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T23:01:46.319384952+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_0c9b9f05302cc59ebe71.png","runtime_seconds":0.690365498,"progress":"1.2MB/2.9MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.386675558,"progress":"45.0KB/45.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.09900334,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-04-16T23:01:49.820418707+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T23:01:50.118392004+05:30","level":"INFO","msg":"stream: closing","id":"vjct31yo"}
+{"time":"2025-04-16T23:01:50.118401872+05:30","level":"INFO","msg":"handler: closed","stream_id":"vjct31yo"}
+{"time":"2025-04-16T23:01:50.118409898+05:30","level":"INFO","msg":"sender: closed","stream_id":"vjct31yo"}
+{"time":"2025-04-16T23:01:50.118407383+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vjct31yo"}
+{"time":"2025-04-16T23:01:50.118466494+05:30","level":"INFO","msg":"stream: closed","id":"vjct31yo"}

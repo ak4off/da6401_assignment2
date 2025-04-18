@@ -1,0 +1,17 @@
+{"time":"2025-04-16T23:35:16.712285281+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/speech/da6401/A2/mod_17a/GIT/da6401_assignment2/partA/wandb/run-20250416_233516-yi4w4f3z/logs/debug-core.log"}
+{"time":"2025-04-16T23:35:17.074970624+05:30","level":"INFO","msg":"created new stream","id":"yi4w4f3z"}
+{"time":"2025-04-16T23:35:17.07500566+05:30","level":"INFO","msg":"stream: started","id":"yi4w4f3z"}
+{"time":"2025-04-16T23:35:17.075033792+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yi4w4f3z"}
+{"time":"2025-04-16T23:35:17.075050945+05:30","level":"INFO","msg":"sender: started","stream_id":"yi4w4f3z"}
+{"time":"2025-04-16T23:35:17.07506973+05:30","level":"INFO","msg":"handler: started","stream_id":"yi4w4f3z"}
+{"time":"2025-04-16T23:35:17.586649041+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T23:36:23.636762931+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-16T23:37:34.933212445+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T23:37:34.933239355+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T23:37:35.934572646+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/misclassified_grid_14_0127d08b991890650bee.png","runtime_seconds":0.690653569,"progress":"1.2MB/2.7MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.410667616,"progress":"76.2KB/76.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.107393196,"progress":"1.3KB/1.3KB"},{"desc":"uploading best_model.pth","runtime_seconds":0.107389559,"progress":"80.0KB/6.6MB"}],"total_operations":4}}
+{"time":"2025-04-16T23:37:38.507612338+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T23:37:39.587311793+05:30","level":"INFO","msg":"stream: closing","id":"yi4w4f3z"}
+{"time":"2025-04-16T23:37:39.587322252+05:30","level":"INFO","msg":"handler: closed","stream_id":"yi4w4f3z"}
+{"time":"2025-04-16T23:37:39.587327412+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yi4w4f3z"}
+{"time":"2025-04-16T23:37:39.587333373+05:30","level":"INFO","msg":"sender: closed","stream_id":"yi4w4f3z"}
+{"time":"2025-04-16T23:37:39.587375241+05:30","level":"INFO","msg":"stream: closed","id":"yi4w4f3z"}
