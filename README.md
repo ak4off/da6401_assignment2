@@ -2,7 +2,7 @@
 A Repository for Assignment2 - CNNs: train from scratch and finetune a pre-trained model as it is.
 
 - [Assignment Link](https://wandb.ai/sivasankar1234/DA6401/reports/DA6401-Assignment-2--VmlldzoxMjAyNjgyNw)  
-- [Report Link]([https://api.wandb.ai/links/ns24z274-iitm-ac-in/](https://api.wandb.ai/links/ns24z274-iitm-ac-in/urrx2q03])
+- [Report Link](https://api.wandb.ai/links/ns24z274-iitm-ac-in/](https://api.wandb.ai/links/ns24z274-iitm-ac-in/urrx2q03)
 
 ## **Setup**
 
